@@ -12,36 +12,40 @@ Promise.all([load('posts.json'), load('featured.json')]).then(([p, f]) => {
   posts = p;
   featured = f || {};
   Reader.init(posts, featured);
-  renderFilter();
   renderGrid();
+  wireSeriesEntries();
   // Deep link: posts.html#series=MYTH, and posts.html#post=<id> opens a post.
   applyHash();
   window.addEventListener('hashchange', applyHash);
 });
 
-function renderFilter() {
-  const counts = new Map();
-  posts.forEach(p => counts.set(seriesOf(p), (counts.get(seriesOf(p)) || 0) + 1));
-  const chips = [...counts.entries()].sort((a, b) => b[1] - a[1]);
-  $('seriesFilter').innerHTML = [
-    `<button class="chip on" data-s="ALL">All <b>${posts.length}</b></button>`,
-    ...chips.map(([s, n]) => {
-      const accent = accentOf(posts.find(p => seriesOf(p) === s));
-      return `<button class="chip" data-s="${s}" style="--a:${accent}">${s} <b>${n}</b></button>`;
-    }),
-  ].join('');
-  $('seriesFilter').querySelectorAll('.chip').forEach(c =>
-    c.addEventListener('click', () => {
-      active = c.dataset.s;
-      $('seriesFilter').querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === c));
-      renderGrid();
-    }));
+// Each written block filters the archive to its own posts.
+function wireSeriesEntries() {
+  document.querySelectorAll('.series-entry[data-series]').forEach(el => {
+    const name = el.dataset.series;
+    const n = posts.filter(p => seriesOf(p) === name).length;
+    if (!n) return;
+    const btn = document.createElement('button');
+    btn.className = 'see';
+    btn.textContent = `See the ${n} post${n === 1 ? '' : 's'} →`;
+    btn.addEventListener('click', () => setFilter(name));
+    el.appendChild(btn);
+  });
+}
+
+function setFilter(name) {
+  active = name;
+  renderGrid();
+  document.getElementById('gridTitle').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function renderGrid() {
   const shown = posts.filter(p => active === 'ALL' || seriesOf(p) === active);
   $('gridTitle').textContent = active === 'ALL' ? 'All posts' : active;
-  $('gridCount').textContent = `${shown.length} post${shown.length === 1 ? '' : 's'}, newest first.`;
+  $('gridCount').innerHTML = `${shown.length} post${shown.length === 1 ? '' : 's'}, newest first.` +
+    (active === 'ALL' ? '' : ' <button class="show-all">Show all posts</button>');
+  const back = $('gridCount').querySelector('.show-all');
+  if (back) back.addEventListener('click', () => setFilter('ALL'));
   $('postMatrix').innerHTML = shown.map(p => {
     const i = posts.indexOf(p);
     const date = new Date(p.timestamp).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
@@ -65,10 +69,7 @@ function renderGrid() {
 function applyHash() {
   const h = new URLSearchParams(location.hash.slice(1));
   const series = h.get('series');
-  if (series) {
-    const chip = $('seriesFilter').querySelector(`.chip[data-s="${series.toUpperCase()}"]`);
-    if (chip) chip.click();
-  }
+  if (series) setFilter(series.toUpperCase());
   const id = h.get('post');
   if (id) {
     const i = posts.findIndex(p => p.slug === id);
