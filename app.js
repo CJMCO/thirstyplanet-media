@@ -39,10 +39,12 @@ function renderHero() {
     const f = featured[p.slug] || {};
     const title = f.title || p.title;
     const summary = f.summary || '';
+    const kicker = f.kicker || p.kicker;
+    const accent = f.accent || p.accent;
     return `
     <article class="hc-slide ${i === 0 ? 'on' : ''}" data-i="${i}">
       <div class="hc-content">
-        <span class="hc-kicker" style="color:${p.accent}">${p.kicker}</span>
+        <span class="hc-kicker" style="color:${accent}">${kicker}</span>
         <h2>${title}</h2>
         ${summary ? `<p class="hc-sum">${summary}</p>` : ''}
         <button class="btn primary hc-open" data-post="${posts.indexOf(p)}">Read the post</button>
@@ -150,7 +152,7 @@ function renderRows() {
     <button class="post-card" data-i="${i}" aria-label="Open post: ${p.title}">
       <img src="${p.slides[0]}" alt="${p.title}, cover slide" loading="lazy">
       <span class="slides-badge" title="${p.slides.length} slides"><svg viewBox="0 0 24 24" width="14" height="14"><path d="M7 3h12a2 2 0 0 1 2 2v12h-2V5H7V3zm10 4a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h12z" fill="currentColor"/></svg></span>
-      <span class="overlay"><span class="k" style="color:${p.accent}">${p.kicker}</span><span class="t">${p.title}</span></span>
+      <span class="overlay"><span class="k" style="color:${(featured[p.slug]||{}).accent || p.accent}">${(featured[p.slug]||{}).kicker || p.kicker}</span><span class="t">${(featured[p.slug] || {}).title || p.title}</span></span>
     </button>`).join('');
   $('rowPosts').classList.add('marquee');
   $('rowPosts').innerHTML = `
@@ -213,9 +215,11 @@ function renderLb() {
   const p = posts[current.post];
   $('lbImg').src = p.slides[current.slide];
   $('lbImg').alt = `${p.title}, slide ${current.slide + 1} of ${p.slides.length}`;
-  $('lbKicker').textContent = p.kicker;
-  $('lbKicker').style.color = p.accent;
-  $('lbTitle').textContent = p.title;
+  const fp = featured[p.slug] || {};
+  $('lbKicker').textContent = fp.kicker || p.kicker;
+  $('lbKicker').style.color = fp.accent || p.accent;
+  // Prefer the curated short title from featured.json over the raw caption line.
+  $('lbTitle').textContent = (featured[p.slug] || {}).title || p.title;
   $('lbCaption').textContent = p.caption || '';
   $('lbCaption').style.display = p.caption ? '' : 'none';
   $('lbLink').href = p.permalink || 'https://www.instagram.com/thirsty.planet/';
@@ -229,6 +233,27 @@ function step(d) {
   current.slide = (current.slide + d + p.slides.length) % p.slides.length;
   renderLb();
 }
+
+// Swipe support: the phone has no room for arrows, so a drag moves slides.
+function onSwipe(el, handler) {
+  let x0 = null, y0 = null;
+  el.addEventListener('touchstart', e => {
+    x0 = e.changedTouches[0].clientX;
+    y0 = e.changedTouches[0].clientY;
+  }, { passive: true });
+  el.addEventListener('touchend', e => {
+    if (x0 === null) return;
+    const dx = e.changedTouches[0].clientX - x0;
+    const dy = e.changedTouches[0].clientY - y0;
+    // Ignore mostly-vertical drags so the page can still scroll.
+    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) handler(dx < 0 ? 1 : -1);
+    x0 = y0 = null;
+  }, { passive: true });
+}
+
+onSwipe($('lightbox'), d => step(d));
+const hcEl = document.querySelector('.hc');
+if (hcEl) onSwipe(hcEl, d => hcShow(hcIndex + d));
 
 $('lbPrev').addEventListener('click', () => step(-1));
 $('lbNext').addEventListener('click', () => step(1));

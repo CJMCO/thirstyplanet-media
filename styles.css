@@ -276,6 +276,15 @@ img { max-width: 100%; display: block; }
   .mq-track { animation: none; }
   .row-scroll.marquee { overflow-x: auto; }
 }
+/* On touch there is no hover to pause the drift, and a moving target is hard
+   to tap, so the row becomes a normal swipeable strip. */
+@media (hover: none), (max-width: 900px) {
+  .row-scroll.marquee { overflow-x: auto; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; }
+  .mq-track { animation: none; width: auto; }
+  .mq-group[aria-hidden="true"] { display: none; }
+  .mq-group { padding-right: 0; }
+  .post-card { scroll-snap-align: start; }
+}
 
 .post-card {
   flex: 0 0 clamp(200px, 23vw, 265px);
@@ -422,7 +431,20 @@ footer .fine { font-size: 0.78rem; opacity: 0.7; margin-top: 0.4rem; }
   .video-card { flex-basis: 270px; }
   .empty-card { flex-direction: column; align-items: flex-start; gap: 1rem; }
   .lightbox { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) auto; }
-  .lb-stage { padding: 3rem 1rem 2.2rem; }
+  .lb-stage { padding: 3.2rem 0.6rem 2.4rem; }
   .lb-stage img { max-height: 100%; max-width: 100%; object-fit: contain; }
-  .lb-panel { border-left: none; border-top: 1px solid var(--line-dark); padding: 1.5rem 1.2rem; max-height: 42vh; }
+  .lb-nav { width: 40px; height: 40px; background: rgba(8, 28, 54, 0.75); }
+  .lb-nav.prev { left: 0.3rem; }
+  .lb-nav.next { right: 0.3rem; }
+  .lb-panel { border-left: none; border-top: 1px solid var(--line-dark); padding: 1.2rem 1.2rem 1.6rem; max-height: 40vh; }
+  .lb-close { top: 0.5rem; right: 0.8rem; font-size: 2.4rem; padding: 0.2rem 0.6rem; }
+  .lb-panel h3 { font-size: 1.1rem; }
+  .lb-caption { font-size: 0.9rem; }
+}
+
+/* On a phone the covers already carry their own headline, so the hover overlay
+   would only repeat it. Keep the cards clean and let the artwork speak. */
+@media (hover: none), (max-width: 900px) {
+  .post-card .overlay { display: none; }
+  .post-card:hover img { transform: none; }
 }

@@ -1,78 +1,116 @@
 {
   "18181823026415418": {
     "title": "COD, in plain words",
-    "summary": "The number the water industry uses to measure how dirty water really is. It explains why milk in a river is a disaster."
+    "summary": "The number the water industry uses to measure how dirty water really is. It explains why milk in a river is a disaster.",
+    "kicker": "PLAIN WATER",
+    "accent": "#7FD9C8"
   },
   "18007999220957420": {
     "title": "Thirsty: Bread",
-    "summary": "One kilo of bread carries about 1,608 litres of water. Almost all of it is the wheat."
+    "summary": "One kilo of bread carries about 1,608 litres of water. Almost all of it is the wheat.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
   },
   "17900409954552854": {
     "title": "Thirsty: Milk",
-    "summary": "A litre of milk takes about 1,020 litres of water, and most of it feeds the cow, not the bottle."
+    "summary": "A litre of milk takes about 1,020 litres of water, and most of it feeds the cow, not the bottle.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
   },
   "17913231174440590": {
     "title": "After you flush",
-    "summary": "The journey nobody watches: where your water really goes after it leaves your home."
+    "summary": "The journey nobody watches: where your water really goes after it leaves your home.",
+    "kicker": "PLAIN WATER",
+    "accent": "#7FD9C8"
   },
   "18549367153078079": {
     "title": "The plant next to the factory",
-    "summary": "Next to almost every serious factory there is a small water treatment plant, working around the clock."
+    "summary": "Next to almost every serious factory there is a small water treatment plant, working around the clock.",
+    "kicker": "PLAIN WATER",
+    "accent": "#7FD9C8"
   },
   "18085403828259574": {
     "title": "Thirsty: Rice",
-    "summary": "A flooded paddy looks like the crop must drink enormously. The real story of rice and water is stranger."
+    "summary": "A flooded paddy looks like the crop must drink enormously. The real story of rice and water is stranger.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
   },
   "18207593962363702": {
     "title": "The turn",
-    "summary": "Every number posted so far was spent before things reached you. From here, the story turns to the fixes."
+    "summary": "Every number posted so far was spent before things reached you. From here, the story turns to the fixes.",
+    "kicker": "THIRSTY PLANET",
+    "accent": "#8FC3EC"
   },
   "17992220735824354": {
     "title": "Thirsty: Beef",
-    "summary": "A 200 g steak carries about 3,100 litres of water before it reaches your plate."
+    "summary": "A 200 g steak carries about 3,100 litres of water before it reaches your plate.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
   },
   "17925665172399816": {
     "title": "Thirsty: Chocolate",
-    "summary": "A 100 g bar takes about 1,700 litres, and nearly all of it falls on the cocoa farm."
+    "summary": "A 100 g bar takes about 1,700 litres, and nearly all of it falls on the cocoa farm.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
   },
   "18386584417162699": {
     "title": "Thirsty Industries: Textile",
-    "summary": "Fashion withdraws 93 billion cubic metres of water a year. Here is where it goes."
+    "summary": "Fashion withdraws 93 billion cubic metres of water a year. Here is where it goes.",
+    "kicker": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC"
   },
   "18086076170650680": {
     "title": "Thirsty: Jeans",
-    "summary": "About 8,000 litres for one pair. Even the CEO of Levi's says wash them less."
+    "summary": "About 8,000 litres for one pair. Even the CEO of Levi's says wash them less.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
   },
   "18101420441590944": {
     "title": "Thirsty Places: The Aral Sea",
-    "summary": "There is a sea missing in Central Asia, and part of it ended up in our wardrobes."
+    "summary": "There is a sea missing in Central Asia, and part of it ended up in our wardrobes.",
+    "kicker": "THIRSTY PLACES",
+    "accent": "#5DAEFF"
   },
   "18144290800555765": {
     "title": "Thirsty: Coffee",
-    "summary": "One cup of coffee drinks about 140 litres before you do."
+    "summary": "One cup of coffee drinks about 140 litres before you do.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
   },
   "17900627526491180": {
     "title": "The 0.3%",
-    "summary": "Of all the water on the blue planet, what we can actually reach and use is about 0.3%."
+    "summary": "Of all the water on the blue planet, what we can actually reach and use is about 0.3%.",
+    "kicker": "THIRSTY PLANET",
+    "accent": "#8FC3EC"
   },
   "18098046395006048": {
     "title": "Thirsty Places: Singapore",
-    "summary": "The country that decided to drink its own wastewater, and made it a point of pride."
+    "summary": "The country that decided to drink its own wastewater, and made it a point of pride.",
+    "kicker": "THIRSTY PLACES",
+    "accent": "#5DAEFF"
   },
   "18347969767222892": {
     "title": "Thirsty: T-shirt",
-    "summary": "One cotton t-shirt holds about 2,700 litres, roughly three years of drinking water."
+    "summary": "One cotton t-shirt holds about 2,700 litres, roughly three years of drinking water.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
   },
   "18161241001480594": {
     "title": "Myth: Bottled water",
-    "summary": "Everyone says bottled is cleaner than tap. We test the claim with real numbers."
+    "summary": "Everyone says bottled is cleaner than tap. We test the claim with real numbers.",
+    "kicker": "MYTH",
+    "accent": "#E8C98A"
   },
   "17982310641049220": {
     "title": "Plain Water: Wastewater",
-    "summary": "It is not another word for sewage. Typical municipal wastewater is about 99% plain water."
+    "summary": "It is not another word for sewage. Typical municipal wastewater is about 99% plain water.",
+    "kicker": "PLAIN WATER",
+    "accent": "#7FD9C8"
   },
   "17898889845356361": {
     "title": "The water you can't see",
-    "summary": "You drank about two litres today and used more than ten thousand. Here is where they went."
+    "summary": "You drank about two litres today and used more than ten thousand. Here is where they went.",
+    "kicker": "THIRSTY PLANET",
+    "accent": "#8FC3EC"
   }
 }
