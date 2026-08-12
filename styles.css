@@ -305,6 +305,21 @@ img { max-width: 100%; display: block; }
   font-size: 0.62rem; letter-spacing: 0.16em; font-weight: 700; text-transform: uppercase;
 }
 .series-entry.soon { opacity: 0.75; }
+.series-entry[hidden] { display: none; }   /* the flex rule above would win otherwise */
+/* When one series is selected it gets the full width to itself. */
+.series-entry.solo { grid-column: 1 / -1; }
+.series-entry.solo p { max-width: 52rem; font-size: 1.05rem; }
+.series-entry.solo .see { display: none; }   /* its posts are already below */
+.grid-head {
+  margin: 2.4rem 0 1.4rem; padding-top: 1.6rem;
+  border-top: 1px solid var(--line-light);
+}
+.grid-head h2 { font-size: clamp(1.3rem, 2.2vw, 1.8rem); font-weight: 700; color: var(--ink-on-light); }
+.grid-head p { color: var(--body-on-light); font-size: 0.92rem; }
+/* The archive sits in the light band now, so cards need dark text. */
+.band.light .mc-title { color: var(--ink-on-light); }
+.band.light .mc-date { color: var(--body-on-light); }
+.band.light .mc-art { border-color: var(--line-light); }
 
 .post-matrix { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
 .matrix-card {

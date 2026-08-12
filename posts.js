@@ -12,7 +12,6 @@ Promise.all([load('posts.json'), load('featured.json')]).then(([p, f]) => {
   posts = p;
   featured = f || {};
   Reader.init(posts, featured);
-  renderStats();
   renderFilter();
   renderGrid();
   wireSeriesEntries();
@@ -21,10 +20,14 @@ Promise.all([load('posts.json'), load('featured.json')]).then(([p, f]) => {
   window.addEventListener('hashchange', applyHash);
 });
 
-function renderStats() {
-  $('statPosts').textContent = posts.length;
-  $('statSlides').textContent = posts.reduce((n, p) => n + p.slides.length, 0);
-  $('statSeries').textContent = new Set(posts.map(seriesOf)).size;
+// Picking a series narrows the page to that one: its description stays, the
+// others step aside, and the grid below shows only its posts.
+function showSeriesText() {
+  document.querySelectorAll('.series-entry').forEach(el => {
+    const mine = el.dataset.series === active;
+    el.hidden = active !== 'ALL' && !mine;
+    el.classList.toggle('solo', mine && active !== 'ALL');
+  });
 }
 
 function renderFilter() {
@@ -42,6 +45,7 @@ function renderFilter() {
     c.addEventListener('click', () => {
       active = c.dataset.s;
       $('seriesFilter').querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === c));
+      showSeriesText();
       renderGrid();
     }));
 }
@@ -58,7 +62,6 @@ function wireSeriesEntries() {
     btn.addEventListener('click', () => {
       const chip = document.querySelector(`.chip[data-s="${name}"]`);
       if (chip) chip.click();
-      document.getElementById('postMatrix').scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
     el.appendChild(btn);
   });
