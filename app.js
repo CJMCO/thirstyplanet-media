@@ -6,7 +6,6 @@ const $ = id => document.getElementById(id);
 const load = url => fetch(url).then(r => (r.ok ? r.json() : [])).catch(() => []);
 
 let posts = [], videos = [], pods = [];
-let current = { post: 0, slide: 0 };
 let hcIndex = 0, hcTimer = null;
 
 let featured = {};
@@ -14,6 +13,7 @@ let featured = {};
 Promise.all([load('posts.json'), load('videos.json'), load('podcasts.json'), load('featured.json')])
   .then(([p, v, pd, f]) => {
     posts = p; videos = v; pods = pd; featured = f || {};
+    Reader.init(posts, featured);
     renderHero();
     renderRows();
   });
@@ -55,7 +55,7 @@ function renderHero() {
   $('hcDots').innerHTML = feat.map((_, i) =>
     `<i class="${i === 0 ? 'on' : ''}" data-i="${i}"></i>`).join('');
   $('hcSlides').querySelectorAll('.hc-open').forEach(b =>
-    b.addEventListener('click', () => openPost(+b.dataset.post)));
+    b.addEventListener('click', () => Reader.open(+b.dataset.post)));
   $('hcDots').querySelectorAll('i').forEach(d =>
     d.addEventListener('click', () => hcShow(+d.dataset.i)));
   $('hcPrev').addEventListener('click', () => hcShow(hcIndex - 1));
@@ -144,6 +144,10 @@ const vidObserver = new IntersectionObserver(entries => {
 }, { rootMargin: '400px' });
 document.querySelectorAll('.lazy-video').forEach(v => vidObserver.observe(v));
 
+/* Swipe the featured hero on a phone. */
+const hcEl = document.querySelector('.hc');
+if (hcEl) Reader.onSwipe(hcEl, d => hcShow(hcIndex + d));
+
 /* ---------- content rows ---------- */
 function renderRows() {
   // The Instagram row flows on its own: the card set is doubled and slides
@@ -161,7 +165,7 @@ function renderRows() {
       <div class="mq-group" aria-hidden="true">${cards}</div>
     </div>`;
   $('rowPosts').querySelectorAll('.post-card').forEach(el =>
-    el.addEventListener('click', () => openPost(+el.dataset.i)));
+    el.addEventListener('click', () => Reader.open(+el.dataset.i)));
 
   $('rowVideos').innerHTML = videos.length
     ? videos.map(v => `
@@ -195,73 +199,3 @@ function emptyCard(title, text, cta, href) {
       </div>
     </div>`;
 }
-
-/* ---------- post lightbox ---------- */
-const lb = $('lightbox');
-
-function openPost(i) {
-  current = { post: i, slide: 0 };
-  renderLb();
-  lb.hidden = false;
-  document.body.style.overflow = 'hidden';
-}
-
-function closeLb() {
-  lb.hidden = true;
-  document.body.style.overflow = '';
-}
-
-function renderLb() {
-  const p = posts[current.post];
-  $('lbImg').src = p.slides[current.slide];
-  $('lbImg').alt = `${p.title}, slide ${current.slide + 1} of ${p.slides.length}`;
-  const fp = featured[p.slug] || {};
-  $('lbKicker').textContent = fp.kicker || p.kicker;
-  $('lbKicker').style.color = fp.accent || p.accent;
-  // Prefer the curated short title from featured.json over the raw caption line.
-  $('lbTitle').textContent = (featured[p.slug] || {}).title || p.title;
-  $('lbCaption').textContent = p.caption || '';
-  $('lbCaption').style.display = p.caption ? '' : 'none';
-  $('lbLink').href = p.permalink || 'https://www.instagram.com/thirsty.planet/';
-  $('lbLink').textContent = p.permalink ? 'View this post on Instagram' : 'View on Instagram';
-  $('lbDots').innerHTML = p.slides.map((_, i) =>
-    `<i class="${i === current.slide ? 'on' : ''}"></i>`).join('');
-}
-
-function step(d) {
-  const p = posts[current.post];
-  current.slide = (current.slide + d + p.slides.length) % p.slides.length;
-  renderLb();
-}
-
-// Swipe support: the phone has no room for arrows, so a drag moves slides.
-function onSwipe(el, handler) {
-  let x0 = null, y0 = null;
-  el.addEventListener('touchstart', e => {
-    x0 = e.changedTouches[0].clientX;
-    y0 = e.changedTouches[0].clientY;
-  }, { passive: true });
-  el.addEventListener('touchend', e => {
-    if (x0 === null) return;
-    const dx = e.changedTouches[0].clientX - x0;
-    const dy = e.changedTouches[0].clientY - y0;
-    // Ignore mostly-vertical drags so the page can still scroll.
-    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) handler(dx < 0 ? 1 : -1);
-    x0 = y0 = null;
-  }, { passive: true });
-}
-
-onSwipe($('lightbox'), d => step(d));
-const hcEl = document.querySelector('.hc');
-if (hcEl) onSwipe(hcEl, d => hcShow(hcIndex + d));
-
-$('lbPrev').addEventListener('click', () => step(-1));
-$('lbNext').addEventListener('click', () => step(1));
-$('lbClose').addEventListener('click', closeLb);
-lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
-document.addEventListener('keydown', e => {
-  if (lb.hidden) return;
-  if (e.key === 'Escape') closeLb();
-  if (e.key === 'ArrowLeft') step(-1);
-  if (e.key === 'ArrowRight') step(1);
-});

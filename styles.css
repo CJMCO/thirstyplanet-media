@@ -256,6 +256,81 @@ img { max-width: 100%; display: block; }
 .story-body p { color: var(--body-on-light); font-size: 1.05rem; }
 .story-fine { font-size: 0.82rem; opacity: 0.75; }
 
+/* ---------- section pages ---------- */
+.top nav a.on { color: var(--sky); }
+.head-link { color: inherit; }
+.head-link:hover { color: var(--blue); }
+.page-head {
+  padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1rem, 4vw, 3rem) clamp(2rem, 4vw, 3rem);
+  background: linear-gradient(180deg, var(--navy-deep), var(--navy));
+  border-bottom: 1px solid var(--line-dark);
+}
+.page-head h1 {
+  font-size: clamp(1.9rem, 4vw, 3rem); font-weight: 700; line-height: 1.12;
+  margin: 0.8rem 0 1.2rem; max-width: 20ch;
+}
+.page-lede { color: var(--pale); font-size: 1.05rem; max-width: 46rem; margin-bottom: 0.9rem; }
+.post-stats { display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 1.6rem; color: var(--pale); font-size: 0.9rem; }
+.post-stats b { color: var(--sky); font-size: 1.5rem; font-weight: 700; margin-right: 0.35rem; }
+
+.series-filter { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 2rem; }
+.chip {
+  border: 1px solid var(--line-light); background: var(--white); color: var(--body-on-light);
+  border-radius: 999px; padding: 0.5rem 1rem; font: inherit; font-size: 0.8rem; font-weight: 700;
+  letter-spacing: 0.1em; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease;
+}
+.chip b { color: var(--ink-on-light); margin-left: 0.35rem; font-weight: 700; }
+.chip:hover { border-color: var(--a, var(--blue)); color: var(--ink-on-light); }
+.chip.on { background: var(--navy); border-color: var(--navy); color: var(--white); }
+.chip.on b { color: var(--sky); }
+
+.series-notes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.series-notes article {
+  background: var(--white); border: 1px solid var(--line-light);
+  border-radius: 14px; padding: 1.2rem 1.3rem;
+}
+.series-notes h3 {
+  font-size: 0.82rem; letter-spacing: 0.14em; font-weight: 700;
+  color: var(--ink-on-light); margin-bottom: 0.45rem;
+}
+.series-notes p { color: var(--body-on-light); font-size: 0.92rem; }
+
+.post-matrix { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
+.matrix-card {
+  display: flex; flex-direction: column; gap: 0.7rem;
+  background: none; border: none; padding: 0; text-align: left; cursor: pointer; color: inherit;
+}
+.mc-art { position: relative; display: block; border-radius: 12px; overflow: hidden; border: 1px solid var(--line-dark); }
+.mc-art img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; transition: transform 0.35s ease; display: block; }
+.matrix-card:hover .mc-art img { transform: scale(1.04); }
+.mc-count {
+  position: absolute; top: 0.5rem; right: 0.5rem;
+  background: rgba(8, 28, 54, 0.75); color: var(--white);
+  border-radius: 999px; padding: 0.1rem 0.5rem; font-size: 0.72rem; font-weight: 700;
+}
+.mc-body { display: flex; flex-direction: column; gap: 0.2rem; }
+.mc-kicker { font-size: 0.66rem; font-weight: 700; letter-spacing: 0.2em; }
+.mc-title { font-size: 0.98rem; font-weight: 500; color: var(--white); line-height: 1.3; }
+.mc-date { font-size: 0.78rem; color: var(--mute, #8ea6c0); opacity: 0.75; }
+
+.coming-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.coming-list article {
+  background: var(--white); border: 1px solid var(--line-light);
+  border-radius: 14px; padding: 1.3rem 1.4rem; border-left: 4px solid var(--sky);
+}
+.coming-list h3 { font-size: 1.02rem; font-weight: 700; color: var(--ink-on-light); margin-bottom: 0.35rem; }
+.coming-list p { color: var(--body-on-light); font-size: 0.94rem; }
+
+@media (max-width: 900px) {
+  .series-notes { grid-template-columns: 1fr 1fr; }
+  .post-matrix { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  .coming-list { grid-template-columns: 1fr; }
+  .post-stats { gap: 1.2rem; }
+}
+@media (max-width: 560px) {
+  .series-notes { grid-template-columns: 1fr; }
+}
+
 /* ---------- content rows (Chora style) ---------- */
 .band.row { border-bottom: 1px solid var(--line-light); padding-bottom: clamp(2rem, 4vw, 3rem); }
 .band.row:last-of-type { border-bottom: none; }
