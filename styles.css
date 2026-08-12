@@ -291,11 +291,28 @@ img { max-width: 100%; display: block; }
 .chip.on { background: var(--navy); border-color: var(--navy); color: var(--white); }
 .chip.on b { color: var(--sky); }
 
-.show-all {
-  background: none; border: none; padding: 0 0 0 0.5rem; font: inherit;
-  font-size: 0.9rem; font-weight: 700; color: var(--sky); cursor: pointer;
+/* Heading on the left, the filter box on the right. */
+.grid-bar {
+  display: flex; align-items: flex-end; justify-content: space-between;
+  gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem;
 }
-.show-all:hover { color: var(--white); }
+.grid-bar .section-head { margin-bottom: 0; }
+.filter-box { display: flex; align-items: center; gap: 0.6rem; }
+.filter-box span {
+  color: var(--pale); font-size: 0.72rem; font-weight: 700;
+  letter-spacing: 0.18em; text-transform: uppercase;
+}
+.filter-box select {
+  appearance: none; font: inherit; font-size: 0.9rem; font-weight: 500;
+  color: var(--white); background: rgba(124, 196, 236, 0.08);
+  border: 1px solid var(--line-dark); border-radius: 999px;
+  padding: 0.55rem 2.4rem 0.55rem 1.1rem; cursor: pointer;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%237cc4ec' stroke-width='1.6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 1rem center; background-size: 11px;
+}
+.filter-box select:hover { border-color: var(--sky); }
+.filter-box select:focus-visible { outline: 2px solid var(--sky); outline-offset: 2px; }
+.filter-box option { color: var(--ink-on-light); background: var(--white); }
 .series-intro { max-width: 52rem; margin: -1.2rem 0 2rem; display: flex; flex-direction: column; gap: 0.9rem; }
 .series-intro p { color: var(--body-on-light); font-size: 1.05rem; }
 .series-intro p:first-child { font-size: 1.2rem; color: var(--ink-on-light); font-weight: 500; }

@@ -12,25 +12,36 @@ Promise.all([load('posts.json'), load('featured.json')]).then(([p, f]) => {
   posts = p;
   featured = f || {};
   Reader.init(posts, featured);
+  renderFilterBox();
   renderGrid();
   // Deep link: posts.html#series=MYTH, and posts.html#post=<id> opens a post.
   applyHash();
   window.addEventListener('hashchange', applyHash);
 });
 
-function setFilter(name) {
+// One box listing every option, with how many posts each holds.
+function renderFilterBox() {
+  const counts = new Map();
+  posts.forEach(p => counts.set(seriesOf(p), (counts.get(seriesOf(p)) || 0) + 1));
+  const options = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  $('seriesSelect').innerHTML = [
+    `<option value="ALL">Everything (${posts.length})</option>`,
+    ...options.map(([s, n]) => `<option value="${s}">${s} (${n})</option>`),
+  ].join('');
+  $('seriesSelect').addEventListener('change', e => setFilter(e.target.value, false));
+}
+
+function setFilter(name, scroll = true) {
   active = name;
+  $('seriesSelect').value = name;
   renderGrid();
-  document.getElementById('gridTitle').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (scroll) $('gridTitle').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function renderGrid() {
   const shown = posts.filter(p => active === 'ALL' || seriesOf(p) === active);
   $('gridTitle').textContent = active === 'ALL' ? 'All posts' : active;
-  $('gridCount').innerHTML = `${shown.length} post${shown.length === 1 ? '' : 's'}, newest first.` +
-    (active === 'ALL' ? '' : ' <button class="show-all">Show all posts</button>');
-  const back = $('gridCount').querySelector('.show-all');
-  if (back) back.addEventListener('click', () => setFilter('ALL'));
+  $('gridCount').textContent = `${shown.length} post${shown.length === 1 ? '' : 's'}, newest first.`;
   $('postMatrix').innerHTML = shown.map(p => {
     const i = posts.indexOf(p);
     const date = new Date(p.timestamp).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
