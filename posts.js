@@ -13,25 +13,10 @@ Promise.all([load('posts.json'), load('featured.json')]).then(([p, f]) => {
   featured = f || {};
   Reader.init(posts, featured);
   renderGrid();
-  wireSeriesEntries();
   // Deep link: posts.html#series=MYTH, and posts.html#post=<id> opens a post.
   applyHash();
   window.addEventListener('hashchange', applyHash);
 });
-
-// Each written block filters the archive to its own posts.
-function wireSeriesEntries() {
-  document.querySelectorAll('.series-entry[data-series]').forEach(el => {
-    const name = el.dataset.series;
-    const n = posts.filter(p => seriesOf(p) === name).length;
-    if (!n) return;
-    const btn = document.createElement('button');
-    btn.className = 'see';
-    btn.textContent = `See the ${n} post${n === 1 ? '' : 's'} →`;
-    btn.addEventListener('click', () => setFilter(name));
-    el.appendChild(btn);
-  });
-}
 
 function setFilter(name) {
   active = name;
