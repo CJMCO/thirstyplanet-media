@@ -1,4 +1,4 @@
-/* The Posts page: the full archive as a grid, filterable by series. */
+/* The Posts page: the full archive as a grid, filtered by the chips at the top. */
 const $ = id => document.getElementById(id);
 const load = url => fetch(url).then(r => (r.ok ? r.json() : [])).catch(() => []);
 
@@ -12,20 +12,12 @@ Promise.all([load('posts.json'), load('featured.json')]).then(([p, f]) => {
   posts = p;
   featured = f || {};
   Reader.init(posts, featured);
-  renderStats();
   renderFilter();
   renderGrid();
-  wireSeriesEntries();
   // Deep link: posts.html#series=MYTH, and posts.html#post=<id> opens a post.
   applyHash();
   window.addEventListener('hashchange', applyHash);
 });
-
-function renderStats() {
-  $('statPosts').textContent = posts.length;
-  $('statSlides').textContent = posts.reduce((n, p) => n + p.slides.length, 0);
-  $('statSeries').textContent = new Set(posts.map(seriesOf)).size;
-}
 
 function renderFilter() {
   const counts = new Map();
@@ -44,24 +36,6 @@ function renderFilter() {
       $('seriesFilter').querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === c));
       renderGrid();
     }));
-}
-
-// Each written series block gets its own count and a shortcut into the grid.
-function wireSeriesEntries() {
-  document.querySelectorAll('.series-entry[data-series]').forEach(el => {
-    const name = el.dataset.series;
-    const n = posts.filter(p => seriesOf(p) === name).length;
-    if (!n) return;
-    const btn = document.createElement('button');
-    btn.className = 'see';
-    btn.textContent = `See the ${n} post${n === 1 ? '' : 's'} →`;
-    btn.addEventListener('click', () => {
-      const chip = document.querySelector(`.chip[data-s="${name}"]`);
-      if (chip) chip.click();
-      document.getElementById('postMatrix').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-    el.appendChild(btn);
-  });
 }
 
 function renderGrid() {
