@@ -284,6 +284,9 @@ img { max-width: 100%; display: block; }
 .chip.on { background: var(--navy); border-color: var(--navy); color: var(--white); }
 .chip.on b { color: var(--sky); }
 
+.series-intro { max-width: 52rem; margin: -1.2rem 0 2rem; display: flex; flex-direction: column; gap: 0.9rem; }
+.series-intro p { color: var(--body-on-light); font-size: 1.05rem; }
+.series-intro p:first-child { font-size: 1.2rem; color: var(--ink-on-light); font-weight: 500; }
 .series-notes { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem 2.4rem; }
 .series-entry {
   border-top: 3px solid var(--a); padding-top: 1rem;
