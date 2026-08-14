@@ -94,7 +94,7 @@ if (storyPics.length) {
   const cap = $('storyCaption');
   // Largest size that fits the column without cropping: landscape photos take
   // the full width, portraits are limited by height instead.
-  const MAX_H = () => Math.min(560, window.innerHeight * 0.6);
+  const MAX_H = () => Math.min(760, window.innerHeight * 0.78);
   const shape = img => {
     if (!img.naturalWidth) {
       img.addEventListener('load', () => shape(img), { once: true });
