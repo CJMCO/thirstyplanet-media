@@ -31,10 +31,10 @@ const SERIES = [
   { re: /myth|bottled/i,       kicker: 'MYTH',               accent: '#E8C98A' },
   { re: /thirsty places|singapore|cape town|\baral\b/i, kicker: 'THIRSTY PLACES', accent: '#5DAEFF' },
   { re: /industries|fashion withdraws|dyeing mill/i, kicker: 'THIRSTY INDUSTRIES', accent: '#8FC3EC' },
-  { re: /plain ?water|wastewater|\bCOD\b|\bETP\b|sludge|flush|treatment plant/i, kicker: 'PLAIN WATER', accent: '#7FD9C8' },
+  { re: /plain ?water|wastewater|\bCOD\b|\bTDS\b|dissolved solids|\bETP\b|sludge|flush|treatment plant|#watertreatment/i, kicker: 'PLAIN WATER', accent: '#7FD9C8' },
   { re: /inside:/i,            kicker: 'INSIDE',             accent: '#AFC3D4' },
   { re: /you asked/i,          kicker: 'YOU ASKED',          accent: '#8EA6C0' },
-  { re: /thirsty:|litres? of water|litres for one|takes about [\d,]+ ?litres/i, kicker: 'THIRSTY', accent: '#8FC3EC' },
+  { re: /thirsty:|litres? of water|litres for one|takes about [\d,]+ ?litres|#waterfootprint|#hiddenwater/i, kicker: 'THIRSTY', accent: '#8FC3EC' },
 ];
 
 function has(cmd) {
@@ -83,7 +83,9 @@ const manifest = [];
 for (const m of media) {
   const caption = m.caption || '';
   const firstLine = caption.split('\n')[0].trim();
-  const series = SERIES.find(s => s.re.test(caption.slice(0, 400)));
+  const tags = (caption.match(/#[\w]+/g) || []).join(' ');
+  const signal = caption.slice(0, 400) + ' ' + tags;
+  const series = SERIES.find(s => s.re.test(signal));
   const items = m.media_type === 'CAROUSEL_ALBUM' ? m.children.data : [m];
   const rel = [];
   for (let i = 0; i < items.length; i++) {

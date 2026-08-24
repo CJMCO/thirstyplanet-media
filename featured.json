@@ -1,4 +1,22 @@
 {
+  "17905342743521133": {
+    "title": "Plain Water: TDS",
+    "summary": "The number printed in small type on every bottle of mineral water. It is everything dissolved in the water, and it is the reason salty water is so hard to clean.",
+    "kicker": "PLAIN WATER",
+    "accent": "#7FD9C8"
+  },
+  "18147371434531498": {
+    "title": "Thirsty: Avocado",
+    "summary": "About 400 litres for one fruit, and in the places avocados grow that water usually arrives through a pipe.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
+  },
+  "17905005120537415": {
+    "title": "Thirsty: Wine",
+    "summary": "About 109 litres for one glass. Winemakers are the strange exception among farmers: they spend their careers trying to give the plant less water.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
+  },
   "18125440909774239": {
     "title": "Plain Water: Sludge",
     "summary": "A plant does not make dirt disappear, it gathers it into one heap. That heap is almost all water, and it can eat half the running costs.",
