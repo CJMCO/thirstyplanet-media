@@ -53,10 +53,10 @@ function renderHero() {
     </article>`;
   }).join('');
   $('hcDots').innerHTML = feat.map((_, i) =>
-    `<i class="${i === 0 ? 'on' : ''}" data-i="${i}"></i>`).join('');
+    `<button class="${i === 0 ? 'on' : ''}" data-i="${i}" aria-label="Go to slide ${i + 1} of ${feat.length}"></button>`).join('');
   $('hcSlides').querySelectorAll('.hc-open').forEach(b =>
     b.addEventListener('click', () => Reader.open(+b.dataset.post)));
-  $('hcDots').querySelectorAll('i').forEach(d =>
+  $('hcDots').querySelectorAll('button').forEach(d =>
     d.addEventListener('click', () => hcShow(+d.dataset.i)));
   $('hcPrev').addEventListener('click', () => hcShow(hcIndex - 1));
   $('hcNext').addEventListener('click', () => hcShow(hcIndex + 1));
@@ -69,7 +69,7 @@ function hcShow(i, user = true) {
   hcIndex = (i + n) % n;
   $('hcSlides').querySelectorAll('.hc-slide').forEach((s, k) =>
     s.classList.toggle('on', k === hcIndex));
-  $('hcDots').querySelectorAll('i').forEach((d, k) =>
+  $('hcDots').querySelectorAll('button').forEach((d, k) =>
     d.classList.toggle('on', k === hcIndex));
   if (user) hcAuto();
 }

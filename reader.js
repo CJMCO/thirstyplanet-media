@@ -44,16 +44,22 @@ window.Reader = (() => {
     render();
   }
 
+  let opener = null;
+
   function open(i) {
     current = { post: i, slide: 0 };
     render();
+    opener = document.activeElement;
     $('lightbox').hidden = false;
     document.body.style.overflow = 'hidden';
+    $('lbClose').focus();
   }
 
   function close() {
     $('lightbox').hidden = true;
     document.body.style.overflow = '';
+    if (opener && opener.focus) opener.focus();
+    opener = null;
   }
 
   function init(p, f) {

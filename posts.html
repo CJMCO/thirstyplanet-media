@@ -14,9 +14,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<meta name="theme-color" content="#081c36">
 <meta property="og:title" content="Posts · Thirsty Planet">
 <meta property="og:description" content="Every post, in one place.">
-<meta property="og:image" content="assets/globe-new.png">
+<meta property="og:image" content="https://thirstyplanet.media/assets/globe-new.png">
 </head>
 <body>
 
@@ -42,7 +43,6 @@
 
   <section class="page-head">
     <div class="band-inner">
-      <p class="kicker">POSTS</p>
       <h1>What did it cost in water?</h1>
       <p class="page-lede lead">Water hides. It hides in your t-shirt, in your breakfast, in the phone in your pocket. Almost none of it is the water you can see, and that is what makes it interesting.</p>
       <p class="page-lede">So the posts here go looking for it, in a few different ways. Some pick up one everyday thing and ask a simple question: how much water did it take to make this? Some take a strange word that the water industry uses all day long and turn it into normal language. Some test the things everyone says about water, to find out which ones are actually true. Some travel to places that nearly ran dry, and ask how they got out of it. And some look at whole industries, the factories behind your clothes, your food, your paper.</p>
@@ -89,7 +89,7 @@
   <p class="fine">© 2026 Thirsty Planet. Sources: Water Footprint Network, Mekonnen &amp; Hoekstra (2011), USGS.</p>
 </footer>
 
-<div class="lightbox" id="lightbox" hidden>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Post reader" hidden>
   <button class="lb-close" id="lbClose" aria-label="Close">×</button>
   <div class="lb-stage">
     <button class="lb-nav prev" id="lbPrev" aria-label="Previous slide">‹</button>
