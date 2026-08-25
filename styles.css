@@ -80,6 +80,15 @@ img { max-width: 100%; display: block; }
 @media (prefers-reduced-motion: reduce) { .hc-video { animation: none; } }
 .hc-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 0.7s ease; pointer-events: none; z-index: 3; }
 .hc-slide.on { opacity: 1; pointer-events: auto; }
+/* The text of the active slide rises into place; the cover only fades. */
+.hc-slide .hc-content {
+  opacity: 0; transform: translateY(18px);
+  transition: opacity 0.5s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hc-slide.on .hc-content { opacity: 1; transform: none; transition-delay: 0.12s; }
+@media (prefers-reduced-motion: reduce) {
+  .hc-slide .hc-content { transition: none; transform: none; }
+}
 .hc-cover {
   position: absolute; right: clamp(1rem, 6vw, 5rem); bottom: clamp(2.4rem, 9vh, 5rem);
   width: clamp(230px, 28vw, 360px); aspect-ratio: 4 / 5; object-fit: cover;
@@ -103,7 +112,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.22em;
 }
 .hc-content h2 {
-  font-size: clamp(1.8rem, 3.8vw, 3.3rem); line-height: 1.1;
+  font-size: clamp(2rem, 4.6vw, 4.2rem); line-height: 1.05;
   font-weight: 700; text-transform: uppercase; letter-spacing: 0.01em;
   margin: 0.9rem 0 0.7rem; max-width: 16ch;
   display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
@@ -172,10 +181,13 @@ p { text-wrap: pretty; }
 .band.light .section-head p { color: var(--body-on-light); }
 .center { text-align: center; margin-top: 2.2rem; }
 
-.about { position: relative; overflow: hidden; }
+.about {
+  position: relative; overflow: hidden;
+  padding-top: clamp(4rem, 9vw, 7rem); padding-bottom: clamp(4rem, 9vw, 7rem);
+}
 .about-bg { position: absolute; inset: 0; }
 .about-bg video {
-  width: 100%; height: 100%; object-fit: cover; opacity: 0.22;
+  width: 100%; height: 100%; object-fit: cover; opacity: 0.3;
 }
 .about-bg::after {
   content: ''; position: absolute; inset: 0;
@@ -212,9 +224,12 @@ p { text-wrap: pretty; }
 .story-mark { font-weight: 700; color: var(--ink-on-light); }
 @media (max-width: 900px) { .story-grid { grid-template-columns: 1fr; } }
 .story-lead {
-  font-size: clamp(1.6rem, 3.2vw, 2.6rem); font-weight: 700;
-  color: var(--ink-on-light); line-height: 1.18;
-  max-width: 24ch; margin: 0.9rem 0 1.6rem;
+  font-size: clamp(1.9rem, 3.8vw, 3.4rem); font-weight: 700;
+  color: var(--ink-on-light); line-height: 1.1;
+  max-width: 20ch; margin: 0.9rem 0 1.6rem;
+}
+.story-lead em {
+  font-style: normal; color: var(--blue); font-weight: 300;
 }
 .story-body { max-width: 44rem; display: flex; flex-direction: column; gap: 1.1rem; }
 .story-body p { color: var(--body-on-light); font-size: 1.05rem; }
@@ -361,24 +376,46 @@ p { text-wrap: pretty; }
 .video-card h3 {
   color: var(--ink-on-light); font-size: 0.95rem; font-weight: 500; line-height: 1.4;
 }
+/* Coming-soon reads as a title card: episode-shaped, lower-third text,
+   the globe as a quiet watermark instead of clip art. */
 .empty-card {
-  flex: 0 0 min(100%, 620px);
-  display: flex; align-items: center; gap: 1.6rem;
-  background: radial-gradient(circle at 15% 120%, rgba(124, 196, 236, 0.25), transparent 60%), var(--navy);
-  border-radius: 14px; padding: 1.8rem 2rem; color: var(--white);
+  flex: 0 0 100%;
+  position: relative; overflow: hidden;
+  display: flex; align-items: flex-end;
+  aspect-ratio: 16 / 9;
+  background:
+    radial-gradient(circle at 15% 120%, rgba(124, 196, 236, 0.28), transparent 62%),
+    linear-gradient(155deg, var(--navy) 30%, var(--navy-deep) 100%);
+  border: 1px solid var(--line-dark);
+  border-radius: 14px; padding: 1.6rem 1.8rem; color: var(--white);
 }
-.empty-card img { width: clamp(70px, 14%, 100px); flex-shrink: 0; }
-.empty-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.3rem; }
-.empty-card p { color: var(--pale); font-size: 0.92rem; margin-bottom: 0.9rem; }
+.empty-card img {
+  position: absolute; top: -18%; right: -8%; width: 52%;
+  opacity: 0.14; pointer-events: none;
+}
+.empty-card h3 {
+  font-size: clamp(1.25rem, 1.9vw, 1.7rem); font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.02em; line-height: 1.12;
+  max-width: 18ch; margin-bottom: 0.4rem;
+}
+.empty-card p { color: var(--pale); font-size: 0.95rem; max-width: 40ch; margin-bottom: 1rem; }
+.empty-card p:last-child { margin-bottom: 0; }
 .empty-card .btn { font-size: 0.82rem; padding: 0.6rem 1.2rem; }
 
 /* ---------- about (navy band) ---------- */
 .about-body { max-width: 46rem; display: flex; flex-direction: column; gap: 1.1rem; }
-.about-lead {
-  font-size: clamp(1.3rem, 2.4vw, 1.9rem); font-weight: 700; line-height: 1.2;
+/* The site's one sentence, at the scale the hero already speaks. It sits
+   outside .about-body on purpose: the old design kept it inside, where the
+   .about-body p rule silently won the cascade and kept the line small. */
+.about .about-lead {
+  font-size: clamp(2.1rem, 5vw, 4.2rem); font-weight: 700; line-height: 1.05;
+  text-transform: uppercase; letter-spacing: 0.01em;
   color: var(--white);
+  margin: 0.4rem 0 1.6rem;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.35);
 }
-.about-lead + p { margin-top: -0.2rem; }
+.about-lead .al1, .about-lead .al2 { display: block; }
+.about-lead .al2 { color: var(--sky); font-weight: 300; }
 .about-body p { color: #d9e9f6; font-size: 1.02rem; }
 .about-body .aguato { color: var(--pale); border-top: 1px solid var(--line-dark); padding-top: 1.1rem; }
 
@@ -466,7 +503,7 @@ footer .fine { font-size: 0.78rem; opacity: 0.7; margin-top: 0.4rem; }
   .hc-cover { display: none; }
   .post-card { flex-basis: 200px; }
   .video-card { flex-basis: 270px; }
-  .empty-card { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .empty-card { aspect-ratio: auto; min-height: 220px; }
   .lightbox { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) auto; }
   .lb-stage { padding: 3.2rem 0.6rem 2.4rem; }
   .lb-stage img { max-height: 100%; max-width: 100%; object-fit: contain; }
