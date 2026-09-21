@@ -55,6 +55,28 @@
     "url": "articles/plain-water-etp/"
   },
   {
+    "slug": "thirsty-beef",
+    "title": "Thirsty: Beef",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A 200 gram steak carries about 3,100 litres of water, and 98 percent of it never touched the animal. The water footprint of beef is the footprint of three years of feed, and how those years were fed decides whether the number is rain on a hillside or a river in a dry valley.",
+    "date": "2026-08-09",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-beef/thirsty-beef-hero.jpg",
+    "url": "articles/thirsty-beef/"
+  },
+  {
+    "slug": "thirsty-chocolate",
+    "title": "Thirsty: Chocolate",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A 100 gram bar of chocolate carries about 1,700 litres of water, and per kilogram cocoa outweighs beef. Almost all of it is rain on a tropical farm, which is the reason the number is less alarming than it looks, and the reason cocoa's real worry is heat rather than water.",
+    "date": "2026-08-09",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-chocolate/thirsty-chocolate-hero.jpg",
+    "url": "articles/thirsty-chocolate/"
+  },
+  {
     "slug": "thirsty-coffee",
     "title": "Thirsty: Coffee",
     "series": "THIRSTY",
@@ -77,6 +99,28 @@
     "url": "articles/thirsty-industries-textile/"
   },
   {
+    "slug": "thirsty-jeans",
+    "title": "Thirsty: Jeans",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A pair of jeans carries about 8,000 litres of water from the cotton field to the shop, and the most detailed study ever made of a single garment found that a quarter of its lifetime water is spent after it is bought. Where the litres go, why indigo is such a thirsty colour, and what the owner controls.",
+    "date": "2026-08-07",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-jeans/thirsty-jeans-hero.jpg",
+    "url": "articles/thirsty-jeans/"
+  },
+  {
+    "slug": "thirsty-tshirt",
+    "title": "Thirsty: T-shirt",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A cotton t-shirt carries about 2,700 litres of water, which is roughly what one person drinks in three years. Most of it fell on a cotton field or was pumped onto one, and in Central Asia the pumping was enough to turn the fourth largest lake on Earth into a desert.",
+    "date": "2026-08-07",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-tshirt/thirsty-tshirt-hero.jpg",
+    "url": "articles/thirsty-tshirt/"
+  },
+  {
     "slug": "myth-bottled-water",
     "title": "Myth: Bottled water is cleaner than tap",
     "series": "MYTH",
@@ -97,6 +141,17 @@
     "minutes": 7,
     "cover": "assets/articles/plain-water-wastewater/plain-water-wastewater-hero.jpg",
     "url": "articles/plain-water-wastewater/"
+  },
+  {
+    "slug": "thirsty-beer",
+    "title": "Thirsty: Beer",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A 250 millilitre glass of beer carries about 74 litres of water, and almost none of it was spent at the brewery. The barley in the field is the whole story, and inside the brewery, where water mostly goes on cleaning, brewers watch their ratio more closely than any industry on this site.",
+    "date": "2026-08-06",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-beer/thirsty-beer-hero.jpg",
+    "url": "articles/thirsty-beer/"
   },
   {
     "slug": "thirsty-places-singapore",
