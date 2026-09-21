@@ -11,6 +11,50 @@
     "url": "articles/plain-water-tds/"
   },
   {
+    "slug": "plain-water-sludge",
+    "title": "Plain Water: Sludge",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "A treatment plant does not make dirt disappear. It gathers everything it took out of the water into one pile, and that pile is almost entirely water, eats up to half the running costs, and is at once a fertiliser, a fuel and a problem. Where the dirt actually goes.",
+    "date": "2026-08-12",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-sludge/plain-water-sludge-hero.jpg",
+    "url": "articles/plain-water-sludge/"
+  },
+  {
+    "slug": "plain-water-after-you-flush",
+    "title": "Plain Water: After you flush",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The flush is the last most people see of their water. From there it starts a journey under every street in the city, powered mostly by gravity, to a plant that runs on bacteria and partly on its own gas. The trip takes about a day, and most of the world's water never makes it.",
+    "date": "2026-08-10",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-after-you-flush/plain-water-after-you-flush-hero.jpg",
+    "url": "articles/plain-water-after-you-flush/"
+  },
+  {
+    "slug": "plain-water-cod",
+    "title": "Plain Water: COD",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The water industry has one number for how dirty water really is, and by that number a glass of milk is hundreds of times worse than raw sewage. What chemical oxygen demand measures, how it is measured, and why every discharge permit in the world is written around it.",
+    "date": "2026-08-10",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-cod/plain-water-cod-hero.jpg",
+    "url": "articles/plain-water-cod/"
+  },
+  {
+    "slug": "plain-water-etp",
+    "title": "Plain Water: ETP",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "Beside almost every serious factory in the world stands a building that most people never notice. It decides whether the river next door stays alive, it runs on bacteria, and its biggest bill is air. What an effluent treatment plant is and how it works.",
+    "date": "2026-08-10",
+    "minutes": 8,
+    "cover": "assets/articles/plain-water-etp/plain-water-etp-hero.jpg",
+    "url": "articles/plain-water-etp/"
+  },
+  {
     "slug": "thirsty-coffee",
     "title": "Thirsty: Coffee",
     "series": "THIRSTY",
@@ -42,6 +86,17 @@
     "minutes": 7,
     "cover": "assets/articles/myth-bottled-water/myth-bottled-water-hero.jpg",
     "url": "articles/myth-bottled-water/"
+  },
+  {
+    "slug": "plain-water-wastewater",
+    "title": "Plain Water: Wastewater",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The word covers a shower drain, a dye house outfall and the rain off a car park, which is why it tells you almost nothing on its own. What wastewater actually is, what it carries, and why an industry exists for the last one percent of it.",
+    "date": "2026-08-06",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-wastewater/plain-water-wastewater-hero.jpg",
+    "url": "articles/plain-water-wastewater/"
   },
   {
     "slug": "thirsty-places-singapore",
