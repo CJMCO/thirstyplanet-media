@@ -712,7 +712,8 @@ a.matrix-card:hover { color: inherit; }
 .ps-intro { display: flex; flex-direction: column; gap: 0.7rem; }
 .ps-num { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.24em; color: var(--accent); font-variant-numeric: tabular-nums; }
 .ps-intro .kicker { margin: 0; }
-.ps-intro h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); line-height: 1.05; margin: 0; }
+.ps-intro h2 { font-size: clamp(1.9rem, 3.4vw, 2.8rem); line-height: 1.05; margin: 0; display: flex; align-items: center; gap: 0.7rem; }
+.ps-intro h2::before { content: ""; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); flex: none; }
 .ps-intro h2 a { color: var(--white); text-decoration: none; }
 .ps-intro h2 a:hover { color: var(--sky); }
 .ps-blurb { color: var(--pale); font-size: 1.05rem; line-height: 1.55; max-width: 30rem; margin: 0; }
