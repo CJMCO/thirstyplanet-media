@@ -734,3 +734,23 @@ a.matrix-card:hover { color: inherit; }
   .ps-cards { grid-template-columns: 1fr 1fr; }
   .ps-cards .ps-card:nth-child(3) { display: none; }
 }
+
+
+/* Read menu in the header. */
+.nav-dd { position: relative; display: flex; align-items: center; }
+.nav-dd > a::after { content: ""; display: inline-block; width: 0.38em; height: 0.38em; margin-left: 0.45em; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: translateY(-0.15em) rotate(45deg); opacity: 0.8; }
+.dd-menu { position: absolute; top: 100%; left: -0.9rem; padding-top: 0.7rem; display: none; z-index: 60; }
+.nav-dd:hover .dd-menu, .nav-dd:focus-within .dd-menu { display: block; }
+.dd-list {
+  display: flex; flex-direction: column; min-width: 15.5rem; padding: 0.5rem;
+  background: rgba(8, 28, 54, 0.98); border: 1px solid var(--line-dark); border-radius: 12px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+.dd-list a { display: flex; align-items: center; gap: 0.6rem; padding: 0.55rem 0.7rem; border-radius: 8px; font-size: 0.74rem; letter-spacing: 0.14em; white-space: nowrap; }
+.dd-list a:hover { background: rgba(124, 196, 236, 0.1); color: var(--sky); }
+.dd-list .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
+@media (hover: none) { .nav-dd > a::after { display: none; } }
+.pillar-head .page-lede { max-width: 46rem; }
+.pillar-head .page-lede + .page-lede { margin-top: 0.9rem; }
+/* On narrow screens the nav scrolls sideways; let the Read menu escape it while open. */
+.top nav:has(.nav-dd:hover), .top nav:has(.nav-dd:focus-within) { overflow: visible; }
