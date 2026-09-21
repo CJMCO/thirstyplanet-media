@@ -662,3 +662,18 @@ a.matrix-card:hover { color: inherit; }
   .prose { font-size: 1.02rem; }
   .prose blockquote { font-size: 1.15rem; }
 }
+
+/* Article index: clustered by pillar. */
+.read-head .band-inner { padding-bottom: 1.2rem; }
+.pillar-nav { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.2rem; }
+.pillar-nav a {
+  display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.45rem 0.9rem;
+  border: 1px solid var(--line-light); border-radius: 999px; font-size: 0.8rem; font-weight: 700;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-on-light); text-decoration: none;
+}
+.pillar-nav a:hover { border-color: var(--blue); color: var(--blue); }
+.pillar-nav a small { font-weight: 500; color: var(--body-on-light); letter-spacing: 0; }
+.pillar-nav .dot, .pillar-band h2 .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
+.pillar-band h2 { display: flex; align-items: center; gap: 0.6rem; }
+.pillar-band { scroll-margin-top: 5rem; }
+.pillar-band + .pillar-band { padding-top: 0; }
