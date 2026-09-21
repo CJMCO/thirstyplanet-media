@@ -1,5 +1,115 @@
 [
   {
+    "slug": "myth-lawns",
+    "title": "Myth: A Lawn Is Harmless",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "A lawn looks like nature and behaves like a crop. Turf grass is the largest irrigated crop in the United States, ahead of corn, and a square metre of it in a dry climate drinks as much water as a square metre of wheat while producing nothing that can be eaten. What a lawn's water is, why the grass in a desert suburb is the least defensible water use on this site, why Las Vegas banned it, and what the alternatives look like.",
+    "date": "2026-09-22",
+    "minutes": 6,
+    "cover": "assets/articles/myth-lawns/myth-lawns-hero.jpg",
+    "url": "articles/myth-lawns/"
+  },
+  {
+    "slug": "plain-water-lead",
+    "title": "Plain Water: Lead",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The water that leaves a treatment plant has no lead in it. The lead comes from the pipe between the street and the kitchen, laid a century ago because lead was soft and cheap, and it comes off in amounts that depend on the chemistry of the water running through it. What Flint got wrong, why there is no safe level, why the fix is a pipe and not a plant, and how to tell whether your own tap has one.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-lead/plain-water-lead-hero.jpg",
+    "url": "articles/plain-water-lead/"
+  },
+  {
+    "slug": "thirsty-battery",
+    "title": "Thirsty: Battery",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "The battery in an electric car holds about eight kilograms of lithium, and the lithium was concentrated, in most cases, by evaporating brine from under a desert. What a battery's water is, why the number is argued over more than almost any on this site, what the salt flats and the villages around them say, and what direct extraction and recycling would change.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-battery/thirsty-battery-hero.jpg",
+    "url": "articles/thirsty-battery/"
+  },
+  {
+    "slug": "thirsty-car",
+    "title": "Thirsty: Car",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A car is about a tonne and a half of steel, aluminium, plastic, glass, rubber and copper, and every one of those was made with water. The estimates run from fifty to four hundred thousand litres, and the spread is the story: where the number comes from, which parts carry most of it, what a paint shop does with water, and why an electric car moves the water from the refinery to the mine.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-car/thirsty-car-hero.jpg",
+    "url": "articles/thirsty-car/"
+  },
+  {
+    "slug": "thirsty-cotton-vs-polyester",
+    "title": "Thirsty: Cotton or Polyester",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A cotton t-shirt takes about 2,700 litres of water to make and a polyester one takes a few dozen, and that is the beginning of the argument rather than the end of it. Where each fibre's water is spent, what polyester does to a river that cotton does not, why the washing machine matters more than the field for one of them, and how to choose between them without fooling yourself.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-cotton-vs-polyester/thirsty-cotton-vs-polyester-hero.jpg",
+    "url": "articles/thirsty-cotton-vs-polyester/"
+  },
+  {
+    "slug": "thirsty-palm-oil",
+    "title": "Thirsty: Palm Oil",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "Palm oil is in about half the packaged products in a supermarket, and it is the least thirsty vegetable oil there is, grown almost entirely on rain in the wettest places on Earth. Its water problem is the other way round: what the mills send into the rivers of Sumatra and Borneo, and what the plantations did to the peat swamps that held the water in the first place.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-palm-oil/thirsty-palm-oil-hero.jpg",
+    "url": "articles/thirsty-palm-oil/"
+  },
+  {
+    "slug": "thirsty-places-bangalore",
+    "title": "Thirsty Places: Bangalore",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "India's technology capital was built on a plateau of lakes, nine hundred metres above the sea and a hundred kilometres from a river, and it drained the lakes, built over them, and pumped the ground beneath until, in the summer of 2024, the wells of half the city ran dry and the technology companies told their staff to work from home. What Bangalore's water is, where the lakes went, what a lake fire looks like, and what the city is trying to get back.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-bangalore/thirsty-places-bangalore-hero.jpg",
+    "url": "articles/thirsty-places-bangalore/"
+  },
+  {
+    "slug": "thirsty-places-cairo",
+    "title": "Thirsty Places: Cairo",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A country of a hundred and ten million people, almost all of them living on a strip of river valley that is three percent of its land, drinking a river that starts in another country, which has just finished the largest dam in Africa across it. What the Nile is to Egypt, what the Grand Ethiopian Renaissance Dam changes, why the delta is salting and sinking, and what a city of twenty million does when the only river is spoken for.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-cairo/thirsty-places-cairo-hero.jpg",
+    "url": "articles/thirsty-places-cairo/"
+  },
+  {
+    "slug": "thirsty-places-karachi",
+    "title": "Thirsty Places: Karachi",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "The largest city in Pakistan gets about half the water it needs through pipes, and the other half through a business of tankers, some of them licensed and many of them not, that draws on the same supply and sells it back to the city at ten times the price. What Karachi's water is, why the pipes never caught up, how the tanker economy works, and why the fix that every engineer can draw has been on paper for thirty years.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-karachi/thirsty-places-karachi-hero.jpg",
+    "url": "articles/thirsty-places-karachi/"
+  },
+  {
+    "slug": "thirsty-tomato",
+    "title": "Thirsty: Tomato",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A tomato is ninety five percent water and took about two hundred litres to grow, and the difference between a tomato from a Dutch greenhouse and one from a field in Spain or California is the whole of the subject. Where the water in a tomato goes, why the greenhouse uses a fraction of the field, why the field grows most of the world's tomatoes anyway, and what a tin of paste has to do with an aquifer.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-tomato/thirsty-tomato-hero.jpg",
+    "url": "articles/thirsty-tomato/"
+  },
+  {
     "slug": "myth-bath-vs-shower",
     "title": "Myth: A bath uses more water than a shower",
     "series": "MYTH",
