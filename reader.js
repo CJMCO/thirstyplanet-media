@@ -46,8 +46,8 @@ window.Reader = (() => {
 
   let opener = null;
 
-  function open(i) {
-    current = { post: i, slide: 0 };
+  function open(i, slide = 0) {
+    current = { post: i, slide };
     render();
     opener = document.activeElement;
     $('lightbox').hidden = false;

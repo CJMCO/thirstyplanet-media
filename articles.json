@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "plain-water-tds",
+    "title": "Plain Water: TDS",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "Total dissolved solids is the single most useful measurement in the water business. It explains why water tastes of anything, why limescale forms in a kettle, and why the hardest part of cleaning water is the part nobody can see.",
+    "date": "2026-08-24",
+    "minutes": 8,
+    "cover": "assets/articles/plain-water-tds/plain-water-tds-hero.jpg",
+    "url": "articles/plain-water-tds/"
+  },
+  {
+    "slug": "thirsty-coffee",
+    "title": "Thirsty: Coffee",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A cup of coffee holds about 125 millilitres of water. Making it took roughly a thousand times more. Where those litres went, how anyone counts them, and why the total on its own is the least interesting thing about it.",
+    "date": "2026-08-07",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-coffee/thirsty-coffee-hero.jpg",
+    "url": "articles/thirsty-coffee/"
+  },
+  {
+    "slug": "thirsty-industries-textile",
+    "title": "Thirsty Industries: Textile",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "The textile industry withdraws 93 billion cubic metres of water a year and returns almost all of it, hot, salty and coloured. What is in that water, why the colour is more dangerous than it looks, and what the best mills have learned to do with it.",
+    "date": "2026-08-07",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-textile/thirsty-industries-textile-hero.jpg",
+    "url": "articles/thirsty-industries-textile/"
+  },
+  {
+    "slug": "myth-bottled-water",
+    "title": "Myth: Bottled water is cleaner than tap",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "In most of Europe the claim does not hold, and the reason has nothing to do with plastic or purity. Tap water and bottled water are governed by different laws, tested in different ways and protected on the journey to the glass by different things. Reading the rules changes the argument.",
+    "date": "2026-08-06",
+    "minutes": 7,
+    "cover": "assets/articles/myth-bottled-water/myth-bottled-water-hero.jpg",
+    "url": "articles/myth-bottled-water/"
+  },
+  {
+    "slug": "thirsty-places-singapore",
+    "title": "Thirsty Places: Singapore",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A small island with no rivers, no aquifers and a water supply that arrived across a border decided to make its own. The equipment it chose was ordinary. Persuading a whole country to drink the result was the real engineering.",
+    "date": "2026-08-06",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-singapore/thirsty-places-singapore-hero.jpg",
+    "url": "articles/thirsty-places-singapore/"
+  }
+]

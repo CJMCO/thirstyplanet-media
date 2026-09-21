@@ -5,18 +5,35 @@
 const $ = id => document.getElementById(id);
 const load = url => fetch(url).then(r => (r.ok ? r.json() : [])).catch(() => []);
 
-let posts = [], videos = [], pods = [];
+let posts = [], videos = [], pods = [], articles = [];
 let hcIndex = 0, hcTimer = null;
 
 let featured = {};
 
-Promise.all([load('posts.json'), load('videos.json'), load('podcasts.json'), load('featured.json')])
-  .then(([p, v, pd, f]) => {
-    posts = p; videos = v; pods = pd; featured = f || {};
+Promise.all([load('posts.json'), load('videos.json'), load('podcasts.json'), load('featured.json'), load('articles.json')])
+  .then(([p, v, pd, f, a]) => {
+    posts = p; videos = v; pods = pd; featured = f || {}; articles = a || [];
     Reader.init(posts, featured);
     renderHero();
     renderRows();
+    renderRead();
   });
+
+/* ---------- the newest articles (articles.json, built by build/articles.mjs) ---------- */
+function renderRead() {
+  const section = $('read');
+  if (!section || !articles.length) return;
+  const date = d => new Date(d + 'T08:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  $('rowRead').innerHTML = articles.slice(0, 6).map(a => `
+    <a class="read-card" href="${a.url}">
+      <img class="photo-cover" src="${a.cover}" alt="" loading="lazy">
+      <span class="mc-kicker" style="color:${a.accent}">${a.series}</span>
+      <h3>${a.title}</h3>
+      <p>${a.summary}</p>
+      <span class="mc-date">${date(a.date)} · ${a.minutes} min read</span>
+    </a>`).join('');
+  section.hidden = false;
+}
 
 /* ---------- featured hero carousel ---------- */
 // Curated headline + one line summary per post id lives in featured.json;
