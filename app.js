@@ -67,32 +67,57 @@ function renderRead() {
 }
 
 /* ---------- featured hero carousel ---------- */
-// Curated headline + one line summary per post id lives in featured.json;
-// posts without an entry fall back to the caption's first line.
-// The five featured posts are drawn at random on every visit, so the homepage
-// shows something different each time; the newest post always leads.
-function pickFeatured() {
-  const [newest, ...rest] = posts;
-  const pool = rest.slice();
+// The hero mixes the two things the site makes. The newest article leads, then
+// articles and posts alternate, drawn at random on every visit so the homepage
+// shows something different each time. Curated headlines for posts live in
+// featured.json; posts without an entry fall back to the caption's first line.
+const shuffle = list => {
+  const pool = list.slice();
   for (let i = pool.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [pool[i], pool[j]] = [pool[j], pool[i]];
   }
-  return [newest, ...pool.slice(0, 4)].filter(Boolean);
+  return pool;
+};
+
+function pickFeatured() {
+  const arts = articles.map(a => ({ kind: 'article', a }));
+  const psts = posts.map(p => ({ kind: 'post', p }));
+  if (!arts.length) return shuffle(psts).slice(0, 5);
+  const [lead, ...restArts] = arts;
+  const artPool = shuffle(restArts), postPool = shuffle(psts);
+  const out = [lead];
+  while (out.length < 5 && (artPool.length || postPool.length)) {
+    const next = out.length % 2 === 1 ? (postPool.shift() || artPool.shift()) : (artPool.shift() || postPool.shift());
+    if (next) out.push(next);
+  }
+  return out;
 }
 
 function renderHero() {
   const feat = pickFeatured();
-  $('hcSlides').innerHTML = feat.map((p, i) => {
+  $('hcSlides').innerHTML = feat.map((item, i) => {
+    if (item.kind === 'article') {
+      const a = item.a;
+      return `
+    <article class="hc-slide ${i === 0 ? 'on' : ''}" data-i="${i}">
+      <div class="hc-content">
+        <span class="hc-kicker">Article · ${a.minutes} min</span>
+        <h2>${a.title}</h2>
+        <p class="hc-sum">${a.summary}</p>
+        <a class="btn primary" href="${a.url}">Read the article</a>
+      </div>
+      <img class="hc-cover" src="${a.cover}" alt="" loading="${i === 0 ? 'eager' : 'lazy'}">
+    </article>`;
+    }
+    const p = item.p;
     const f = featured[p.slug] || {};
     const title = f.title || p.title;
     const summary = f.summary || '';
-    const kicker = f.kicker || p.kicker;
-    const accent = f.accent || p.accent;
     return `
     <article class="hc-slide ${i === 0 ? 'on' : ''}" data-i="${i}">
       <div class="hc-content">
-        <span class="hc-kicker" style="color:${accent}">${kicker}</span>
+        <span class="hc-kicker">Post</span>
         <h2>${title}</h2>
         ${summary ? `<p class="hc-sum">${summary}</p>` : ''}
         <button class="btn primary hc-open" data-post="${posts.indexOf(p)}">Read the post</button>

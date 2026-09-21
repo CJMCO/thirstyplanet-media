@@ -121,7 +121,9 @@ img { max-width: 100%; display: block; }
 .hc-sum {
   color: #d9e9f6; font-size: 1.05rem; max-width: 42ch; margin-bottom: 1.3rem;
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }
+.hc-kicker { color: var(--pale); text-transform: uppercase; }
 .hc-nav {
   position: absolute; top: 50%; transform: translateY(-50%); z-index: 5;
   background: rgba(8, 28, 54, 0.55); color: var(--white);
