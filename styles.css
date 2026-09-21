@@ -677,3 +677,26 @@ a.matrix-card:hover { color: inherit; }
 .pillar-band h2 { display: flex; align-items: center; gap: 0.6rem; }
 .pillar-band { scroll-margin-top: 5rem; }
 .pillar-band + .pillar-band { padding-top: 0; }
+
+
+/* Pillar index and pillar pages. */
+.pillar-nav a.on { border-color: var(--blue); color: var(--blue); }
+.read-head .kicker a { color: inherit; text-decoration: none; }
+.read-head h1 { display: flex; align-items: center; gap: 0.7rem; }
+.read-head h1 .dot { width: 14px; height: 14px; border-radius: 50%; display: inline-block; flex: none; }
+.art-kicker a { color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+.art-kicker a:hover { color: var(--sky); }
+.pillar-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.2rem; }
+.pillar-card {
+  display: flex; flex-direction: column; gap: 0.9rem; padding: 1.1rem; border: 1px solid var(--line-dark);
+  border-radius: 14px; background: var(--card-dark); color: var(--white); text-decoration: none; transition: border-color 0.2s ease;
+}
+.pillar-card:hover { border-color: var(--sky); color: var(--white); }
+.pillar-covers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.4rem; }
+.pillar-covers img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; display: block; }
+.pillar-body { display: flex; flex-direction: column; gap: 0.35rem; }
+.pillar-body .mc-kicker { display: inline-flex; align-items: center; gap: 0.45rem; }
+.pillar-body .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.pillar-title { font-size: 1.35rem; font-weight: 700; line-height: 1.15; }
+.pillar-blurb { color: var(--pale); font-size: 0.92rem; line-height: 1.45; }
+.pillar-count { color: #8ea6c0; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; margin-top: 0.2rem; }
