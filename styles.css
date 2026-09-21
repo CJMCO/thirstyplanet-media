@@ -609,10 +609,18 @@ footer .fine { font-size: 0.78rem; opacity: 0.7; margin-top: 0.4rem; }
 .art-sources li { margin-bottom: 0.35rem; }
 .art-sources li::marker { color: var(--blue); }
 
-.art-share { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; margin-top: 2.4rem; max-width: 42rem; }
-.art-share > span { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--body-on-light); margin-right: 0.4rem; }
-.btn.ghost.dark { border-color: var(--line-light); color: var(--ink-on-light); background: none; font: inherit; font-weight: 700; font-size: 0.82rem; padding: 0.55rem 1.1rem; cursor: pointer; }
-.btn.ghost.dark:hover { border-color: var(--blue); color: var(--blue); }
+.art-share { display: flex; flex-wrap: wrap; align-items: center; gap: 0.55rem; max-width: 42rem; }
+.art-share.share-top { margin: 0 0 2rem; padding-bottom: 1.4rem; border-bottom: 1px solid var(--line-light); }
+.art-share.share-bottom { margin-top: 2.4rem; padding-top: 1.6rem; border-top: 1px solid var(--line-light); }
+.art-share > span { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--body-on-light); margin-right: 0.5rem; }
+.share-ic {
+  width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--line-light); border-radius: 50%; background: none; color: var(--ink-on-light);
+  cursor: pointer; padding: 0; transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+.share-ic svg { width: 18px; height: 18px; display: block; }
+.share-ic:hover { border-color: var(--blue); color: var(--blue); }
+.share-ic.done { background: var(--blue); border-color: var(--blue); color: var(--white); }
 
 .art-more { padding-top: 2.6rem; padding-bottom: 3rem; }
 .art-follow { color: var(--pale); max-width: 46rem; margin-bottom: 1.8rem; }
