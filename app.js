@@ -27,7 +27,6 @@ function renderRead() {
   $('rowRead').innerHTML = articles.slice(0, 6).map(a => `
     <a class="read-card" href="${a.url}">
       <img class="photo-cover" src="${a.cover}" alt="" loading="lazy">
-      <span class="mc-kicker" style="color:${a.accent}">${a.series}</span>
       <h3>${a.title}</h3>
       <p>${a.summary}</p>
       <span class="mc-date">${date(a.date)} · ${a.minutes} min read</span>
