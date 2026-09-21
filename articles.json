@@ -22,6 +22,17 @@
     "url": "articles/thirsty-avocado/"
   },
   {
+    "slug": "thirsty-wine",
+    "title": "Thirsty: Wine",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "Almost every farmer on Earth is trying to get more water to their crop. Winemakers are the exception, spending their careers keeping the vine a little thirsty. A glass of wine still carries about 109 litres, three times what beer does per litre, and the old rules about not watering vines are starting to bend in the heat.",
+    "date": "2026-08-24",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-wine/thirsty-wine-hero.jpg",
+    "url": "articles/thirsty-wine/"
+  },
+  {
     "slug": "plain-water-sludge",
     "title": "Plain Water: Sludge",
     "series": "PLAIN WATER",
@@ -31,6 +42,17 @@
     "minutes": 7,
     "cover": "assets/articles/plain-water-sludge/plain-water-sludge-hero.jpg",
     "url": "articles/plain-water-sludge/"
+  },
+  {
+    "slug": "thirsty-industries-food",
+    "title": "Thirsty Industries: Food and beverage",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "Europe's largest manufacturing sector is also one of its heaviest industrial users of water, and most of that water never touches the food. It goes on cleaning. How a food factory uses water, why it cannot simply use less, and how the washing up ended up heating the building.",
+    "date": "2026-08-12",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-food/thirsty-industries-food-hero.jpg",
+    "url": "articles/thirsty-industries-food/"
   },
   {
     "slug": "thirsty-paper",
@@ -99,6 +121,17 @@
     "url": "articles/thirsty-milk/"
   },
   {
+    "slug": "the-turn",
+    "title": "The turn",
+    "series": "FOUNDATIONS",
+    "accent": "#A8D4F0",
+    "summary": "Every number in the first month of this series was spent before the product reached anyone, in fields and factories. Read enough of them and they start to feel like an accusation. They are not one, and the reason is a property of factory water that changes everything: it is concentrated, and concentrated water can be fixed.",
+    "date": "2026-08-09",
+    "minutes": 7,
+    "cover": "assets/articles/the-turn/the-turn-hero.jpg",
+    "url": "articles/the-turn/"
+  },
+  {
     "slug": "thirsty-beef",
     "title": "Thirsty: Beef",
     "series": "THIRSTY",
@@ -130,6 +163,17 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-rice/thirsty-rice-hero.jpg",
     "url": "articles/thirsty-rice/"
+  },
+  {
+    "slug": "the-0-3-percent",
+    "title": "The 0.3%",
+    "series": "FOUNDATIONS",
+    "accent": "#A8D4F0",
+    "summary": "Everyone learns at school that seventy percent of the planet is water. Almost none of it is water people can use. Where the rest is, why the small usable share never runs out, and why cities run dry anyway.",
+    "date": "2026-08-07",
+    "minutes": 7,
+    "cover": "assets/articles/the-0-3-percent/the-0-3-percent-hero.jpg",
+    "url": "articles/the-0-3-percent/"
   },
   {
     "slug": "thirsty-coffee",
@@ -196,6 +240,17 @@
     "minutes": 7,
     "cover": "assets/articles/plain-water-wastewater/plain-water-wastewater-hero.jpg",
     "url": "articles/plain-water-wastewater/"
+  },
+  {
+    "slug": "the-water-you-cant-see",
+    "title": "The water you can't see",
+    "series": "FOUNDATIONS",
+    "accent": "#A8D4F0",
+    "summary": "Most people drink about two litres of water a day and use several thousand, and almost none of it comes out of a tap. Where it goes, how anyone counts it, and why someone who has spent a career inside the water industry decided to write it all down.",
+    "date": "2026-08-06",
+    "minutes": 7,
+    "cover": "assets/articles/the-water-you-cant-see/the-water-you-cant-see-hero.jpg",
+    "url": "articles/the-water-you-cant-see/"
   },
   {
     "slug": "thirsty-beer",
