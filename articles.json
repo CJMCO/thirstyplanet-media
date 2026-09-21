@@ -33,6 +33,17 @@
     "url": "articles/myth-flushable-wipes/"
   },
   {
+    "slug": "myth-water-cant-run-out",
+    "title": "Myth: Water Can't Run Out",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "The water cycle is taught to every child, and the lesson most of them take from it is that water goes round and round and can never be used up. The first part is true. The second part is the most comforting mistake in the subject, and this site exists partly to correct it. What runs out, where, and how fast.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/myth-water-cant-run-out/myth-water-cant-run-out-hero.jpg",
+    "url": "articles/myth-water-cant-run-out/"
+  },
+  {
     "slug": "plain-water-antiscalants",
     "title": "Plain Water: Antiscalants",
     "series": "PLAIN WATER",
@@ -42,6 +53,17 @@
     "minutes": 7,
     "cover": "assets/articles/plain-water-antiscalants/plain-water-antiscalants-hero.jpg",
     "url": "articles/plain-water-antiscalants/"
+  },
+  {
+    "slug": "plain-water-arsenic",
+    "title": "Plain Water: Arsenic",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "In the 1970s, millions of hand pumped wells were sunk across Bangladesh to give villages water free of the germs that killed their children. The water was free of germs. It carried arsenic, from the rock, at levels that poison slowly over decades. What happened, why nobody tested for it, what the numbers mean, and what a village can do about a poison it cannot see or taste.",
+    "date": "2026-09-21",
+    "minutes": 8,
+    "cover": "assets/articles/plain-water-arsenic/plain-water-arsenic-hero.jpg",
+    "url": "articles/plain-water-arsenic/"
   },
   {
     "slug": "plain-water-bod",
@@ -165,6 +187,17 @@
     "url": "articles/plain-water-nitrogen/"
   },
   {
+    "slug": "plain-water-pfas",
+    "title": "Plain Water: PFAS",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "A family of several thousand chemicals that repel water and grease, that are in nearly every person's blood, and that do not break down. What PFAS are, how they got into drinking water, why the new limits are measured in parts per trillion, and what it takes to get them out.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-pfas/plain-water-pfas-hero.jpg",
+    "url": "articles/plain-water-pfas/"
+  },
+  {
     "slug": "plain-water-ph",
     "title": "Plain Water: pH",
     "series": "PLAIN WATER",
@@ -220,6 +253,17 @@
     "url": "articles/plain-water-zld/"
   },
   {
+    "slug": "thirsty-almonds",
+    "title": "Thirsty: Almonds",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "Four out of five almonds in the world grow in one valley in California, on more than a million acres of orchard, in a place that gets no summer rain. Every one of them was irrigated. What an almond's twelve litres are made of, why the orchards are where they are, and why the number became an argument.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-almonds/thirsty-almonds-hero.jpg",
+    "url": "articles/thirsty-almonds/"
+  },
+  {
     "slug": "thirsty-cheese",
     "title": "Thirsty: Cheese",
     "series": "THIRSTY",
@@ -231,6 +275,17 @@
     "url": "articles/thirsty-cheese/"
   },
   {
+    "slug": "thirsty-chicken",
+    "title": "Thirsty: Chicken",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "Chicken is the cheapest meat, the fastest growing meat, and, per kilogram, the least thirsty meat by a wide margin. The reason is a bird that turns grain into flesh more efficiently than any other farm animal. What a kilogram of chicken's 4,300 litres are made of, where they were spent, and why a processing plant is the water part most people never see.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-chicken/thirsty-chicken-hero.jpg",
+    "url": "articles/thirsty-chicken/"
+  },
+  {
     "slug": "thirsty-egg",
     "title": "Thirsty: An egg",
     "series": "THIRSTY",
@@ -240,6 +295,17 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-egg/thirsty-egg-hero.jpg",
     "url": "articles/thirsty-egg/"
+  },
+  {
+    "slug": "thirsty-industries-data-centres",
+    "title": "Thirsty Industries: Data Centres",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "Every search, every stored photograph and every answer from a chatbot passes through a building full of hot computers, and most of those buildings are cooled with water that leaves as vapour. What a data centre's water is for, how much the largest companies now report using, why the number is rising with artificial intelligence, and what the industry is doing about it.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-data-centres/thirsty-industries-data-centres-hero.jpg",
+    "url": "articles/thirsty-industries-data-centres/"
   },
   {
     "slug": "thirsty-industries-leather",
@@ -286,6 +352,17 @@
     "url": "articles/thirsty-places-cape-town/"
   },
   {
+    "slug": "thirsty-places-chennai",
+    "title": "Thirsty Places: Chennai",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "In June 2019 the four reservoirs of India's sixth largest city held almost nothing, and water arrived by train from two hundred kilometres away. Four years earlier the same city had been under water. What happened to Chennai, why a city with a monsoon runs dry, what the rain barrels on every roof are for, and what the trains and the desalination plants did and did not solve.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-chennai/thirsty-places-chennai-hero.jpg",
+    "url": "articles/thirsty-places-chennai/"
+  },
+  {
     "slug": "thirsty-places-israel",
     "title": "Thirsty Places: Israel",
     "series": "THIRSTY PLACES",
@@ -295,6 +372,28 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-places-israel/thirsty-places-israel-hero.jpg",
     "url": "articles/thirsty-places-israel/"
+  },
+  {
+    "slug": "thirsty-places-las-vegas",
+    "title": "Thirsty Places: Las Vegas",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of two million people in the driest desert in North America, with fountains on its main street, has cut its river water use by a quarter while its population grew by half. It did it by treating and returning nearly every drop used indoors, by paying people to dig up their lawns, and, in the end, by banning grass. What Las Vegas does with its water, and why it is a better model than its reputation.",
+    "date": "2026-09-21",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-places-las-vegas/thirsty-places-las-vegas-hero.jpg",
+    "url": "articles/thirsty-places-las-vegas/"
+  },
+  {
+    "slug": "thirsty-places-mexico-city",
+    "title": "Thirsty Places: Mexico City",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of twenty two million people built on a drained lake, sinking by up to half a metre a year because it drinks the ground beneath it, and pumping the rest of its water over a mountain range from a hundred kilometres away. What Mexico City's water is, why the pipes leak a third of it, why the wealthy have water and the poor have tankers, and what a city does when the ground itself is the reservoir it is emptying.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-mexico-city/thirsty-places-mexico-city-hero.jpg",
+    "url": "articles/thirsty-places-mexico-city/"
   },
   {
     "slug": "thirsty-places-orange-county",
@@ -317,6 +416,17 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-places-windhoek/thirsty-places-windhoek-hero.jpg",
     "url": "articles/thirsty-places-windhoek/"
+  },
+  {
+    "slug": "thirsty-smartphone",
+    "title": "Thirsty: Smartphone",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A phone weighs less than a glass of water and took about twelve thousand litres to make. Almost none of that water is in the mine. It is in the factory that made the chip, where water has to be cleaner than anything a person will ever drink, and where the cleaning is the thirstiest thing in the building.",
+    "date": "2026-09-21",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-smartphone/thirsty-smartphone-hero.jpg",
+    "url": "articles/thirsty-smartphone/"
   },
   {
     "slug": "thirsty-sugar",
