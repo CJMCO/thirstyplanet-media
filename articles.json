@@ -1,5 +1,115 @@
 [
   {
+    "slug": "myth-flushable-wipes",
+    "title": "Myth: Flushable wipes are flushable",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "The word on the packet is legal, and the sewer disagrees with it. What a wet wipe is made of, what happens to it after the flush, how a fatberg is built, and why the water industry has spent a decade asking for one word to be taken off the label.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/myth-flushable-wipes/sewer-tunnel.jpg",
+    "url": "articles/myth-flushable-wipes/"
+  },
+  {
+    "slug": "plain-water-bod",
+    "title": "Plain Water: BOD",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The water industry's second number for dirt is measured by sealing a bottle in the dark for five days and seeing how much oxygen disappears. Why five days, why the dark, what the number says that COD cannot, and how it decides whether biology can clean a water.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-bod/bacteria.jpg",
+    "url": "articles/plain-water-bod/"
+  },
+  {
+    "slug": "plain-water-brine",
+    "title": "Plain Water: Brine",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "Every membrane plant, every softener and every reuse project produces a second stream that carries everything the clean water left behind. The industry calls it brine or concentrate, it is the leftover nobody puts on the brochure, and what happens to it is the question every water recovery project ends up in a meeting about.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-brine/the-turn-hero.jpg",
+    "url": "articles/plain-water-brine/"
+  },
+  {
+    "slug": "plain-water-desalination",
+    "title": "Plain Water: Desalination",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "About one percent of the world's people drink the sea, and in the Gulf it is most of them. How seawater becomes drinking water, why the process moved from boiling to membranes, what it costs in money and energy, and why a plant on a coast is easier to build than to explain.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-desalination/desalination-el-prat.jpg",
+    "url": "articles/plain-water-desalination/"
+  },
+  {
+    "slug": "plain-water-disinfection",
+    "title": "Plain Water: Disinfection",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The step that made cities survivable is a small dose of chlorine, a lamp, or a gas made from air, applied to water that already looks clean. How each one kills, why a plant chooses one over another, the parasite that chlorine cannot touch, and what the smell at the tap is for.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-disinfection/beaker-hold.jpg",
+    "url": "articles/plain-water-disinfection/"
+  },
+  {
+    "slug": "plain-water-hard-water",
+    "title": "Plain Water: Hard water",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The scale in a kettle, the film on a shower screen and the reason soap will not lather in some towns are all the same two minerals. What hardness is, why it is the most harmless of water's complaints and the most expensive for industry, and what a softener actually does with it.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-hard-water/limescale.jpg",
+    "url": "articles/plain-water-hard-water/"
+  },
+  {
+    "slug": "plain-water-membranes",
+    "title": "Plain Water: Membranes",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The most important piece of equipment in modern water treatment is a sheet of plastic with holes in it too small to imagine. What a membrane is, the four sizes it comes in, what each one catches, and why a plant built around them looks nothing like the tanks of the last century.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-membranes/membrane-test.jpg",
+    "url": "articles/plain-water-membranes/"
+  },
+  {
+    "slug": "plain-water-ph",
+    "title": "Plain Water: pH",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The number everyone half remembers from school is the one a water operator checks first and adjusts most often. What pH measures, why the scale is stranger than it looks, what it does to fish, pipes and bacteria, and how one city's failure to manage it poisoned its own water supply.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-ph/lab-bench.jpg",
+    "url": "articles/plain-water-ph/"
+  },
+  {
+    "slug": "plain-water-reverse-osmosis",
+    "title": "Plain Water: Reverse osmosis",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The process that turns seawater into drinking water and used water into new water is a plant's worth of pumps pushing against a force that nature runs the other way. What osmosis is, why reversing it takes so much pressure, what the membrane actually does, and why the last thirty years cut its energy in half.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-reverse-osmosis/newater-ro-bedok.jpg",
+    "url": "articles/plain-water-reverse-osmosis/"
+  },
+  {
+    "slug": "plain-water-zld",
+    "title": "Plain Water: ZLD",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "Zero liquid discharge is the factory that sends nothing out of its pipe at all, because it has no pipe. Every drop is recovered and every gram of salt comes out as a solid. What the process is, what it costs, why a court in India made it law for a whole town, and when it is the right answer.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-zld/dye-sludge.jpg",
+    "url": "articles/plain-water-zld/"
+  },
+  {
     "slug": "thirsty-egg",
     "title": "Thirsty: An egg",
     "series": "THIRSTY",
