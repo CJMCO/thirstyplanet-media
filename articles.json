@@ -33,6 +33,17 @@
     "url": "articles/myth-flushable-wipes/"
   },
   {
+    "slug": "myth-rain-is-pure",
+    "title": "Myth: Rain Is Pure Water",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "Rain is distilled by the sun, and it arrives carrying almost nothing dissolved, which is the closest thing to pure water most people will ever touch. It is also the dirtiest water in the sky by the time it reaches the ground, and what happens to it on the roof and in the barrel is the whole question. Why rain is soft, what it picks up, why it is now over the PFAS limit everywhere on Earth, and how to drink it safely anyway.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/myth-rain-is-pure/myth-rain-is-pure-hero.jpg",
+    "url": "articles/myth-rain-is-pure/"
+  },
+  {
     "slug": "myth-water-cant-run-out",
     "title": "Myth: Water Can't Run Out",
     "series": "MYTH",
@@ -163,6 +174,17 @@
     "minutes": 7,
     "cover": "assets/articles/plain-water-hard-water/limescale.jpg",
     "url": "articles/plain-water-hard-water/"
+  },
+  {
+    "slug": "plain-water-leaks",
+    "title": "Plain Water: Leaks",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "About a third of the water that the world's utilities treat and pump never reaches a customer. It leaks from cracked mains, runs from broken pipes under the street, and is stolen or unmetered. The industry calls it non revenue water, and it is the largest source of new water in almost every city, already treated, already pumped, and lost within the city's own pipes.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-leaks/plain-water-leaks-hero.jpg",
+    "url": "articles/plain-water-leaks/"
   },
   {
     "slug": "plain-water-membranes",
@@ -297,6 +319,28 @@
     "url": "articles/thirsty-egg/"
   },
   {
+    "slug": "thirsty-gold",
+    "title": "Thirsty: Gold",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A wedding ring holds about five grams of gold, and the gold was won from about a tonne of rock, crushed to powder and washed with cyanide in a mine that used several hundred thousand litres of water for every kilogram it produced. What gold's water is for, where the mines are, what is left behind in the tailings dam, and why the smallest mines are often the worst.",
+    "date": "2026-09-21",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-gold/thirsty-gold-hero.jpg",
+    "url": "articles/thirsty-gold/"
+  },
+  {
+    "slug": "thirsty-industries-concrete",
+    "title": "Thirsty Industries: Concrete",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "Concrete is the most used material on Earth after water itself, and it is made with water, cured with water, and washed with water at every step from the quarry to the site. The industry that pours thirty billion tonnes a year takes about a tenth of the world's industrial water, and most of it is spent in the places building fastest, which are the places with least to spare.",
+    "date": "2026-09-21",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-industries-concrete/thirsty-industries-concrete-hero.jpg",
+    "url": "articles/thirsty-industries-concrete/"
+  },
+  {
     "slug": "thirsty-industries-data-centres",
     "title": "Thirsty Industries: Data Centres",
     "series": "THIRSTY INDUSTRIES",
@@ -308,6 +352,17 @@
     "url": "articles/thirsty-industries-data-centres/"
   },
   {
+    "slug": "thirsty-industries-hydrogen",
+    "title": "Thirsty Industries: Hydrogen",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "Green hydrogen is made by splitting water with electricity, and the countries planning to make most of it are deserts with a great deal of sun and very little water. Nine litres go into every kilogram, another ten or twenty go to cooling and purifying, and the plants being planned would use as much water as cities. Where the water in hydrogen comes from, why most of it will come from the sea, and what that means for the coast.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-hydrogen/thirsty-industries-hydrogen-hero.jpg",
+    "url": "articles/thirsty-industries-hydrogen/"
+  },
+  {
     "slug": "thirsty-industries-leather",
     "title": "Thirsty Industries: Leather and tanning",
     "series": "THIRSTY INDUSTRIES",
@@ -317,6 +372,17 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-industries-leather/tannery-hides.jpg",
     "url": "articles/thirsty-industries-leather/"
+  },
+  {
+    "slug": "thirsty-industries-power-stations",
+    "title": "Thirsty Industries: Power Stations",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "A power station that burns coal or gas, or splits atoms, is a machine for boiling water, and the steam it makes has to be cooled by more water. In the United States the electricity industry withdraws more fresh water than farming, and in a European heatwave reactors are turned down because the rivers are too warm to cool them. What a kilowatt hour's water is, where it goes, and why the answer is changing.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-power-stations/thirsty-industries-power-stations-hero.jpg",
+    "url": "articles/thirsty-industries-power-stations/"
   },
   {
     "slug": "thirsty-leather-shoes",
@@ -374,6 +440,17 @@
     "url": "articles/thirsty-places-israel/"
   },
   {
+    "slug": "thirsty-places-jakarta",
+    "title": "Thirsty Places: Jakarta",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "The capital of Indonesia is sinking faster than any large city on Earth, up to twenty five centimetres a year in its northern districts, because ten million people pump the ground beneath them for water the pipes do not deliver. Two fifths of the city is already below sea level, a wall is being built along the coast, and the government is moving the capital to another island. What Jakarta's water is, why the pipes failed, and whether a city can stop sinking.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-jakarta/thirsty-places-jakarta-hero.jpg",
+    "url": "articles/thirsty-places-jakarta/"
+  },
+  {
     "slug": "thirsty-places-las-vegas",
     "title": "Thirsty Places: Las Vegas",
     "series": "THIRSTY PLACES",
@@ -396,6 +473,17 @@
     "url": "articles/thirsty-places-mexico-city/"
   },
   {
+    "slug": "thirsty-places-murray-darling",
+    "title": "Thirsty Places: The Murray Darling",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "Australia's largest river system grows most of the country's irrigated food, and for a century the states along it took more water than the rivers had. A drought that lasted a decade, a river mouth that had to be dredged to reach the sea, and a million dead fish forced the country to write a plan that buys water back from farmers and gives it to the river. What the Murray Darling Basin Plan is, why it is the world's largest experiment in water markets, and what it has and has not fixed.",
+    "date": "2026-09-21",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-places-murray-darling/thirsty-places-murray-darling-hero.jpg",
+    "url": "articles/thirsty-places-murray-darling/"
+  },
+  {
     "slug": "thirsty-places-orange-county",
     "title": "Thirsty Places: Orange County",
     "series": "THIRSTY PLACES",
@@ -407,6 +495,17 @@
     "url": "articles/thirsty-places-orange-county/"
   },
   {
+    "slug": "thirsty-places-sao-paulo",
+    "title": "Thirsty Places: São Paulo",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "In 2014 the reservoirs of the largest city in the Americas fell so low that the utility pumped the dead water from beneath the intakes, and twenty million people came within weeks of rationing by rota. The rain had failed, and so had a plan. What happened to São Paulo, why a wet country's city ran dry, what the forest upstream had to do with it, and what was built afterwards.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-sao-paulo/thirsty-places-sao-paulo-hero.jpg",
+    "url": "articles/thirsty-places-sao-paulo/"
+  },
+  {
     "slug": "thirsty-places-windhoek",
     "title": "Thirsty Places: Windhoek",
     "series": "THIRSTY PLACES",
@@ -416,6 +515,17 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-places-windhoek/thirsty-places-windhoek-hero.jpg",
     "url": "articles/thirsty-places-windhoek/"
+  },
+  {
+    "slug": "thirsty-pork",
+    "title": "Thirsty: Pork",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "Half the pigs on Earth live in China, most of the rest in Europe and the Americas, and nearly all of them eat grain. A kilogram of pork carries about six thousand litres of water, between chicken and beef, and the part of it that the neighbours notice is the lagoon behind the barn. What a pig's water is made of, why the number sits where it does, and what a million pigs do to a river.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-pork/thirsty-pork-hero.jpg",
+    "url": "articles/thirsty-pork/"
   },
   {
     "slug": "thirsty-smartphone",
