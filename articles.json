@@ -22,6 +22,17 @@
     "url": "articles/myth-boiling-water/"
   },
   {
+    "slug": "myth-desalination-is-the-answer",
+    "title": "Myth: Desalination Is the Answer",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "The sea holds ninety seven percent of the water on Earth, the technology to make it fresh has existed for sixty years and its cost has fallen by two thirds, so the world's water problem is surely a matter of building enough plants. It is a comforting thought and a wrong one, for reasons of energy, brine, distance and, above all, arithmetic: desalination makes about one percent of the water people use, and the other ninety nine is mostly on farms it cannot reach.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/myth-desalination-is-the-answer/myth-desalination-is-the-answer-hero.jpg",
+    "url": "articles/myth-desalination-is-the-answer/"
+  },
+  {
     "slug": "myth-flushable-wipes",
     "title": "Myth: Flushable wipes are flushable",
     "series": "MYTH",
@@ -154,6 +165,17 @@
     "url": "articles/plain-water-disinfection/"
   },
   {
+    "slug": "plain-water-fluoride",
+    "title": "Plain Water: Fluoride",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "Fluoride is the substance that water utilities in some countries add on purpose and utilities in others spend fortunes to remove. At a milligram per litre it protects teeth. At three or four, in the groundwater of the East African Rift, the plains of India and the villages of northern China, it stains teeth and bends bones. What fluoride does, where it comes from, why the line is so narrow, and what it takes to get it out.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-fluoride/plain-water-fluoride-hero.jpg",
+    "url": "articles/plain-water-fluoride/"
+  },
+  {
     "slug": "plain-water-greywater",
     "title": "Plain Water: Greywater",
     "series": "PLAIN WATER",
@@ -187,6 +209,17 @@
     "url": "articles/plain-water-leaks/"
   },
   {
+    "slug": "plain-water-legionella",
+    "title": "Plain Water: Legionella",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The bacterium that killed twenty nine people at a convention in Philadelphia in 1976 lives in warm water, in the pipes of buildings, in cooling towers, hot tubs and showers, and it kills by being breathed rather than drunk. What Legionella is, why it is the water disease of the rich world, why the answer is a temperature, and what Flint's outbreak had to do with the lead.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-legionella/plain-water-legionella-hero.jpg",
+    "url": "articles/plain-water-legionella/"
+  },
+  {
     "slug": "plain-water-membranes",
     "title": "Plain Water: Membranes",
     "series": "PLAIN WATER",
@@ -196,6 +229,17 @@
     "minutes": 7,
     "cover": "assets/articles/plain-water-membranes/membrane-test.jpg",
     "url": "articles/plain-water-membranes/"
+  },
+  {
+    "slug": "plain-water-microplastics",
+    "title": "Plain Water: Microplastics",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "Every litre of bottled water tested with the newest instruments holds around a quarter of a million pieces of plastic too small to see, and tap water holds fewer, because a treatment plant removes most of them. What microplastics are, how they got into water, what a litre actually contains, what the science does and does not know about the harm, and why the answer is a filter that already exists.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-microplastics/plain-water-microplastics-hero.jpg",
+    "url": "articles/plain-water-microplastics/"
   },
   {
     "slug": "plain-water-nitrogen",
@@ -341,6 +385,17 @@
     "url": "articles/thirsty-industries-concrete/"
   },
   {
+    "slug": "thirsty-industries-copper",
+    "title": "Thirsty Industries: Copper",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "Every wire, motor, pipe and circuit in the modern world is copper, the energy transition needs twice as much of it, and most of it is dug from the driest desert on Earth. A tonne of copper takes about seventy thousand litres of water to win from its ore, and in northern Chile that water was, until recently, the aquifers of the Atacama. What copper's water does, why the mines are moving to the sea, and what the salt flats and the villages have to do with it.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-copper/thirsty-industries-copper-hero.jpg",
+    "url": "articles/thirsty-industries-copper/"
+  },
+  {
     "slug": "thirsty-industries-data-centres",
     "title": "Thirsty Industries: Data Centres",
     "series": "THIRSTY INDUSTRIES",
@@ -385,6 +440,17 @@
     "url": "articles/thirsty-industries-power-stations/"
   },
   {
+    "slug": "thirsty-industries-steel",
+    "title": "Thirsty Industries: Steel",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "The world makes about two billion tonnes of steel a year, and a steelworks is one of the largest single water users on any river it stands on, drawing tens of thousands of litres for every tonne to cool furnaces, quench coke and slag, and wash gas. Nearly all of it goes back. What a steelworks does with water, why the difference between the water it takes and the water it keeps is the whole story, and what the shift from coal to hydrogen and scrap will do to it.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-steel/thirsty-industries-steel-hero.jpg",
+    "url": "articles/thirsty-industries-steel/"
+  },
+  {
     "slug": "thirsty-leather-shoes",
     "title": "Thirsty: Leather shoes",
     "series": "THIRSTY",
@@ -405,6 +471,17 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-places-aral-sea/thirsty-places-aral-sea-hero.jpg",
     "url": "articles/thirsty-places-aral-sea/"
+  },
+  {
+    "slug": "thirsty-places-beijing",
+    "title": "Thirsty Places: Beijing",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "The capital of China has less water per person than Saudi Arabia, and for forty years it drank the aquifer beneath it until the ground sank and the wells ran dry. The answer was the largest water transfer ever built, a canal fourteen hundred kilometres long that carries a river from the south to the north. What Beijing's water is, what the transfer cost and delivered, and why a city can be saved by a canal and still be running out.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-beijing/thirsty-places-beijing-hero.jpg",
+    "url": "articles/thirsty-places-beijing/"
   },
   {
     "slug": "thirsty-places-cape-town",
@@ -462,6 +539,17 @@
     "url": "articles/thirsty-places-las-vegas/"
   },
   {
+    "slug": "thirsty-places-lima",
+    "title": "Thirsty Places: Lima",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "Ten million people live in a city where it almost never rains, on a coastal desert between the Pacific and the Andes, drinking a river that is fed by glaciers that are melting away. A million and a half of them have no pipe and buy water from trucks at ten times the price the wealthy pay for theirs. What Lima's water is, where it comes from, what the fog on the hills has to do with it, and why the poorest city district in this series pays the most per litre.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-lima/thirsty-places-lima-hero.jpg",
+    "url": "articles/thirsty-places-lima/"
+  },
+  {
     "slug": "thirsty-places-mexico-city",
     "title": "Thirsty Places: Mexico City",
     "series": "THIRSTY PLACES",
@@ -495,6 +583,17 @@
     "url": "articles/thirsty-places-orange-county/"
   },
   {
+    "slug": "thirsty-places-phoenix",
+    "title": "Thirsty Places: Phoenix",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "Five million people live in a desert valley that reaches fifty degrees in summer, on a river that stopped reaching the city a century ago, a canal from the Colorado five hundred kilometres long, and an aquifer they have been told, by law, they must not empty. In 2023 the state stopped approving new housing on groundwater in parts of the valley. What Phoenix's water is, why it is better managed than its reputation, and what the Colorado's decline means for the fastest growing city in America.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-phoenix/thirsty-places-phoenix-hero.jpg",
+    "url": "articles/thirsty-places-phoenix/"
+  },
+  {
     "slug": "thirsty-places-sao-paulo",
     "title": "Thirsty Places: São Paulo",
     "series": "THIRSTY PLACES",
@@ -504,6 +603,17 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-places-sao-paulo/thirsty-places-sao-paulo-hero.jpg",
     "url": "articles/thirsty-places-sao-paulo/"
+  },
+  {
+    "slug": "thirsty-places-tehran",
+    "title": "Thirsty Places: Tehran",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A capital of nine million people at the foot of a mountain range, living on five dams and an aquifer, in a country that has spent its water on wheat in the desert. The dams fell to a fifth of their capacity, the ground under the southern suburbs is sinking faster than almost anywhere on Earth, and the government has spoken of rationing and of moving the capital. What Tehran's water is, why a country with the mountains ran dry, and what a decade of drought has done.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-tehran/thirsty-places-tehran-hero.jpg",
+    "url": "articles/thirsty-places-tehran/"
   },
   {
     "slug": "thirsty-places-windhoek",
