@@ -1,5 +1,16 @@
 [
   {
+    "slug": "thirsty-egg",
+    "title": "Thirsty: An egg",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "One egg carries about 196 litres of water, and the hen drank almost none of it. The water is in the maize and soy she ate to lay it, which is why an egg turns out to be one of the better deals in the fridge, and why where the grain grew matters more than how the hen was kept.",
+    "date": "2026-09-21",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/thirsty-egg/"
+  },
+  {
     "slug": "plain-water-tds",
     "title": "Plain Water: TDS",
     "series": "PLAIN WATER",
