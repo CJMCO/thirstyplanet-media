@@ -11,6 +11,17 @@
     "url": "articles/plain-water-tds/"
   },
   {
+    "slug": "thirsty-avocado",
+    "title": "Thirsty: Avocado",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "Every footprint on this site has argued that a big water number is not automatically bad news. The avocado is where that argument stops. About 400 litres for one fruit, and in the dry places where avocados grow, that water arrives through a pipe, from a river or a well that had other uses for it.",
+    "date": "2026-08-24",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-avocado/thirsty-avocado-hero.jpg",
+    "url": "articles/thirsty-avocado/"
+  },
+  {
     "slug": "plain-water-sludge",
     "title": "Plain Water: Sludge",
     "series": "PLAIN WATER",
@@ -20,6 +31,17 @@
     "minutes": 7,
     "cover": "assets/articles/plain-water-sludge/plain-water-sludge-hero.jpg",
     "url": "articles/plain-water-sludge/"
+  },
+  {
+    "slug": "thirsty-paper",
+    "title": "Thirsty: Paper",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A sheet of office paper carries about 10 litres of water, most of it drunk by a tree over years. The mills that turn the tree into paper have cut their own water tenfold, which makes paper one of industry's quiet successes and the tree the part nobody can shrink.",
+    "date": "2026-08-12",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-paper/thirsty-paper-hero.jpg",
+    "url": "articles/thirsty-paper/"
   },
   {
     "slug": "plain-water-after-you-flush",
@@ -55,6 +77,28 @@
     "url": "articles/plain-water-etp/"
   },
   {
+    "slug": "thirsty-bread",
+    "title": "Thirsty: Bread",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A kilogram of bread carries about 1,608 litres of water, roughly 65 litres a slice, and almost all of it is the wheat. Wheat covers more of the Earth than any other crop, most of it grows on rain, and the part that does not is drawn from some of the most overdrawn aquifers in the world.",
+    "date": "2026-08-10",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-bread/thirsty-bread-hero.jpg",
+    "url": "articles/thirsty-bread/"
+  },
+  {
+    "slug": "thirsty-milk",
+    "title": "Thirsty: Milk",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A litre of milk takes about 1,020 litres of water to produce, and the cow drinks almost none of it. The water is in the grass and grain she eats every day, which is also what decides whether dairy or a plant milk is the heavier choice, and why the answer depends on the farm behind the carton.",
+    "date": "2026-08-10",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-milk/thirsty-milk-hero.jpg",
+    "url": "articles/thirsty-milk/"
+  },
+  {
     "slug": "thirsty-beef",
     "title": "Thirsty: Beef",
     "series": "THIRSTY",
@@ -75,6 +119,17 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-chocolate/thirsty-chocolate-hero.jpg",
     "url": "articles/thirsty-chocolate/"
+  },
+  {
+    "slug": "thirsty-rice",
+    "title": "Thirsty: Rice",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A flooded paddy looks as if the crop must grow underwater. It does not. Rice grows in moist soil, and the flooding is mostly weed control, a trick thousands of years old. The cost of the trick is that rice takes about a third of all the irrigation water on Earth, and the fix is already spreading through the fields.",
+    "date": "2026-08-09",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-rice/thirsty-rice-hero.jpg",
+    "url": "articles/thirsty-rice/"
   },
   {
     "slug": "thirsty-coffee",
