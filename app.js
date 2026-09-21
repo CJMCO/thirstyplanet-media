@@ -24,13 +24,45 @@ function renderRead() {
   const section = $('read');
   if (!section || !articles.length) return;
   const date = d => new Date(d + 'T08:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-  $('rowRead').innerHTML = articles.slice(0, 6).map(a => `
-    <a class="read-card" href="${a.url}">
-      <img class="photo-cover" src="${a.cover}" alt="" loading="lazy">
-      <h3>${a.title}</h3>
-      <p>${a.summary}</p>
-      <span class="mc-date">${date(a.date)} · ${a.minutes} min read</span>
-    </a>`).join('');
+  // The lead is the newest article; the four beside it are the newest from four
+  // other pillars, so the section shows the breadth of the site rather than one series.
+  const lead = articles[0];
+  const pillarOrder = ['THIRSTY', 'THIRSTY INDUSTRIES', 'PLAIN WATER', 'THIRSTY PLACES', 'MYTH', 'FOUNDATIONS', 'INSIDE', 'YOU ASKED'];
+  const picked = new Set([lead.url]);
+  const rest = [];
+  pillarOrder.filter(n => n !== lead.series).forEach(n => {
+    const a = articles.find(x => x.series === n && !picked.has(x.url));
+    if (a) { rest.push(a); picked.add(a.url); }
+  });
+  articles.forEach(a => { if (rest.length < 4 && !picked.has(a.url)) { rest.push(a); picked.add(a.url); } });
+  $('rowRead').innerHTML = `
+    <a class="rf-main" href="${lead.url}">
+      <img src="${lead.cover}" alt="" loading="lazy">
+      <span class="rf-body">
+        <span class="rf-tag">Latest</span>
+        <span class="rf-title">${lead.title}</span>
+        <span class="rf-sum">${lead.summary}</span>
+        <span class="mc-date">${date(lead.date)} · ${lead.minutes} min read</span>
+      </span>
+    </a>
+    <div class="rf-list">${rest.slice(0, 4).map(a => `
+      <a class="rf-item" href="${a.url}">
+        <img src="${a.cover}" alt="" loading="lazy">
+        <span class="rf-item-body">
+          <span class="rf-item-title">${a.title}</span>
+          <span class="mc-date">${date(a.date)} · ${a.minutes} min</span>
+        </span>
+      </a>`).join('')}
+    </div>`;
+  // One link per pillar, in the site's pillar order, with a count.
+  const order = ['THIRSTY', 'THIRSTY INDUSTRIES', 'PLAIN WATER', 'THIRSTY PLACES', 'MYTH', 'FOUNDATIONS', 'INSIDE', 'YOU ASKED'];
+  const label = s => s.toLowerCase().replace(/(^|\s)\S/g, c => c.toUpperCase());
+  const counts = {};
+  articles.forEach(a => { counts[a.series] = (counts[a.series] || 0) + 1; });
+  const pillars = order.filter(n => counts[n]);
+  const row = $('rowPillars');
+  if (row) row.innerHTML = `<span class="rp-label">Browse by pillar</span>` + pillars.map(n => `
+    <a href="articles/${n.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/"><strong>${label(n)}</strong><span>${counts[n]}</span></a>`).join('');
   section.hidden = false;
 }
 
