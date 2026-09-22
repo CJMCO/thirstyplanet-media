@@ -42,7 +42,7 @@ function renderRead() {
         <span class="rf-tag">Latest</span>
         <span class="rf-title">${lead.title}</span>
         <span class="rf-sum">${lead.summary}</span>
-        <span class="mc-date">${date(lead.date)} · ${lead.minutes} min read</span>
+        <span class="mc-date">${date(lead.date)}</span>
       </span>
     </a>
     <div class="rf-list">${rest.slice(0, 4).map(a => `
@@ -50,7 +50,7 @@ function renderRead() {
         <img src="${a.cover}" alt="" loading="lazy">
         <span class="rf-item-body">
           <span class="rf-item-title">${a.title}</span>
-          <span class="mc-date">${date(a.date)} · ${a.minutes} min</span>
+          <span class="mc-date">${date(a.date)}</span>
         </span>
       </a>`).join('')}
     </div>`;
@@ -102,7 +102,7 @@ function renderHero() {
       return `
     <article class="hc-slide ${i === 0 ? 'on' : ''}" data-i="${i}">
       <div class="hc-content">
-        <span class="hc-kicker">Article · ${a.minutes} min</span>
+        <span class="hc-kicker">Article</span>
         <h2>${a.title}</h2>
         <p class="hc-sum">${a.summary}</p>
         <a class="btn primary" href="${a.url}">Read the article</a>

@@ -1,5 +1,115 @@
 [
   {
+    "slug": "myth-hot-tap",
+    "title": "Myth: Water from the Hot Tap Is Fine to Drink",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "Filling the kettle or the pasta pot from the hot tap saves a minute, and every water utility and every plumbing code says not to do it. Why the water from the hot tap is different from the water from the cold, what a hot water tank does to what sits in it, why hot water pulls more lead and copper out of a pipe, where the advice comes from and where it is out of date, and what the two taps in a kitchen are actually for.",
+    "date": "2026-09-24",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/myth-hot-tap/"
+  },
+  {
+    "slug": "plain-water-chlorine-byproducts",
+    "title": "Plain Water: Chlorine Byproducts",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The chlorine that has kept drinking water safe for a century reacts with the traces of leaves and soil in it to make a family of compounds that were discovered in tap water in 1974 and have been regulated since, at a limit of a hundred micrograms a litre. What trihalomethanes are, how a water works makes them without meaning to, what the studies of bladder cancer found, why the answer is to take out the organic matter and not the chlorine, and why the trade between a small risk and cholera has only one right side.",
+    "date": "2026-09-24",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/plain-water-chlorine-byproducts/"
+  },
+  {
+    "slug": "plain-water-groundwater",
+    "title": "Plain Water: Groundwater",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "Almost all of the fresh water on Earth that is liquid and not in a lake is underground, and the world pumps about a thousand cubic kilometres of it a year, a third of what it uses, and puts back less. What an aquifer is and how it fills, why a well is a loan and how much of the world is living on one, what the satellites saw, where the ground is sinking, and why the water under a field is the hardest water on this site to govern.",
+    "date": "2026-09-24",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/plain-water-groundwater/"
+  },
+  {
+    "slug": "thirsty-industries-hotels",
+    "title": "Thirsty Industries: Hotels and Tourism",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "A tourist on a Mediterranean island uses three to five times the water of the person who lives there, in the driest months, on the driest coasts, and the resort with the pool and the golf course uses ten. What a hotel does with water, why the number per guest night runs from a hundred litres to two thousand, what tourism did to the islands of Spain and Greece, what a golf course drinks, and why the industry that sells the sea is short of fresh water.",
+    "date": "2026-09-24",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/thirsty-industries-hotels/"
+  },
+  {
+    "slug": "thirsty-industries-slaughterhouses",
+    "title": "Thirsty Industries: Slaughterhouses",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "Between the animal and the shrink wrapped packet is a plant that uses about ten cubic metres of water for every tonne of meat and sends out an effluent with the strength of raw sewage many times over. What a slaughterhouse does with water, why blood is the worst thing that can go down a drain, how a chicken plant uses twenty litres a bird, what the treatment plant has to take out, and why the water in a steak is mostly elsewhere and the water in a river below a meat plant is mostly here.",
+    "date": "2026-09-24",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/thirsty-industries-slaughterhouses/"
+  },
+  {
+    "slug": "thirsty-orange-juice",
+    "title": "Thirsty: Orange Juice",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A glass of orange juice carries about two hundred litres of water, and the juice in most glasses in Europe and North America came, frozen and concentrated, from a single state in Brazil. Where an orange's water goes, why juice carries twice the water of the fruit, what happened to Florida, why the Brazilian groves are mostly rain and the Spanish ones are mostly wells, and what it means that the world's orange juice comes from one place.",
+    "date": "2026-09-24",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/thirsty-orange-juice/"
+  },
+  {
+    "slug": "thirsty-places-athens",
+    "title": "Thirsty Places: Athens",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of four million on one of the driest coasts in Europe, which has always drunk from somewhere else: a Roman aqueduct for fifteen centuries, a lake and a dam in the twentieth, and now a reservoir two hundred kilometres away in the mountains. Where Athens's water comes from, what the aqueduct of Hadrian did and why the city is opening it again, what the droughts of 1990 and 2024 took, and why the largest water system in Greece is a set of pipes across a mountain range.",
+    "date": "2026-09-24",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/thirsty-places-athens/"
+  },
+  {
+    "slug": "thirsty-places-dhaka",
+    "title": "Thirsty Places: Dhaka",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of twenty million on a river delta that drinks from wells, because its rivers are too foul to treat, and whose water table has been falling by two or three metres a year for decades. Where Dhaka's water comes from, why the wettest city on this site is short of water, what the dye houses and tanneries did to the rivers, how the utility is turning back to the surface, and what it takes to treat a river that carries a city's sewage and its factories' effluent.",
+    "date": "2026-09-24",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/thirsty-places-dhaka/"
+  },
+  {
+    "slug": "thirsty-places-johannesburg",
+    "title": "Thirsty Places: Johannesburg",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of six million built on a ridge with no river, which drinks water pumped three hundred metres uphill from a dam fed by tunnels through the mountains of another country, and which in 2024 ran its reservoirs dry with the dam full. Where Johannesburg's water comes from, why the mountains of Lesotho are in it, what the gold mines left in the ground, why the taps failed in a year of ordinary rain, and what a city loses when it stops fixing its pipes.",
+    "date": "2026-09-24",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/thirsty-places-johannesburg/"
+  },
+  {
+    "slug": "thirsty-salmon",
+    "title": "Thirsty: Salmon",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A farmed salmon spends its first year in fresh water and its last two in the sea, and the water that matters is neither: it is the water in the soy, the wheat and the fishmeal it was fed. What a salmon farm does with water, why the number per kilogram is close to chicken's, what the sea cages leave on the seabed, why the industry is moving onto land, and what a fish that lives in water has to do with a soybean field in Brazil.",
+    "date": "2026-09-24",
+    "minutes": 7,
+    "cover": "assets/globe-new.png",
+    "url": "articles/thirsty-salmon/"
+  },
+  {
     "slug": "myth-filter-jugs",
     "title": "Myth: A Filter Jug Makes Tap Water Safer",
     "series": "MYTH",
