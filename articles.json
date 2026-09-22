@@ -1,5 +1,115 @@
 [
   {
+    "slug": "myth-filter-jugs",
+    "title": "Myth: A Filter Jug Makes Tap Water Safer",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "Millions of kitchens have a plastic jug with a carbon cartridge in it, bought on the belief that it makes the tap water safer to drink, and what it mostly does is take out the chlorine that was keeping it safe. What is in a filter cartridge, what it removes and what it leaves, why the water in the jug can carry more bacteria than the water from the tap, what the jug is actually good for, and when a filter is the right answer.",
+    "date": "2026-09-23",
+    "minutes": 7,
+    "cover": "assets/articles/myth-filter-jugs/myth-filter-jugs-hero.jpg",
+    "url": "articles/myth-filter-jugs/"
+  },
+  {
+    "slug": "plain-water-storm-overflows",
+    "title": "Plain Water: Storm Overflows",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The sewers of most old cities carry rain and sewage in the same pipe, and when it rains hard enough the pipe cannot hold both, so the mixture is let out into the nearest river or sea through an overflow built for the purpose. England's overflows spilled for 3.6 million hours in 2023. What a combined sewer is, why it was built that way, what an overflow releases, how the monitoring turned a hidden practice into a public one, what London's twenty five kilometre tunnel does about it, and why the fix is slow.",
+    "date": "2026-09-23",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-storm-overflows/plain-water-storm-overflows-hero.jpg",
+    "url": "articles/plain-water-storm-overflows/"
+  },
+  {
+    "slug": "thirsty-cannabis",
+    "title": "Thirsty: Cannabis",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A cannabis plant grown outdoors in a California summer drinks about twenty two litres a day, roughly twice a grapevine, and in the years before it was legal the grows in the hills of the north took more water from some streams in August than the streams had. What a cannabis plant uses, why the number is high per plant and small per crop, what the illegal grows did to salmon streams, why indoor growing swaps water for electricity, and what legalisation changed.",
+    "date": "2026-09-23",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-cannabis/thirsty-cannabis-hero.jpg",
+    "url": "articles/thirsty-cannabis/"
+  },
+  {
+    "slug": "thirsty-industries-ammonia",
+    "title": "Thirsty Industries: Ammonia",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "Half the nitrogen in the world's food began as ammonia made in a plant that splits natural gas and water at high pressure, and the water is an ingredient as much as a coolant. What ammonia is for, where the water in the Haber Bosch process goes, why a fertiliser plant sits on a river or a coast, what green ammonia made from electrolysis would change, and why the water that matters most is the water the fertiliser ends up in.",
+    "date": "2026-09-23",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-ammonia/thirsty-industries-ammonia-hero.jpg",
+    "url": "articles/thirsty-industries-ammonia/"
+  },
+  {
+    "slug": "thirsty-industries-oil-and-gas",
+    "title": "Thirsty Industries: Oil and Gas",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "For every barrel of oil the world pumps, it pumps about three barrels of salty water out of the same rock, and the newest wells are made by pushing millions of litres of water into the rock first. What produced water is and where it goes, how fracking uses water and why the volume has grown tenfold in a decade, what the injection wells did to Oklahoma, what a refinery does with its water, and why the industry that has the most to do with water is the one least often counted as thirsty.",
+    "date": "2026-09-23",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-oil-and-gas/thirsty-industries-oil-and-gas-hero.jpg",
+    "url": "articles/thirsty-industries-oil-and-gas/"
+  },
+  {
+    "slug": "thirsty-industries-semiconductors",
+    "title": "Thirsty Industries: Semiconductors",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "The factories that make the world's chips use water the way a small city does, and they need it purer than anything a city drinks. What a fab does with water, why a wafer is rinsed hundreds of times, what happened when Taiwan's rain failed in 2021 and the island chose its chips over its rice, how the industry recycles most of what it takes, and why the next fabs are being built in the desert.",
+    "date": "2026-09-23",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-semiconductors/thirsty-industries-semiconductors-hero.jpg",
+    "url": "articles/thirsty-industries-semiconductors/"
+  },
+  {
+    "slug": "thirsty-places-istanbul",
+    "title": "Thirsty Places: Istanbul",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of sixteen million on two continents whose reservoirs fell to a fifth in the winter of 2021 and gave it, by the utility's own count, forty five days of water. Where Istanbul's water comes from, why a city on the sea and between two of them is short of it, what the pipe from the Melen river was for and why it took so long, and what the winter of 2021 showed about a city that has grown faster than any reservoir.",
+    "date": "2026-09-23",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-istanbul/thirsty-places-istanbul-hero.jpg",
+    "url": "articles/thirsty-places-istanbul/"
+  },
+  {
+    "slug": "thirsty-places-nairobi",
+    "title": "Thirsty Places: Nairobi",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of five million that has been on permanent water rationing since 2017, where the utility supplies about two thirds of what the city needs, loses half of that on the way, and where the people in the poorest districts pay the most per litre of anyone in the country. Where Nairobi's water comes from, why the shortfall is structural, what the tunnel under the Aberdares was built to fix, and why a jerry can in Kibera costs more than a tap in Karen.",
+    "date": "2026-09-23",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-nairobi/thirsty-places-nairobi-hero.jpg",
+    "url": "articles/thirsty-places-nairobi/"
+  },
+  {
+    "slug": "thirsty-places-sydney",
+    "title": "Thirsty Places: Sydney",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of five million that drinks from one enormous dam, built a desalination plant in a drought, switched it off when the rain came and left it idle for seven years, then switched it on again in the next drought and is now doubling it. What Sydney's water is, why one dam holds four fifths of it, what the 2019 drought did to the plan, and why a plant that sits idle for years is doing exactly what it was built for.",
+    "date": "2026-09-23",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-sydney/thirsty-places-sydney-hero.jpg",
+    "url": "articles/thirsty-places-sydney/"
+  },
+  {
+    "slug": "thirsty-sunflower-oil",
+    "title": "Thirsty: Sunflower Oil",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A litre of sunflower oil carries about six thousand litres of water, most of it rain on the black earth of Ukraine and southern Russia, and the war of 2022 showed how much of the world's frying depends on it. Where a sunflower's water goes, why an oil crop carries so much more than the seed, how it compares with olive, rapeseed and palm, what the crushing plant does, and why the crop that follows the sun is one of the least irrigated on this site.",
+    "date": "2026-09-23",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-sunflower-oil/thirsty-sunflower-oil-hero.jpg",
+    "url": "articles/thirsty-sunflower-oil/"
+  },
+  {
     "slug": "myth-dishwasher",
     "title": "Myth: Washing Up by Hand Saves Water",
     "series": "MYTH",
