@@ -1,5 +1,16 @@
 [
   {
+    "slug": "myth-dishwasher",
+    "title": "Myth: Washing Up by Hand Saves Water",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "Everyone knows a dishwasher is a luxury that wastes water, and the numbers say the opposite: a full modern machine uses about ten litres a load, and a person at the sink with the tap running uses several times that. Where the kitchen's water goes, why the machine wins and when it does not, what the tap and the bowl have to do with it, and why the answer is the same as for the shower and the bath.",
+    "date": "2026-09-22",
+    "minutes": 6,
+    "cover": "assets/articles/myth-dishwasher/myth-dishwasher-hero.jpg",
+    "url": "articles/myth-dishwasher/"
+  },
+  {
     "slug": "myth-lawns",
     "title": "Myth: A Lawn Is Harmless",
     "series": "MYTH",
@@ -11,6 +22,17 @@
     "url": "articles/myth-lawns/"
   },
   {
+    "slug": "plain-water-cholera",
+    "title": "Plain Water: Cholera",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "Cholera is the disease that taught the world what a water supply is for. It killed by the hundred thousand in the cities of the nineteenth century until a doctor traced an outbreak to one pump, and it has been absent from every city with a treated supply and a sewer since. It still kills tens of thousands a year, in the places that have neither. What the bacterium does, how a pump handle changed medicine, why it is a water problem and not a medical one, and where it is now.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-cholera/plain-water-cholera-hero.jpg",
+    "url": "articles/plain-water-cholera/"
+  },
+  {
     "slug": "plain-water-lead",
     "title": "Plain Water: Lead",
     "series": "PLAIN WATER",
@@ -20,6 +42,28 @@
     "minutes": 7,
     "cover": "assets/articles/plain-water-lead/plain-water-lead-hero.jpg",
     "url": "articles/plain-water-lead/"
+  },
+  {
+    "slug": "plain-water-nitrate",
+    "title": "Plain Water: Nitrate",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "Nitrate is the fertiliser that grew the food and the contaminant that followed it into the well. It is in the groundwater of every farming region on Earth, it takes decades to arrive and decades to leave, and it is the reason a large share of Europe's and America's rural water fails its standard. What nitrate does in a body and a river, where it comes from, why a well can take thirty years to catch up with a field, and what the treatment costs.",
+    "date": "2026-09-22",
+    "minutes": 6,
+    "cover": "assets/articles/plain-water-nitrate/plain-water-nitrate-hero.jpg",
+    "url": "articles/plain-water-nitrate/"
+  },
+  {
+    "slug": "plain-water-tailings",
+    "title": "Plain Water: Tailings",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "Behind every mine on this site is a dam holding a lake of wet ground rock, and the dam is built out of the rock it holds. There are several thousand of them, some among the largest structures on Earth, and when one fails a valley is buried in minutes. What tailings are, why the water in them is the problem, how the dams are built and why they fall, what Brumadinho changed, and what dry stacking would cost.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-tailings/plain-water-tailings-hero.jpg",
+    "url": "articles/plain-water-tailings/"
   },
   {
     "slug": "thirsty-battery",
@@ -55,6 +99,17 @@
     "url": "articles/thirsty-cotton-vs-polyester/"
   },
   {
+    "slug": "thirsty-industries-pharma",
+    "title": "Thirsty Industries: Pharmaceuticals",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "A pharmaceutical plant makes two kinds of water before it makes anything else, one of them cleaner than anything a person will drink, and it sends out an effluent that carries the drug itself. What water for injection is, why a tablet factory in Hyderabad can put more antibiotic into a river than a hospital does, how the drugs get into rivers and taps everywhere, and what an industry built on purity does at its outfall.",
+    "date": "2026-09-22",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-pharma/thirsty-industries-pharma-hero.jpg",
+    "url": "articles/thirsty-industries-pharma/"
+  },
+  {
     "slug": "thirsty-palm-oil",
     "title": "Thirsty: Palm Oil",
     "series": "THIRSTY",
@@ -75,6 +130,17 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-places-bangalore/thirsty-places-bangalore-hero.jpg",
     "url": "articles/thirsty-places-bangalore/"
+  },
+  {
+    "slug": "thirsty-places-barcelona",
+    "title": "Thirsty Places: Barcelona",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "In the spring of 2008 a city of five million in one of the richest regions of Europe ran its reservoirs down to a fifth and brought drinking water in by ship from Marseille. It built the largest desalination plant on the continent in answer, and in 2024 it ran dry again, with the plant running flat out. What Barcelona's water is, what the tanker ships and the plant did, why the second drought was worse, and what a wet country's dry corner has learned twice.",
+    "date": "2026-09-22",
+    "minutes": 6,
+    "cover": "assets/articles/thirsty-places-barcelona/thirsty-places-barcelona-hero.jpg",
+    "url": "articles/thirsty-places-barcelona/"
   },
   {
     "slug": "thirsty-places-cairo",
@@ -99,6 +165,39 @@
     "url": "articles/thirsty-places-karachi/"
   },
   {
+    "slug": "thirsty-places-lagos",
+    "title": "Thirsty Places: Lagos",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "The largest city in Africa sits on a lagoon, gets two metres of rain a year, floods every wet season, and delivers piped water to about one household in ten. The rest buy from boreholes, vendors and sachets, and the sachet, half a litre of water in a plastic bag, is how most of Lagos drinks. What the city's water is, why the utility built for a million serves twenty, what a sachet costs, and why a wet city can be a thirsty one.",
+    "date": "2026-09-22",
+    "minutes": 6,
+    "cover": "assets/articles/thirsty-places-lagos/thirsty-places-lagos-hero.jpg",
+    "url": "articles/thirsty-places-lagos/"
+  },
+  {
+    "slug": "thirsty-places-melbourne",
+    "title": "Thirsty Places: Melbourne",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of five million that drinks from forests it has closed to the public for a century, that came within two years of empty in a drought that lasted thirteen, and that cut its use by half without a single day of rationing by rota. What Melbourne's water is, what the Millennium Drought did, what the campaign that asked for four minute showers achieved, and what a desalination plant that sat idle for a decade was for.",
+    "date": "2026-09-22",
+    "minutes": 6,
+    "cover": "assets/articles/thirsty-places-melbourne/thirsty-places-melbourne-hero.jpg",
+    "url": "articles/thirsty-places-melbourne/"
+  },
+  {
+    "slug": "thirsty-potato",
+    "title": "Thirsty: Potato",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A kilogram of potatoes takes about 290 litres of water, which makes it the least thirsty staple on Earth by a wide margin, and a bag of crisps takes about a thousand per kilogram, which is the same potato with the water taken out. Where a potato's water goes, why the tuber beats every grain, what the crisp factory and the chip line do with water, and why the potato is the crop a dry world should be growing more of.",
+    "date": "2026-09-22",
+    "minutes": 6,
+    "cover": "assets/articles/thirsty-potato/thirsty-potato-hero.jpg",
+    "url": "articles/thirsty-potato/"
+  },
+  {
     "slug": "thirsty-tomato",
     "title": "Thirsty: Tomato",
     "series": "THIRSTY",
@@ -108,6 +207,17 @@
     "minutes": 7,
     "cover": "assets/articles/thirsty-tomato/thirsty-tomato-hero.jpg",
     "url": "articles/thirsty-tomato/"
+  },
+  {
+    "slug": "thirsty-wool",
+    "title": "Thirsty: Wool",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A wool jumper carries more water per kilogram than almost any garment, and nearly all of it fell as rain on a hillside that could grow nothing else. Where a sheep's water goes, why the number is large and the burden is small, what the scouring plant does with the grease, and why the choice between wool and its synthetic rival is the cotton argument told in a colder climate.",
+    "date": "2026-09-22",
+    "minutes": 6,
+    "cover": "assets/articles/thirsty-wool/thirsty-wool-hero.jpg",
+    "url": "articles/thirsty-wool/"
   },
   {
     "slug": "myth-bath-vs-shower",
