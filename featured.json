@@ -148,5 +148,11 @@
     "summary": "You drank about two litres today and used more than ten thousand. Here is where they went.",
     "kicker": "FOUNDATIONS",
     "accent": "#A8D4F0"
+  },
+  "18115046507066729": {
+    "title": "Thirsty: An egg",
+    "summary": "One egg carries about 196 litres of water, and the hen drank almost none of it. The water is in the grain she ate, which is why the egg turns out to be one of the better deals in the fridge.",
+    "kicker": "THIRSTY",
+    "accent": "#8FC3EC"
   }
 }
