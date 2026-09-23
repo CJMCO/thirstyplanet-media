@@ -1,5 +1,115 @@
 [
   {
+    "slug": "myth-reboiling-water",
+    "title": "Myth: Reboiling Water Makes It Harmful",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "The warning that boiling water twice concentrates arsenic, nitrate and fluoride into something dangerous has gone round the internet for a decade, and the arithmetic does not support it. What boiling actually does to water, how much evaporates in a kettle and what that means for what is left, why reboiled tea tastes flat and why that is a different thing, what does build up in a kettle, and what the small true part of the warning is about.",
+    "date": "2026-09-25",
+    "minutes": 7,
+    "cover": "assets/articles/myth-reboiling-water/myth-reboiling-water-hero.jpg",
+    "url": "articles/myth-reboiling-water/"
+  },
+  {
+    "slug": "plain-water-private-wells",
+    "title": "Plain Water: Private Wells",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "About forty three million Americans, and a share of the population of every country, drink from a well in the garden that no utility treats and no regulator tests, and when the national survey looked, one well in five had something in it above the limit. What a private well is and why it sits outside the rules, what the surveys found in the water, why the owner is the only inspector, what a test costs and how rarely it is done, and why the water that people trust most is the water that nobody checks.",
+    "date": "2026-09-25",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-private-wells/plain-water-private-wells-hero.jpg",
+    "url": "articles/plain-water-private-wells/"
+  },
+  {
+    "slug": "plain-water-water-meters",
+    "title": "Plain Water: Water Meters",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "A household that gets a water meter uses about fifteen percent less water than it did before, without being asked to, and half the households in England still have none. What a meter does and why the number falls, what a bill without a meter is based on, how the tariff can be shaped so that the first litres are cheap and the pool is not, what a smart meter finds that a plain one cannot, why a country abolished water charges after protests, and why the cheapest water a utility can find is the water a meter saves.",
+    "date": "2026-09-25",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-water-meters/plain-water-water-meters-hero.jpg",
+    "url": "articles/plain-water-water-meters/"
+  },
+  {
+    "slug": "thirsty-industries-bottled-water-plants",
+    "title": "Thirsty Industries: Bottled Water Plants",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "The bottled water myth on this site is about the bottle. This is about the plant: a building over a spring or a well that pumps a few hundred million litres a year, filters and bottles it, and ships it away in a form the aquifer will never see again. What a bottling plant takes and pays, why the fights over them are fought in small towns, what a permit for a spring in Michigan cost, how the water of an island in the Pacific became a brand, and why the volume is small and the argument is not.",
+    "date": "2026-09-25",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-bottled-water-plants/thirsty-industries-bottled-water-plants-hero.jpg",
+    "url": "articles/thirsty-industries-bottled-water-plants/"
+  },
+  {
+    "slug": "thirsty-industries-breweries",
+    "title": "Thirsty Industries: Breweries",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "A brewery uses about three litres of water for every litre of beer it makes, down from six a generation ago, and the barley in the beer carries a hundred times that. What a brewery does with water, where the three litres go, what leaves the plant and why a treatment works dislikes it, why the world's largest brewers have set water targets before anyone asked, and what happened when a city in the Mexican desert voted on whether a brewery could have its water.",
+    "date": "2026-09-25",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-breweries/thirsty-industries-breweries-hero.jpg",
+    "url": "articles/thirsty-industries-breweries/"
+  },
+  {
+    "slug": "thirsty-olive-oil",
+    "title": "Thirsty: Olive Oil",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A litre of olive oil carries about fourteen thousand litres of water, the most of any cooking oil, and the tree that makes it is the one that grows where nothing else will. Where an olive's water goes, why the number is so large, what the new hedgerow groves of Spain have changed, what two dry years did to the world's supply and its price, what a mill sends out, and why the oil that was the emblem of dry country farming is becoming an irrigated crop.",
+    "date": "2026-09-25",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-olive-oil/thirsty-olive-oil-hero.jpg",
+    "url": "articles/thirsty-olive-oil/"
+  },
+  {
+    "slug": "thirsty-places-lahore",
+    "title": "Thirsty Places: Lahore",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of thirteen million on a river that was given to another country in 1960 and now carries the city's sewage, which drinks every litre it uses from wells and has watched the water table fall by a metre a year for three decades. Where Lahore's water comes from, what happened to the Ravi, why a city on the largest irrigation system on Earth has no surface water to drink, what is in the wells now, and what the plan to build a new city on the riverbed has to do with any of it.",
+    "date": "2026-09-25",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-lahore/thirsty-places-lahore-hero.jpg",
+    "url": "articles/thirsty-places-lahore/"
+  },
+  {
+    "slug": "thirsty-places-manila",
+    "title": "Thirsty Places: Manila",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of fourteen million that drinks almost entirely from one dam in the mountains, was the largest water privatisation in the world in 1997, cut its leaks from two thirds to a tenth, and still ran dry in 2019 because the dam was low and the second source was a decade late. Where Manila's water comes from, what the two concessions did and did not do, what happened in March 2019, why the next dam is in a forest and the forest's people oppose it, and what a typhoon city does with too much water and too little.",
+    "date": "2026-09-25",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-manila/thirsty-places-manila-hero.jpg",
+    "url": "articles/thirsty-places-manila/"
+  },
+  {
+    "slug": "thirsty-places-santiago",
+    "title": "Thirsty Places: Santiago",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of seven million at the foot of the Andes that has been in drought since 2010, in a country where water is private property, bought and sold apart from the land, and where a lake the size of a town dried up while the rights to its water were still being traded. Where Santiago's water comes from, what thirteen years without a normal winter have done to the snow that feeds it, how Chile's water code works and why it is being rewritten, what happened to Aculeo, and what a city announces when it draws up a plan to ration.",
+    "date": "2026-09-25",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-santiago/thirsty-places-santiago-hero.jpg",
+    "url": "articles/thirsty-places-santiago/"
+  },
+  {
+    "slug": "thirsty-soy",
+    "title": "Thirsty: Soy",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A kilogram of soybeans carries about two thousand litres of water, nearly all of it rain on the plains of Brazil, the United States and Argentina, and only a small share of the crop is eaten as tofu, soy milk or sauce. Where a soybean's water goes, why three quarters of the crop is fed to animals, what tofu and soy milk carry compared with the meat and milk they replace, what the Cerrado has to do with it, and why the crop that is blamed for the Amazon is mostly in a chicken.",
+    "date": "2026-09-25",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-soy/thirsty-soy-hero.jpg",
+    "url": "articles/thirsty-soy/"
+  },
+  {
     "slug": "myth-hot-tap",
     "title": "Myth: Water from the Hot Tap Is Fine to Drink",
     "series": "MYTH",
