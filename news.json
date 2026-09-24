@@ -1,7 +1,26 @@
 {
- "updated": "2026-09-24T17:58:41.357Z",
+ "updated": "2026-09-24T17:59:25.583Z",
  "days": 7,
  "items": [
+  {
+   "id": "19vc4ym",
+   "title": "Sécheresse dans la Manche : le bassin de la Vire repasse en niveau crise, les autres bassins restent en alerte renforcée",
+   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPcC1zNkJHdDUyT0dPM0RXYjBhM0NsQXdmOG52N3h6dkVuTENPSTVneFAtWWROUUIzWnpkelB1X1Y2OGFyVDFDOEpNT3Q5N0tEYWFLQWRSTDNKbm9LN09DOXRGbDNiRWlIX2lBVUVzZVZRUWVvN3JyN1Nfb2pFYUViQjlmcDNIQ1NlTEg5UjJNckhyZ3RETXN3ckhCd3dhTmF4WnhiNXRHaFo1TndLYnhUREp2QVQ2QWI1ekctY0Z6Mk1RR3BlZHNKUDZZVkU1QXZpTUhicElkUjhzblE5bS1ZRHB1NXdMSklvVjkzRVQydGdsTDg2OTAycHJLWENIanBkZjgzY3paak1iTUxnY2JPTW5WTUh2NDJTaXR1TjlUX19qeG51cmc?oc=5",
+   "source": "Ouest-France",
+   "published": "2026-09-24T17:58:03.000Z",
+   "summary": "",
+   "topics": [
+    "drought"
+   ],
+   "lane": "everyday",
+   "edition": null,
+   "lang": "fr",
+   "via": "r-fr:FR",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "France"
+   ]
+  },
   {
    "id": "1g0dyps",
    "title": "Ação emergencial garante abastecimento de água em Capão do Leão",
@@ -1042,6 +1061,23 @@
    "places": []
   },
   {
+   "id": "q5io1q",
+   "title": "'People have had enough': Full report demanded following repeated water outages in Birr",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFQ2UlZqMzJBaXJLZmRWQXM1eUxjNnNxRDJBTk1qZUxrbjZWRk8tc1N6ci1GMnEtSm9keXJUeG1rLS1Oc3pYMTctQnZkT2xzdUI3cGJxWUZObXZjRTExRWN2Ny1kRXJScnBwUUltXzZGN3dfYkkyMm9xZmpIU1plT2NFbzBsSC1BMzVLcS16YU5MSUZuUi1OSW9VM01PR3ZzRXV1ald3djdGeVcyOTEzaDN0YkVpd29FX3RUNEU3b0dxb0xiTGFzZVdNTQ?oc=5",
+   "source": "Offaly Live",
+   "published": "2026-09-24T16:42:00.000Z",
+   "summary": "",
+   "topics": [],
+   "lane": "everyday",
+   "edition": "Ireland",
+   "lang": "en",
+   "via": "r-en-IE:IE",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "Ireland"
+   ]
+  },
+  {
    "id": "2x8c70",
    "title": "Agriculture. Sécheresse : 1,6 million d’euros d’aide de l’État dans le département de la Drôme",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb3gwXzN6N0lQS1d3RHhZbVJEbndESUdMa2kzUjNPSFNXQkJoTVdRWjVtQmo5VkZxM05uOVlEUTItYmJGcjdkV3ZiQ2RreE1Nc1VqVGRYV1hZX0YyWk9Jc0FwZjdab2JRZ3NtaG1PVVl4Q2p6aWJ0cTYtb1psSnotT3loM2RLS1hFQ2kyZ01WYk9MQnN0bkhIVm9sdGxMT1FrS1M2RS1nU1N3N1lQVkVGMEtOdnlhRTdvd2JUSmZuSVlhdGox?oc=5",
@@ -1107,6 +1143,26 @@
    "via": "r-es-419:CO",
    "firstSeen": "2026-09-24T17:58:41.357Z",
    "places": []
+  },
+  {
+   "id": "aqshtq",
+   "title": "The Council of Representatives Concludes Reading and Discussion of Four Draft Laws and Votes on Recommendations of Special Committee on Water Pollution – Iraqi Council of Representatives",
+   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQLU13S1JRRGJLOWFBUzlsWXZZR1VENU51Q1p6NURaa0FnWTVyRXZRTnIwZHdkZ18xYU45Y0J6MXpwMUI1cHB5Z0JwYXMtS01nNEljZGtGTHhQUGlaU2dYRkpHdVRmZmVqVW8zTlhONktNaGd1dGZtempDc1lmSC1jY2RVd1NscUFESnFuRTRDbmVPQmJQQ3dId3hrWjdIU3d4Uzh4SDA4VVYxSEFnV3RfTmZycWlPWW1WWDd2YXJNYktnTnVRUnBRTm1UY0NBZXRZVnpMdWszQ2xFQmg0N1BhTmtsSWkzRzNPaTEycjFmNkxhYnZKenBQRy16UkZOeGl4R2NvZXNWeGZzT3h4UWN6enJvQnQ0TENjaDdB?oc=5",
+   "source": "مجلس النواب العراقي",
+   "published": "2026-09-24T16:37:02.000Z",
+   "summary": "",
+   "topics": [
+    "pollution",
+    "policy"
+   ],
+   "lane": "everyday",
+   "edition": null,
+   "lang": "en",
+   "via": "g-pollution",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "Iraq"
+   ]
   },
   {
    "id": "i1bhyc",
@@ -1712,7 +1768,7 @@
     "policy"
    ],
    "lane": "everyday",
-   "edition": "Spain",
+   "edition": null,
    "lang": "es",
    "via": "r-es:ES",
    "firstSeen": "2026-09-24T17:58:41.357Z",
@@ -2378,13 +2434,11 @@
    "summary": "",
    "topics": [],
    "lane": "everyday",
-   "edition": "Brazil",
+   "edition": null,
    "lang": "pt",
    "via": "r-pt-BR:BR",
    "firstSeen": "2026-09-24T17:58:41.357Z",
-   "places": [
-    "Brazil"
-   ]
+   "places": []
   },
   {
    "id": "1e0w78k",
@@ -2874,13 +2928,11 @@
    "summary": "",
    "topics": [],
    "lane": "everyday",
-   "edition": "Saudi Arabia",
+   "edition": null,
    "lang": "ar",
    "via": "r-ar:SA",
    "firstSeen": "2026-09-24T17:58:41.357Z",
-   "places": [
-    "Saudi Arabia"
-   ]
+   "places": []
   },
   {
    "id": "1ktx9ks",
@@ -6968,6 +7020,26 @@
    ]
   },
   {
+   "id": "1hdjl3r",
+   "title": "SUEZ Gains UKAS ISO 17025 Wastewater Sampling Accreditation | SUEZ in the UK",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMlJzZllOV0RsZklQRkRoTXc0N3dNbEo0b1o2TVBwUnFzRlBqREwxMjQwVlBENGV4QVpfcTUweEZvTDc4Tkh0WjRBZ1E1aUl6QS0xWE5jbWI5SDVrZ3RpMWh3WGczLXhMLVFlR1VoX3hDc2thb3JoMzktbFh2cFp2bEpqTnpCd3lnMnZzVURvMGs?oc=5",
+   "source": "SUEZ Group",
+   "published": "2026-09-24T12:54:15.000Z",
+   "summary": "",
+   "topics": [
+    "wastewater",
+    "utilities"
+   ],
+   "lane": "industry",
+   "edition": null,
+   "lang": "en",
+   "via": "r-en-AU:AU",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "United Kingdom"
+   ]
+  },
+  {
    "id": "zby3r7",
    "title": "TP.HCM đầu tư 7.688 tỷ đồng để cải thiện thoát nước, chống ngập khu vực Tây Sài Gòn",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaUlpY25rWHNxdHo3QjVydTg4SE9yYTJqandVMGFRSDIxQ3JvVkdYRkhyd0NjcVUySWlGVzBoaXluc0xSbWJOWjJ6Uk1ZTWRIb2pWdzdBNzFXWG53VklKQ0RQbDQ1Y3daT2FSQnVfdGlsUEhJOEFPTGJvQ0tBa19nVXpJYi1oRWowc3QyU3ljYVZjODhvZ3FNNjBUbHUwX3d3MnJrTDlId1FBM3pHVU95b3ZFQQ?oc=5",
@@ -8567,13 +8639,11 @@
     "drought"
    ],
    "lane": "everyday",
-   "edition": "Spain",
+   "edition": null,
    "lang": "es",
    "via": "r-es:ES",
    "firstSeen": "2026-09-24T17:58:41.357Z",
-   "places": [
-    "Spain"
-   ]
+   "places": []
   },
   {
    "id": "ahbapg",
@@ -8679,6 +8749,23 @@
    "firstSeen": "2026-09-24T17:58:41.357Z",
    "places": [
     "Ireland"
+   ]
+  },
+  {
+   "id": "194cu2o",
+   "title": "Keski-Vietnamissa on huipussaan rankkasateita ja huonoa säätä keskisyksyn festivaalin aikaan.",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTzAwVmxYc1FYUEtRclc2NTAwa05jWU02T1ZnVFlSSHFaQWMtcXVvSTRpWC10MW9TRUZNRnRPbFNudDYzVU1SLV9OYjI4WHhoY3I1VldMOENSLW9pMGo4SUNzZEx1cXdmUzBEOURVNnNsTEZEaktoRmFpZW9GWnd4S1U0YzhiSTktSW94NGk2NWVTUGc?oc=5",
+   "source": "Vietnam.vn",
+   "published": "2026-09-24T11:56:09.000Z",
+   "summary": "",
+   "topics": [],
+   "lane": "everyday",
+   "edition": "Finland",
+   "lang": "fi",
+   "via": "r-fi:FI",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "Vietnam"
    ]
   },
   {
@@ -8968,6 +9055,23 @@
    "places": []
   },
   {
+   "id": "9qa0h9",
+   "title": "Irrigation Water Crisis",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LZ3JqWXJjM3c1RVJfSXNQQ1lyeXhYdFIyMXN5dDhya2FvWE9fbHF4YUhfVmp5Z2UtTlZldEZCVVFEdl8wTFFDTnVhSGlTTDlSNHZMV2xIVm1naXZZaTdB?oc=5",
+   "source": "thehawk.in",
+   "published": "2026-09-24T11:45:24.000Z",
+   "summary": "",
+   "topics": [
+    "scarcity"
+   ],
+   "lane": "everyday",
+   "edition": null,
+   "lang": "en",
+   "via": "g-scarcity",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": []
+  },
+  {
    "id": "jvkrj1",
    "title": "Trinkwasser fällt aus: Havarie in Prettin und Labrun: Wasser wird abgestellt – das müssen Einwohner wissen",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSzdkU2tVaHpMNnZZQ3Z3Z1YwR0x3NjNtUEpuNkRNd0Q5dVFBOGdyeDliSGt1ZDhMREZvcnZFUXVjN3hJUHpzaEw5SU9KVW9uc0xfLWxmbXVzeWFMRUtpaUJpX0ZEWGZvckxWeEE0NGlpQ2FtdTZWcVZseEMyQWhhYkt1M2hIQmE4SFo0R3N1ajJmTkx3ZnZobmpldUY4R3lWRnJCRFZOZXlDYmJoanh2VjQ3SE1ybnJtV0FB?oc=5",
@@ -9000,6 +9104,25 @@
    "via": "r-es-419:VE",
    "firstSeen": "2026-09-24T17:58:41.357Z",
    "places": []
+  },
+  {
+   "id": "1o5s0em",
+   "title": "Clausuran establecimiento por manejo inadecuado de aguas residuales",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObFFDSjJmMWlmNHRhME5qVGpldHhKWkt2d3RoVXlORWZNekkzUXcwNFZtcURqcThHdGdGUE83aWF4ZFhlYl9GTms0ODBSbmZFMFVUZGY3ZlhucldNUE81VWdObkFkMlZ1RzRGc3JTcTRKSDBraUQtTnF4eTZ5bzlKTkl0Zi1KeF8wNjVIV09zYjhYYTA4Ynl2V1FoUEhocVBxZ19yTzh2Y2JBZw?oc=5",
+   "source": "Diario de Chiapas",
+   "published": "2026-09-24T11:40:26.000Z",
+   "summary": "",
+   "topics": [
+    "wastewater"
+   ],
+   "lane": "industry",
+   "edition": "Colombia",
+   "lang": "es",
+   "via": "r-es-419:CO",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "Colombia"
+   ]
   },
   {
    "id": "3nw1d4",
@@ -9714,6 +9837,25 @@
    ]
   },
   {
+   "id": "6hyygc",
+   "title": "El Embalse Sermo en Yogyakarta se seca debido a la sequía",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS2pNeFlmSEw2YTdfQlAtQXpoQWc2WkZ4Z3N2TE1keUxFakhvVlAza0dhRmVoZG4zeXM3cmg3d0lIa19ZYWVRSzkzZHFESWlHM21DMmRQOU1tVFRtc1NIdmxFY25VS3JjLU5lSlQ4NmIta25sYTRReGFXSk1QQ0JiQ2FNSWQ5NFN0MjJkSVV5M1hpcVBFUkltZ3hsdTlZeFhvdWxxWFBn0gGmAUFVX3lxTE5Lak14WWZITDZhN19CUC1BemhBZzZaRnhnc3ZMTWR5TEVqSG9WUDNrR2FGZWhkbjN5czdyaDd3SUhrX1lhZVFLOTNkcURJaUczbUMyZFA5TW1UVG1zU0h2bEVjblVLcmMtTmVKVDg2Yi1rbmxhNFF4YVdKTVBDQmJDYU1JZDk0U3QyMmRJVXkzWGlxUEVSSW1neGx1OVl4WG91bHFYUGc?oc=5",
+   "source": "ANTARA Foto",
+   "published": "2026-09-24T11:09:00.000Z",
+   "summary": "",
+   "topics": [
+    "drought"
+   ],
+   "lane": "everyday",
+   "edition": "Venezuela",
+   "lang": "es",
+   "via": "r-es-419:VE",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "Venezuela"
+   ]
+  },
+  {
    "id": "1mb6ai4",
    "title": "Neusorg erneuert Kläranlage: Baufortschritt und Finanzierung im Fokus",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUC1OVHNzejNFSDdaYUZjaVEtOUNWNUowc3hGeXpKcVRFTkdRazFFV1pOSEVPNm1ndi1SNHRUNnF5emxhU19iUEhSckNoR2NvSS10UEd1Q0piM1N4dTdObE9mU2xGMUVqZ3NJOXZyNkNFOVRpZ2F4V3RNd3RfSnpsLUZBMF92LUZGelZYeXZqU0xsbk44MUVEVGdfeWhkUE5FWHN3UGk0ZkU2WDVIUHZ4bzdZTzJUUUk?oc=5",
@@ -10168,6 +10310,25 @@
    "places": []
   },
   {
+   "id": "1eyvpq0",
+   "title": "El Nino dan Kekeringan: Dijawab dengan Langkah Cepat, Terukur, dan Terpadu",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYkRWVm5NNkJLTjA3cDdUUUhVUmhKeEc2c2FwUFc3bzZuNE5SRTVrR2ZJTHdWdVpHQ3RjRmRHbldNeTA1YnFsdjlfQnZTUGZxQ2gwYWIwZzltbkFXbmVBc0ZkMXVMX3Y2bXliRWpvT2EzWldyN0p0M2JUWmJ4SnRyTGlYbTNuTU9TSHVIaFlKYURvREZZZEpjN1dIZjRhQTJ0UXRad0FaVmJyTlVBZDJDYjlSZnN3c3JVdWJV?oc=5",
+   "source": "PT Suara Dewata Media",
+   "published": "2026-09-24T10:59:35.000Z",
+   "summary": "",
+   "topics": [
+    "drought"
+   ],
+   "lane": "everyday",
+   "edition": "Indonesia",
+   "lang": "id",
+   "via": "r-id:ID",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "Indonesia"
+   ]
+  },
+  {
    "id": "107nad8",
    "title": "Dân miền núi Khánh Hòa thiếu nước giữa mùa mưa",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQm5LckJBX2owRTZZd1RrS3pBejNMVFlmTDBGUzBweHA0VVVCbXBNeW9uTU92UDVQMTd6RW5odVVOX29iRnpxV2tYdkhPbV9FenJaaU9sTGFwUUxaajczdlg1ZDRPQVJidk9GSE54SllVUG5kMTVHdDFGQ1NMeWtHWExIc2ItWFk0Y2dF?oc=5",
@@ -10468,13 +10629,11 @@
     "wastewater"
    ],
    "lane": "industry",
-   "edition": "Spain",
+   "edition": null,
    "lang": "es",
    "via": "r-es:ES",
    "firstSeen": "2026-09-24T17:58:41.357Z",
-   "places": [
-    "Spain"
-   ]
+   "places": []
   },
   {
    "id": "1q2xxm5",
@@ -10577,13 +10736,11 @@
     "treatment"
    ],
    "lane": "industry",
-   "edition": "Spain",
+   "edition": null,
    "lang": "es",
    "via": "r-es:ES",
    "firstSeen": "2026-09-24T17:58:41.357Z",
-   "places": [
-    "Spain"
-   ]
+   "places": []
   },
   {
    "id": "36eq8n",
@@ -11176,6 +11333,23 @@
    "places": []
   },
   {
+   "id": "10e9xc9",
+   "title": "Sécheresse 2025 : Beychac-et-Caillau et Cadaujac en CatNat",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZGhuNTl0RzZNV3dFY3JEMFBCekl5N01PRGR0MU8waGg0UGhrR3BZZVpuaFBKWU1BY3FZQVhsckstSFJ1dk9NYzJyaWtwbjdoV29qd0VXVFpRZXlPdDNKLXpvSGFlUnluZEU1eWFOVGVWY2h1ZnJqSnMxMlpQZXBRTmc5V1VKV1dza1E?oc=5",
+   "source": "laclepublique.fr",
+   "published": "2026-09-24T10:22:10.000Z",
+   "summary": "",
+   "topics": [
+    "drought"
+   ],
+   "lane": "everyday",
+   "edition": null,
+   "lang": "fr",
+   "via": "r-fr:DZ",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": []
+  },
+  {
    "id": "kq1blz",
    "title": "Active or passive small-cap fund? Why what works in a rally may not work in a fall",
    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOV0MxTWFsWTMtR3E0VkxwV0k2N0RBd2JSMUhzOWlXekZJN2NkOFVuRW9DNnJFSEtTZVRsdmJtN0dzV1dXUVA3d2YyQW5qUnJQZ19WR21YcmFQeEQ0NkZ0eDJDMmhUQldTVXhwQVNYOVMwYjB3Vmhwbm1zZWg1ejdEQ3NXcHVUTWN5SlRndUlxVzZuc2ZkMFVGNGZobzdHVEIzZy1wQmNHdnZicEdOeUNPbFhtRXR1THIyeWNVUTJoMWdlUGJfNnp4dGNZanBsd2xhYXQ1cHVGd1MzcVYyZUJ3OFQtQ0JMUdIB6wFBVV95cUxNTzdpbVNNUkhZbkJleE5wN19nSFIzNVdsRmhTbjBJdHNYOVB1RjlLUVFYcGlQYnl4UU5hUEk4NTRIVm91TzBkOWNQT3pJYzFyVElOY0s3QmQtRWtBT2l1N2JkYThSNW1sYTRxbEdrVWNMTlo3TjFHS1Z4QW9FU2JjeVhIQjk1TlZMNTBlSTJvX194eF85Sy1Zb0dXcW5fVl9FTHRzbWctbHBGcGxhLW1VbU9QX1o1TWJINW1TTGpMeG91RVZDelRETl9yV1Z6eGNqcXdXS215N3o4bV9rRUs2YWNFdElKLXVRcERz?oc=5",
@@ -11570,6 +11744,26 @@
    "via": "r-fr-CA:CA",
    "firstSeen": "2026-09-24T17:58:41.357Z",
    "places": []
+  },
+  {
+   "id": "1r0p6w8",
+   "title": "« Plus d’un million d’euros de perte » : pour la brasserie 3 Monts, une sécheresse au goût amer",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVUxod0NGX0s2MzJkdmRIaEhhZ1lkVGVDNktGUjZnR2dyUEtoTXBROWhub1NHVmRTUEdjMzcxdERzTlFDYklfV1ZEanNxdmU5Y0dsLThMZ2JlbTdVdUxQNlJvYXdPR2FORzlWWGZUNG11cXR4YTBVMVJfS0pYSzVUcTk4Y1l1LTJPaGkxUXM3Y0g4VG51WmcwbzJxMlRoLTZyRlJDOEhnck02VWtocnNZMlg1S0VLTmVPaEVYR2p1RVN0MnJ2SVN6SFdndXREdw?oc=5",
+   "source": "La Voix du Nord",
+   "published": "2026-09-24T10:04:00.000Z",
+   "summary": "",
+   "topics": [
+    "drought",
+    "policy"
+   ],
+   "lane": "everyday",
+   "edition": "Belgium",
+   "lang": "fr",
+   "via": "r-fr:BE",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "Belgium"
+   ]
   },
   {
    "id": "13qbjnx",
@@ -12285,6 +12479,23 @@
    ]
   },
   {
+   "id": "u78mr9",
+   "title": "Eure : aide sécheresse aux agriculteurs jusqu’au 21 octobre",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPemlZRHpfdVdSTkhJNHBMWXgxb1doeXNKZFEzV0xMTHFPT0ZsYW1iVkhlWGE5Q25UWXhBTG9VeHQ0eEs4S2F0RG1lQUk0UldmazJycU1raDZsMTB5elR1d1d4TEZZOG51LXV3d1NDRk54M05NQ2tjTkhrdUc5LTBUbHNHd2tKYWcycG03VmVVWHAwX2s?oc=5",
+   "source": "laclepublique.fr",
+   "published": "2026-09-24T09:48:04.000Z",
+   "summary": "",
+   "topics": [
+    "drought"
+   ],
+   "lane": "everyday",
+   "edition": null,
+   "lang": "fr",
+   "via": "r-fr:DZ",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": []
+  },
+  {
    "id": "fsejid",
    "title": "Thiès : BORDA et la Direction de l’assainissement évaluent l’avancement d’un projet pour des villes - APS",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUDFCUVUtbXl0WGtNX2VGUWNma2Q0VEJBU3pBUkhJVW1RMmxITEhuSFFFOS1uTXd4RGQ1SHQxSURtZkVSbUNLT3J0eFcwTXl2bkp4VVF3SVUzRnNXYzY3bWQ2YS1NRmNPNFcyWXpCbzBHWXJ2MDI4X0tBWVBtODhDa2lReHNYOXpacm9ld1hNdGRhMFFmaTRRN19Yclc5WWZDeVV3M1RjOGozUVVaT0Jv?oc=5",
@@ -12303,6 +12514,23 @@
    "places": [
     "Senegal"
    ]
+  },
+  {
+   "id": "w0caew",
+   "title": "La Rochelle Agglo : une plainte déposée après la découverte de pesticides dans l’eau potable",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdktEaExfY2ZvYUxFZWxFS09GUVB2RXlDb0hWaGhRWUZfSWd4Y3VxUHRpcjd5ZWgyQS1yWFN6OVYwM3pSdExrTDNiTGdmTTQtdzg3bWtGR0xnUXptdW55Y0pCbTZEdlo0NHR3c25nTHZ3Z2EyVTZlSEdIZUFJZ1FFdGpsMlp1WUR4WTVYMWhxQ0FpSU5sdFhjb0FwblRNR09kZnZqVmMycHRhaW9LeGlF?oc=5",
+   "source": "INF la Rochelle",
+   "published": "2026-09-24T09:47:08.000Z",
+   "summary": "",
+   "topics": [
+    "treatment"
+   ],
+   "lane": "industry",
+   "edition": null,
+   "lang": "fr",
+   "via": "r-fr:DZ",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": []
   },
   {
    "id": "1limnih",
@@ -17320,6 +17548,25 @@
    ]
   },
   {
+   "id": "hxzaei",
+   "title": "Os cenários do El Niño têm um impacto muito forte em nosso país.",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaVNqTHlsLXRCN0w2NmdrcFo5OGEzTkFobDB3U2JiRHlIYlZIMTllMnFLc3U5REVkMmRSLV9ZeFF0SUZ5U3VqWGRTSHo5WGhtTUxKaUN5SktSUlA5dzlycjJkRGF0X01vVVpJV1dmcVVqS3dMMmpNNDM2RG1xLWZQVHVVYl9yUlU?oc=5",
+   "source": "Vietnam.vn",
+   "published": "2026-09-24T06:04:46.000Z",
+   "summary": "",
+   "topics": [
+    "climate"
+   ],
+   "lane": "everyday",
+   "edition": null,
+   "lang": "pt",
+   "via": "r-pt-PT:PT",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "Vietnam"
+   ]
+  },
+  {
    "id": "ek0cay",
    "title": "DK Shivakumar writes to PM, seeks 50% central aid amid Karnataka drought",
    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT056aFVWR0tIMGZvVXE1QUt0Z1BCVVo3eTdWTmdadmVuVjFuNFNNN1NxdlMtQXhmX2hhdTlYanRld2dPQ2tnVjRsMWVFRmZ3RnA5c011Y1ZlbmNCMWJxWlU5NnhMOWkwWFVoc2pGLW05RVJoYzB0MUs4aGVUMm16RDJ6aE5PaTZPQm5nNXdtQW54Z3FaTmlZT1YyMDI3NjRGd25KdjJhNkR0VWRyN2d3bjFRMXRLMUxCZzJtLV9hSmZtSmt2VHZWX0JjZXNnTERjS3Q5bDJ4Qm45OFFkeHFkYlpzd2dLdG9SQmpR0gHwAUFVX3lxTE5rN1FiNVo0N2MzbnRLMFo4empaanpVd0xHdlI4NkRyTUZtMXM5cDZLRFpRUDByMURwcjVTTzBiZVdveW5uZ016OUFUMWtaaWhSYWhrazFpeVNEMDRjYWVLaGxISkUyYm43aU1WR0g3TElweGZFdjJhUEZLTlA5VFFZWXFWYWJUcUp5NlAybzNaRGRRNU9PcW9vQW5fSWNKVXhFaVlKdFBRTTUyUUxmYWdwQ2s2dTRTZl91NjVqaTVKQktXbTFpaE9jNmNJT1AxeDBSUno3dDcwQl9wV2laS01SZm5sTGUtVVZ3QnN3SUc2Tw?oc=5",
@@ -17330,7 +17577,7 @@
     "drought"
    ],
    "lane": "everyday",
-   "edition": "India",
+   "edition": null,
    "lang": "en",
    "via": "r-en-IN:IN",
    "firstSeen": "2026-09-24T07:08:56.923Z",
@@ -18135,6 +18382,23 @@
    "firstSeen": "2026-09-24T07:08:56.923Z",
    "places": [
     "China"
+   ]
+  },
+  {
+   "id": "1xeik15",
+   "title": "US aluminium landfill loss can become domestic supply opportunity, says waste intelligence firm",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRTNtMzJHOGVVeXdRM09pem5YMy1MeHI4VHZOa2ZFczVIMDhnWDRoWE5JNk9VS1JoVnd3YUd3SXcyaW43MGdVOVlOWEF4UVg3eVg1QUNJeTBBbUx0Z0VhZkRvNk5Qck1yRS04dDhUZmVKU1diZHE5LTNMNmdGdkVmTnBlMWVPanlTZ21yMDB3eVFOMjA3UkZxSlFweUhCRlNtdlFCd1c2cnRidWZuYjhDY2hnRmR5LTQ0Z2E3MVdLbWRnWXE2Z3pVd0ZNYw?oc=5",
+   "source": "AL Circle",
+   "published": "2026-09-24T05:33:52.000Z",
+   "summary": "",
+   "topics": [],
+   "lane": "everyday",
+   "edition": "Ghana",
+   "lang": "en",
+   "via": "r-en-GH:GH",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "United States"
    ]
   },
   {
@@ -23099,6 +23363,25 @@
    ]
   },
   {
+   "id": "1j5vaw7",
+   "title": "Vattenbrist - Metro Mode",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9iTmVxS0ZLZENDS20tbFV6Mkw2eDdaQUFxeGxfR2xORkRsS2Q2Z0pyTGwzSWhNbjRDOWRNaVJtQzVSbE42ajh2VVdJN0VpbzRwdWc?oc=5",
+   "source": "Metro Mode",
+   "published": "2026-09-24T00:27:43.000Z",
+   "summary": "",
+   "topics": [
+    "scarcity"
+   ],
+   "lane": "everyday",
+   "edition": "Sweden",
+   "lang": "sv",
+   "via": "r-sv:SE",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "Sweden"
+   ]
+  },
+  {
    "id": "vj20fg",
    "title": "Despliega SSM operativo de saneamiento en albergues de LC por Polo",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTDVlVGdFaldEclZRb3owZnhRbHVoemNRUG5WTlJRbkU3dFNFQjRQLWFPLS1lVk04T09odmZHejlvODRxRXYtMXZ4QW1KSU0wOWRNOTY0US1rcTRWRTJXbm42MllMQnh2RDdKRXVhQkdDS1BGaUp4QmFyUVhlSnF1NlFDcXl1ajRyTXlhcFRkOERGUjNzZ005TEN1bmlEWmhBa213UQ?oc=5",
@@ -27220,6 +27503,25 @@
    ]
   },
   {
+   "id": "1laljph",
+   "title": "Karnataka CM D K Shivakumar seeks 50% of drought relief as interim aid from Centre",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWXA2ODhLd0duXzhIak82ZDJnRGJxNjNVVFE0Uzh1VkF0Yzh3RVNFTlB2aVhLVTNjQ1lvalVzLTBTbklnM0prNWsyTlNQOUNRR0FacE5pU21SbjgtSFpiNzBob011S1Zrbm9ObFdLSldRcVRMS0gwVkZUbzZhWXN5a1ZYNFJ0TkxoaWI2R1NXUFliTkdPOU5IT2xMbDhQa3lIbVpaVnVNbFhKTkN3RHotVHRqdmpka1dvRWVHVDJoSG92N1NpSEM2S3RLdzJFN2VaaHJfanVvRjUwNHRVOEdNSzhB?oc=5",
+   "source": "Deccan Herald",
+   "published": "2026-09-23T19:07:00.000Z",
+   "summary": "",
+   "topics": [
+    "drought"
+   ],
+   "lane": "everyday",
+   "edition": "India",
+   "lang": "en",
+   "via": "r-en-IN:IN",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "India"
+   ]
+  },
+  {
    "id": "ctniuz",
    "title": "La cuota de generación verde cae en Galicia por la sequía y falta de viento",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUTlCaWFoOFdTRlRKVkh6SFpLeE1xeWZUSEd0RUlRRzJNNW95M0RUTUlfQklYR1E4cnpnWkhyMjdpaWxDU0F6Z0VSWTdYdE1iYXJoVTlOVmhVVFItMC0wRmVLNmtJVDRWQWZHLUVwWWI5V0dFbUpuMGJwcjF6RFZteE1TNThZR1JFdEVXVzFjbXFXeDFXSThCTDhvUGlSbXhYVFNJMVBNck5OZ3Nfdkx6V3I2bncxajQycmxkTEpHU0V4NDZNd3REWDhlRVdJcV9yUlp3?oc=5",
@@ -29423,13 +29725,11 @@
    "summary": "",
    "topics": [],
    "lane": "everyday",
-   "edition": "Belgium",
+   "edition": null,
    "lang": "nl",
    "via": "r-nl:BE",
    "firstSeen": "2026-09-24T07:08:56.923Z",
-   "places": [
-    "Belgium"
-   ]
+   "places": []
   },
   {
    "id": "1rs9d9n",
@@ -29946,6 +30246,25 @@
    "via": "r-fr:DZ",
    "firstSeen": "2026-09-24T08:14:52.611Z",
    "places": []
+  },
+  {
+   "id": "15kaas",
+   "title": "La sécheresse a pesé sur la récolte des pruneaux",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZWEF0TEY2Y1ZfYnVIWThNWF9FNFZfWlMxVG0wTEtmdS16UzJ0VkxSZnNGMExyd3ZYdjBmVFVrYkNRSjBISTJabURwQnhfZEdtM2dhMUc0d1k0YVBRNU52ZWx0LVdJbHg0NGtIc0p6enU0UQ?oc=5",
+   "source": "La Télé",
+   "published": "2026-09-23T17:00:12.000Z",
+   "summary": "",
+   "topics": [
+    "drought"
+   ],
+   "lane": "everyday",
+   "edition": "Switzerland",
+   "lang": "fr",
+   "via": "r-fr:CH",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "Switzerland"
+   ]
   },
   {
    "id": "192seh1",
@@ -57247,6 +57566,25 @@
    "firstSeen": "2026-09-24T17:58:41.357Z",
    "places": [
     "United States"
+   ]
+  },
+  {
+   "id": "1g1r9zu",
+   "title": "Southern Water fined £2.4m over multiple Kent pollution incidents",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdmhRMVUzYnJlcnFGd0FiWmVLc3YtVldEVmJyTVpXT1p3dlJiNUdJV2tBQi0zZXNhRDVHWWpuR3laN19jQTN4bmNyOWdVa2xJazNIQkhDZFBJaWhQSmRCU21EUGVTLUFYRTBXZk1qUTVlUUtpREdITW1NTHRDTlBRNFp2S0VZZlYwN0I5TTZBdlZRRmZtSnZmM29zMk5pMU9QTTlmQkxsYW5OUmU3?oc=5",
+   "source": "Water Magazine",
+   "published": "2026-09-22T08:38:37.000Z",
+   "summary": "",
+   "topics": [
+    "pollution"
+   ],
+   "lane": "everyday",
+   "edition": null,
+   "lang": "en",
+   "via": "g-wastewater",
+   "firstSeen": "2026-09-24T17:59:25.583Z",
+   "places": [
+    "United Kingdom"
    ]
   },
   {
