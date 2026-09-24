@@ -6,6 +6,7 @@
   const lanes = document.getElementById('lanes');
   const topicSelect = document.getElementById('topicSelect');
   const placeSelect = document.getElementById('placeSelect');
+  const langSelect = document.getElementById('langSelect');
   const search = document.getElementById('search');
   const more = document.getElementById('more');
   const title = document.getElementById('wireTitle');
@@ -13,6 +14,7 @@
   const updated = document.getElementById('updated');
 
   const LANE_LABEL = { everyday: 'Everyday', industry: 'Industry' };
+  const LANG = { en: 'English', es: 'Spanish', pt: 'Portuguese', fr: 'French', it: 'Italian', de: 'German', nl: 'Dutch', pl: 'Polish', tr: 'Turkish', el: 'Greek', ar: 'Arabic', he: 'Hebrew', ru: 'Russian', uk: 'Ukrainian', sv: 'Swedish', da: 'Danish', no: 'Norwegian', fi: 'Finnish', cs: 'Czech', hu: 'Hungarian', ro: 'Romanian', ja: 'Japanese', ko: 'Korean', zh: 'Chinese', id: 'Indonesian', vi: 'Vietnamese', th: 'Thai', hi: 'Hindi', bn: 'Bengali', ur: 'Urdu', fa: 'Persian', sw: 'Swahili', ms: 'Malay', tl: 'Filipino' };
   const DAYS_PER_PAGE = 3;
 
   let data;
@@ -45,7 +47,7 @@
   }
 
   // Ticker: the newest 30 headlines, doubled so the loop is seamless.
-  const strip = items.slice(0, 30).map(it =>
+  const strip = items.filter(it => (it.lang || 'en') === 'en').slice(0, 30).map(it =>
     `<a href="${esc(it.url)}" target="_blank" rel="noopener" tabindex="-1"><span class="src">${esc(it.source)}</span>${esc(it.title)}</a>`).join('');
   ticker.innerHTML = strip + strip;
 
@@ -67,7 +69,21 @@
     placeSelect.appendChild(o);
   });
 
-  const state = { lane: 'all', topic: '', place: '', q: '', pages: 1 };
+  // Language list: English first and selected, then the rest by count.
+  const langCount = {};
+  for (const it of items) { const l = it.lang || 'en'; langCount[l] = (langCount[l] || 0) + 1; }
+  const langs = Object.entries(langCount).sort((a, b) => (a[0] === 'en' ? -1 : b[0] === 'en' ? 1 : b[1] - a[1]));
+  for (const [l, n] of langs) {
+    const o = document.createElement('option');
+    o.value = l; o.textContent = `${LANG[l] || l} (${n})`;
+    langSelect.appendChild(o);
+  }
+  const all = document.createElement('option');
+  all.value = 'all'; all.textContent = `All languages (${items.length})`;
+  langSelect.appendChild(all);
+  langSelect.value = langCount.en ? 'en' : 'all';
+
+  const state = { lane: 'all', topic: '', place: '', lang: langSelect.value, q: '', pages: 1 };
 
   function filtered() {
     const q = state.q.trim().toLowerCase();
@@ -75,6 +91,7 @@
       (state.lane === 'all' || it.lane === state.lane) &&
       (!state.topic || (it.topics || []).includes(state.topic)) &&
       (!state.place || (it.places || []).includes(state.place)) &&
+      (state.lang === 'all' || (it.lang || 'en') === state.lang) &&
       (!q || `${it.title} ${it.source} ${it.summary || ''} ${(it.places || []).join(' ')}`.toLowerCase().includes(q)));
   }
 
@@ -90,7 +107,7 @@
     const shown = days.slice(0, state.pages * DAYS_PER_PAGE);
 
     title.textContent = state.lane === 'all' ? 'All headlines' : `${LANE_LABEL[state.lane]} headlines`;
-    count.textContent = list.length ? `${list.length} headline${list.length === 1 ? '' : 's'}${state.topic ? ` on ${state.topic}` : ''}${state.place ? ` from ${state.place}` : ''}${state.q ? ` matching “${state.q}”` : ''}` : '';
+    count.textContent = list.length ? `${list.length} headline${list.length === 1 ? '' : 's'}${state.topic ? ` on ${state.topic}` : ''}${state.place ? ` from ${state.place}` : ''}${state.lang !== 'all' ? ` in ${LANG[state.lang] || state.lang}` : ''}${state.q ? ` matching “${state.q}”` : ''}` : '';
 
     if (!list.length) {
       wire.innerHTML = '<p class="wire-empty">Nothing matches. Try another lane, topic or word.</p>';
@@ -128,12 +145,13 @@
   }
   topicSelect.addEventListener('change', () => { state.topic = topicSelect.value; state.pages = 1; render(); });
   placeSelect.addEventListener('change', () => { state.place = placeSelect.value; state.pages = 1; render(); });
+  langSelect.addEventListener('change', () => { state.lang = langSelect.value; state.pages = 1; render(); });
   search.addEventListener('input', () => { state.q = search.value; state.pages = 1; render(); });
   more.addEventListener('click', () => { state.pages++; render(); });
   wire.addEventListener('click', e => {
     const chip = e.target.closest('.chip'); if (!chip) return;
     if (chip.dataset.topic) { topicSelect.value = chip.dataset.topic; state.topic = chip.dataset.topic; state.pages = 1; render(); }
-    else if (chip.dataset.place) { placeSelect.value = chip.dataset.place; state.place = chip.dataset.place; state.pages = 1; render(); }
+    else if (chip.dataset.place) { placeSelect.value = chip.dataset.place; state.place = chip.dataset.place; langSelect.value = 'all'; state.lang = 'all'; state.pages = 1; render(); }
     else if (chip.dataset.lane) setLane(chip.dataset.lane);
     window.scrollTo({ top: wire.offsetTop - 140, behavior: 'smooth' });
   });
