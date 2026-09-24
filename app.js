@@ -5,40 +5,19 @@
 const $ = id => document.getElementById(id);
 const load = url => fetch(url).then(r => (r.ok ? r.json() : [])).catch(() => []);
 
-let posts = [], videos = [], pods = [], articles = [], news = [];
+let posts = [], videos = [], pods = [], articles = [];
 let hcIndex = 0, hcTimer = null;
 
 let featured = {};
 
-Promise.all([load('posts.json'), load('videos.json'), load('podcasts.json'), load('featured.json'), load('articles.json'), load('news-latest.json')])
-  .then(([p, v, pd, f, a, n]) => {
-    posts = p; videos = v; pods = pd; featured = f || {}; articles = a || []; news = (n && n.items) || [];
+Promise.all([load('posts.json'), load('videos.json'), load('podcasts.json'), load('featured.json'), load('articles.json')])
+  .then(([p, v, pd, f, a]) => {
+    posts = p; videos = v; pods = pd; featured = f || {}; articles = a || [];
     Reader.init(posts, featured);
     renderHero();
     renderRows();
     renderRead();
-    renderNews();
   });
-
-/* ---------- the newest headlines (news-latest.json, built by build/news.mjs) ---------- */
-function renderNews() {
-  const section = $('news');
-  if (!section || !news.length) return;
-  const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const today = new Date().toDateString();
-  const when = iso => {
-    const d = new Date(iso);
-    const hm = `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
-    return d.toDateString() === today ? `Today ${hm}` : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
-  };
-  $('rowNews').innerHTML = news.slice(0, 8).map(n => `
-    <a class="news-item" href="${esc(n.url)}" target="_blank" rel="noopener">
-      <span class="ni-meta">${when(n.published)} · ${esc(n.source)}</span>
-      <span class="ni-title">${esc(n.title)}</span>
-      <span class="ni-tags"><span class="ni-tag ${n.lane}">${n.lane === 'industry' ? 'Industry' : 'Everyday'}</span>${n.place ? `<span class="ni-tag">${esc(n.place)}</span>` : ''}</span>
-    </a>`).join('');
-  section.hidden = false;
-}
 
 /* ---------- the newest articles (articles.json, built by build/articles.mjs) ---------- */
 function renderRead() {
