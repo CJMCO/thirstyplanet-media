@@ -626,15 +626,21 @@ footer .fine { font-size: 0.78rem; opacity: 0.7; margin-top: 0.4rem; }
 
 .art-more { padding-top: 2.6rem; padding-bottom: 3rem; }
 .art-follow { color: var(--pale); max-width: 46rem; margin-bottom: 1.8rem; }
-.art-next { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-.art-next-card {
-  display: flex; flex-direction: column; gap: 0.3rem; padding: 1.1rem 1.2rem;
-  border: 1px solid var(--line-dark); border-radius: 12px; background: var(--card-dark);
-  color: var(--white); font-weight: 500; line-height: 1.3; transition: border-color 0.2s ease;
+.art-more-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.4rem; }
+.art-more-head h2 { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--pale); }
+.art-more-head a { font-size: 0.85rem; color: var(--sky); }
+.art-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(0.8rem, 2vw, 1.4rem); }
+.art-grid-card {
+  display: flex; flex-direction: column; gap: 0.7rem; color: inherit;
+  border: 1px solid var(--line-dark); border-radius: 14px; background: var(--card-dark);
+  padding: 0.6rem 0.6rem 1rem; transition: border-color 0.2s ease;
 }
-.art-next-card:hover { border-color: var(--sky); color: var(--white); }
-.art-next-card small { color: #8ea6c0; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; margin-top: 0.3rem; }
-.art-next-card:last-child { text-align: right; align-items: flex-end; }
+.art-grid-card:hover { border-color: var(--sky); color: inherit; }
+.art-grid-card .mc-art { border: none; border-radius: 10px; }
+.art-grid-card .mc-art img { aspect-ratio: 16 / 10; }
+.art-grid-card:hover .mc-art img { transform: scale(1.04); }
+.art-grid-card .mc-body { padding: 0 0.5rem; }
+.art-grid-card .mc-title { font-size: 1.02rem; font-weight: 600; }
 
 /* Archive cards are links, not buttons. */
 a.matrix-card { text-decoration: none; }
@@ -658,8 +664,7 @@ a.matrix-card:hover { color: inherit; }
 .band.light .read-card:hover { color: inherit; }
 
 @media (max-width: 700px) {
-  .art-next { grid-template-columns: 1fr; }
-  .art-next-card:last-child { text-align: left; align-items: flex-start; }
+  .art-grid { grid-template-columns: 1fr; gap: 1rem; }
   .art-hero { min-height: 70vh; }
   .prose { font-size: 1.02rem; }
   .prose blockquote { font-size: 1.15rem; }
