@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Posts · Thirsty Planet</title>
-<meta name="description" content="Every Thirsty Planet post: the hidden water inside everyday things, industry terms in plain words, myths checked against real numbers.">
+<title>News · Thirsty Planet</title>
+<meta name="description" content="The day's water headlines from around the world, collected every morning and tagged by topic and country.">
 <link rel="icon" href="assets/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
@@ -16,8 +16,8 @@
 <link rel="stylesheet" href="styles.css">
 <link rel="alternate" type="application/rss+xml" title="Thirsty Planet articles" href="https://thirstyplanet.media/feed.xml">
 <meta name="theme-color" content="#081c36">
-<meta property="og:title" content="Posts · Thirsty Planet">
-<meta property="og:description" content="Every post, in one place.">
+<meta property="og:title" content="News · Thirsty Planet">
+<meta property="og:description" content="The day's water headlines from around the world, in one place.">
 <meta property="og:image" content="https://thirstyplanet.media/assets/globe-new.png">
 </head>
 <body>
@@ -29,8 +29,8 @@
       <a href="articles/">Articles</a>
       <div class="dd-menu"><div class="dd-list"><a href="/articles/thirsty/">Thirsty</a><a href="/articles/thirsty-industries/">Thirsty Industries</a><a href="/articles/plain-water/">Plain Water</a><a href="/articles/thirsty-places/">Thirsty Places</a><a href="/articles/myth/">Myth</a><a href="/articles/foundations/">Foundations</a></div></div>
     </div>
-    <a href="posts.html" class="on">Posts</a>
-    <a href="news.html">News</a>
+    <a href="posts.html">Posts</a>
+    <a href="news.html" class="on">News</a>
     <a href="index.html#watch">Watch</a>
     <a href="index.html#listen">Listen</a>
     <a href="index.html#about">About</a>
@@ -45,34 +45,46 @@
   </div>
 </header>
 
+<div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+
 <main>
 
   <section class="page-head">
     <div class="band-inner">
-      <h1>What did it cost in water?</h1>
-      <p class="page-lede lead">Water hides. It hides in your t-shirt, in your breakfast, in the phone in your pocket. Almost none of it is the water you can see, and that is what makes it interesting.</p>
-      <p class="page-lede">So the posts here go looking for it, in a few different ways. Some pick up one everyday thing and ask a simple question: how much water did it take to make this? Some take a strange word that the water industry uses all day long and turn it into normal language. Some test the things everyone says about water, to find out which ones are actually true. Some travel to places that nearly ran dry, and ask how they got out of it. And some look at whole industries, the factories behind your clothes, your food, your paper.</p>
-      <p class="page-lede">Every post gives you the number and the story behind it, and says where the number came from.</p>
+      <p class="kicker">News</p>
+      <h1>Water news, every day</h1>
+      <p class="page-lede lead">The day's water headlines from around the world, in one place.</p>
+      <p class="page-lede">Collected every morning from water outlets and from news searches in more than 30 languages across 100 countries. Each headline is tagged by topic and country, and sorted into two lanes: Everyday for the stories that affect everyone, Industry for water treatment and utilities. Every link opens the original story.</p>
+      <p class="page-lede" id="updated"></p>
     </div>
   </section>
-
 
   <section class="band">
     <div class="band-inner">
-      <div class="grid-bar">
+      <div class="wire-bar">
         <div class="section-head">
-          <h2 id="gridTitle">All posts</h2>
-          <p id="gridCount"></p>
+          <h2 id="wireTitle">All headlines</h2>
+          <p id="wireCount"></p>
+        </div>
+        <div class="lanes" id="lanes" role="group" aria-label="Lane">
+          <button class="on" data-lane="all">All</button>
+          <button data-lane="everyday">Everyday</button>
+          <button data-lane="industry">Industry</button>
         </div>
         <label class="filter-box">
-          <span>Show</span>
-          <select id="seriesSelect"></select>
+          <span>Topic</span>
+          <select id="topicSelect"><option value="">All topics</option></select>
         </label>
+        <label class="filter-box">
+          <span>Country</span>
+          <select id="placeSelect"><option value="">Everywhere</option></select>
+        </label>
+        <input class="wire-search" id="search" type="search" placeholder="Search a word or country" aria-label="Search headlines">
       </div>
-      <div class="post-matrix" id="postMatrix"></div>
+      <div id="wire"></div>
+      <div class="center wire-more"><button class="btn ghost" id="more" hidden>Show more days</button></div>
     </div>
   </section>
-
 
 </main>
 
@@ -89,31 +101,13 @@
         <a href="https://www.instagram.com/thirsty.planet/" target="_blank" rel="noopener">Instagram</a>
         <a href="https://www.linkedin.com/company/thirsty-planet" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://www.youtube.com/@thirsty.planet" target="_blank" rel="noopener">YouTube</a>
-        <a href="feed.xml">RSS</a>
       </div>
     </div>
   </div>
   <p>thirstyplanet.media · By the founder of <a href="https://www.instagram.com/aguato/" target="_blank" rel="noopener">@aguato</a></p>
-  <p class="fine">© 2026 Thirsty Planet. Sources: Water Footprint Network, Mekonnen &amp; Hoekstra (2011), USGS.</p>
+  <p class="fine">Headlines belong to their publishers. Each link opens the original story.</p>
 </footer>
 
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Post reader" hidden>
-  <button class="lb-close" id="lbClose" aria-label="Close">×</button>
-  <div class="lb-stage">
-    <button class="lb-nav prev" id="lbPrev" aria-label="Previous slide">‹</button>
-    <img id="lbImg" alt="">
-    <button class="lb-nav next" id="lbNext" aria-label="Next slide">›</button>
-    <div class="lb-dots" id="lbDots"></div>
-  </div>
-  <aside class="lb-panel">
-    <p class="kicker" id="lbKicker"></p>
-    <h3 id="lbTitle"></h3>
-    <div class="lb-caption" id="lbCaption"></div>
-    <a class="btn ghost" id="lbLink" href="https://www.instagram.com/thirsty.planet/" target="_blank" rel="noopener">View on Instagram</a>
-  </aside>
-</div>
-
-<script src="reader.js"></script>
-<script src="posts.js"></script>
+<script src="news.js"></script>
 </body>
 </html>

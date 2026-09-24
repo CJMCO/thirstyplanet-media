@@ -784,3 +784,71 @@ a.matrix-card:hover { color: inherit; }
   .read-feature { grid-template-columns: 1fr; }
   .rf-item { grid-template-columns: 96px 1fr; }
 }
+
+/* ---------- news wire ---------- */
+.ticker {
+  overflow: hidden; white-space: nowrap;
+  background: var(--navy-deep); border-bottom: 1px solid var(--line-dark);
+  font-size: 0.82rem;
+}
+.ticker-track { display: inline-flex; gap: 2.5rem; padding: 0.6rem 0; animation: ticker 120s linear infinite; }
+.ticker:hover .ticker-track { animation-play-state: paused; }
+.ticker-track a { color: var(--white); }
+.ticker-track a:hover { color: var(--sky); }
+.ticker-track .src { color: var(--sky); font-weight: 700; font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; margin-right: 0.5rem; }
+@keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .ticker-track { animation: none; } }
+
+.wire-bar { display: flex; flex-wrap: wrap; gap: 1rem 1.6rem; align-items: center; margin-bottom: 2rem; }
+.wire-bar .section-head { margin-bottom: 0; margin-right: auto; }
+.lanes { display: inline-flex; border: 1px solid var(--line-dark); border-radius: 999px; overflow: hidden; }
+.lanes button {
+  font: inherit; font-size: 0.8rem; font-weight: 500; color: var(--pale);
+  background: none; border: none; padding: 0.5rem 1rem; cursor: pointer;
+}
+.lanes button + button { border-left: 1px solid var(--line-dark); }
+.lanes button.on { background: var(--sky); color: var(--navy-deep); font-weight: 700; }
+.wire-search {
+  font: inherit; font-size: 0.9rem; color: var(--white);
+  background: rgba(124, 196, 236, 0.08); border: 1px solid var(--line-dark);
+  border-radius: 999px; padding: 0.55rem 1.1rem; min-width: 17rem; flex: 1 1 17rem; max-width: 26rem;
+}
+.wire-search::placeholder { color: var(--pale); opacity: 0.7; }
+.wire-search:focus { border-color: var(--sky); outline: none; }
+
+.wire-day { margin-bottom: 2.4rem; }
+.wire-day h3 {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--sky); padding-bottom: 0.6rem; margin-bottom: 0.2rem;
+  border-bottom: 1px solid var(--line-dark);
+  display: flex; justify-content: space-between; align-items: baseline;
+}
+.wire-day h3 span { color: var(--pale); font-weight: 300; letter-spacing: 0; text-transform: none; font-size: 0.8rem; }
+.wire-row {
+  display: grid; grid-template-columns: 3.4rem 9rem 1fr auto; gap: 0 1.2rem; align-items: baseline;
+  padding: 0.62rem 0; border-bottom: 1px solid rgba(124, 196, 236, 0.09);
+}
+.wire-row .t { font-variant-numeric: tabular-nums; color: var(--pale); font-size: 0.8rem; }
+.wire-row .s { color: var(--pale); font-size: 0.78rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wire-row .h a { color: var(--white); font-weight: 500; font-size: 0.98rem; line-height: 1.4; }
+.wire-row .h a:hover { color: var(--sky); }
+.wire-row .h p { color: var(--pale); font-size: 0.84rem; margin-top: 0.15rem; }
+.wire-row .k { display: flex; gap: 0.35rem; flex-wrap: wrap; justify-content: flex-end; }
+.chip {
+  font-size: 0.64rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--pale); border: 1px solid var(--line-dark); border-radius: 999px; padding: 0.15rem 0.55rem;
+  background: none; cursor: pointer; font-family: inherit;
+}
+.chip.industry { color: #7FD9C8; border-color: rgba(127, 217, 200, 0.4); }
+.chip.everyday { color: var(--sky); border-color: rgba(124, 196, 236, 0.4); }
+.chip.place { color: #E8C98A; border-color: rgba(232, 201, 138, 0.4); text-transform: none; letter-spacing: 0.04em; }
+.chip:hover { color: var(--white); border-color: var(--white); }
+.wire-empty { color: var(--pale); padding: 2rem 0; }
+.wire-more { margin-top: 1.4rem; }
+@media (max-width: 760px) {
+  .wire-row { grid-template-columns: 3.2rem 1fr; }
+  .wire-row .s { grid-column: 2; order: 3; }
+  .wire-row .h { grid-column: 2; }
+  .wire-row .k { grid-column: 2; justify-content: flex-start; margin-top: 0.3rem; }
+  .wire-search { min-width: 0; width: 100%; }
+}
