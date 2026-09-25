@@ -830,10 +830,16 @@ a.matrix-card:hover { color: inherit; }
 }
 .wire-day h3 span { color: var(--pale); font-weight: 300; letter-spacing: 0; text-transform: none; font-size: 0.8rem; }
 .wire-row {
-  display: grid; grid-template-columns: 3.4rem 9rem 1fr auto; gap: 0 1.2rem; align-items: baseline;
+  display: grid; grid-template-columns: 3.4rem 7.6rem 8.4rem 1fr auto; gap: 0 1.2rem; align-items: baseline;
   padding: 0.62rem 0; border-bottom: 1px solid rgba(124, 196, 236, 0.09);
 }
 .wire-row .t { font-variant-numeric: tabular-nums; color: var(--pale); font-size: 0.8rem; }
+.wire-row .p {
+  color: #E8C98A; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.02em; text-align: left;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0;
+  background: none; border: 0; padding: 0; font-family: inherit; cursor: pointer;
+}
+.wire-row button.p:hover { color: var(--white); }
 .wire-row .s { color: var(--pale); font-size: 0.78rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .wire-row .h a { color: var(--white); font-weight: 500; font-size: 0.98rem; line-height: 1.4; }
 .wire-row .h a:hover { color: var(--sky); }
@@ -851,10 +857,13 @@ a.matrix-card:hover { color: inherit; }
 .wire-empty { color: var(--pale); padding: 2rem 0; }
 .wire-more { margin-top: 1.4rem; }
 @media (max-width: 760px) {
-  .wire-row { grid-template-columns: 3.2rem 1fr; }
-  .wire-row .s { grid-column: 2; order: 3; }
-  .wire-row .h { grid-column: 2; }
-  .wire-row .k { grid-column: 2; justify-content: flex-start; margin-top: 0.3rem; }
+  .wire-row { grid-template-columns: 3.2rem auto 1fr; gap: 0 0.8rem; }
+  .wire-row .h { grid-column: 2 / span 2; }
+  .wire-row .p { grid-column: 2; order: 2; margin-top: 0.3rem; }
+  .wire-row .s { grid-column: 3; order: 3; margin-top: 0.3rem; }
+  .wire-row span.p:empty { display: none; }
+  .wire-row span.p:empty + .s { grid-column: 2 / span 2; }
+  .wire-row .k { grid-column: 2 / span 2; order: 4; justify-content: flex-start; margin-top: 0.3rem; }
   .wire-search { min-width: 0; width: 100%; }
 }
 

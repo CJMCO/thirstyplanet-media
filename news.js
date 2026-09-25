@@ -107,10 +107,14 @@
       const rows = byDay.get(k).map(it => {
         const d = when(it);
         const chips = [`<button class="chip ${it.lane}" data-lane="${it.lane}">${LANE_LABEL[it.lane]}</button>`]
-          .concat((it.topics || []).slice(0, 2).map(t => `<button class="chip" data-topic="${esc(t)}">${esc(t)}</button>`))
-          .concat((it.places || []).slice(0, 1).map(p => `<button class="chip place" data-place="${esc(p)}">${esc(p)}</button>`));
+          .concat((it.topics || []).slice(0, 2).map(t => `<button class="chip" data-topic="${esc(t)}">${esc(t)}</button>`));
+        const place = (it.places || [])[0];
+        const placeCell = place
+          ? `<button class="p" data-place="${esc(place)}" title="${esc(place)}">${esc(place)}</button>`
+          : '<span class="p"></span>';
         return `<div class="wire-row">
           <span class="t">${hhmm(d)}</span>
+          ${placeCell}
           <span class="s" title="${esc(it.source)}">${esc(it.source)}</span>
           <div class="h"><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>${it.summary ? `<p>${esc(it.summary)}</p>` : ''}</div>
           <div class="k">${chips.join('')}</div>
@@ -136,7 +140,7 @@
   search.addEventListener('input', () => { state.q = search.value; state.pages = 1; render(); });
   more.addEventListener('click', () => { state.pages++; render(); });
   wire.addEventListener('click', e => {
-    const chip = e.target.closest('.chip'); if (!chip) return;
+    const chip = e.target.closest('[data-topic],[data-place],[data-lane]'); if (!chip) return;
     if (chip.dataset.topic) { topicSelect.value = chip.dataset.topic; state.topic = chip.dataset.topic; state.pages = 1; render(); }
     else if (chip.dataset.place) { placeSelect.value = chip.dataset.place; state.place = chip.dataset.place; state.pages = 1; render(); }
     else if (chip.dataset.lane) setLane(chip.dataset.lane);

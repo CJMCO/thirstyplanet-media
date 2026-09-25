@@ -26,7 +26,7 @@
    "published": "2026-09-25T02:50:44.000Z",
    "lane": "industry",
    "topic": "wastewater",
-   "place": null
+   "place": "United States"
   },
   {
    "title": "Winds and drought-stressed trees raise power outage concerns for Maine",
@@ -44,7 +44,7 @@
    "published": "2026-09-25T02:46:07.000Z",
    "lane": "everyday",
    "topic": null,
-   "place": null
+   "place": "India"
   },
   {
    "title": "Cliff Notes: Importance of Supply",
@@ -53,7 +53,7 @@
    "published": "2026-09-25T02:34:15.000Z",
    "lane": "everyday",
    "topic": null,
-   "place": null
+   "place": "United Kingdom"
   },
   {
    "title": "Rare flower wiped out in southern England in record heat and drought",
@@ -80,7 +80,7 @@
    "published": "2026-09-25T02:26:15.000Z",
    "lane": "industry",
    "topic": "desalination",
-   "place": "United States"
+   "place": "Peru"
   },
   {
    "title": "Temperature stabilized in battery unit that caught fire at La Verne facility; evacuations remain",
