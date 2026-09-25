@@ -5,7 +5,7 @@
     <link>https://thirstyplanet.media/</link>
     <description>Understanding water, before it's gone. The hidden water inside everyday things, the water industry in plain words, and the places already solving it.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 18:16:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 05:57:57 GMT</lastBuildDate>
     <atom:link href="https://thirstyplanet.media/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://thirstyplanet.media/assets/globe-new.png</url>
@@ -13,65 +13,10 @@
       <link>https://thirstyplanet.media/</link>
     </image>
     <item>
-      <title>Thirsty: Beef</title>
-      <link>https://thirstyplanet.media/articles/thirsty-beef/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-beef/</guid>
-      <pubDate>Sat, 26 Sep 2026 08:21:00 GMT</pubDate>
-      <category>THIRSTY</category>
-      <description>A 200 gram steak carries about 3,100 litres of water, and nearly all of it was spent before the animal ever drank.
-
-Cattle eat for roughly three years before slaughter: grass, hay, grain. Growing all that feed takes water every season, and when those years of feed water are divided by the meat one animal yields, beef lands around 15,400 litres per kilo, the highest of the common meats. The animal's own drinking water is about one percent of the total.
-
-The number changes a great deal with how the animal was raised. Cattle on rain fed pasture mostly use rain that fell on grassland anyway. Cattle fed irrigated grain in a dry region draw on rivers and aquifers. The same steak on the plate, a very different water story behind it.
-
-The long version, with the breakdown and the sources, is on the site.
-
-#WaterFootprint #HiddenWater #Sustainability #Water</description>
-      <content:encoded><![CDATA[<p><em>A 200 gram steak carries about 3,100 litres of water, and 98 percent of it never touched the animal. The water footprint of beef is the footprint of three years of feed, and how those years were fed decides whether the number is rain on a hillside or a river in a dry valley.</em></p>
-<p>Ask how much water is in a steak and the honest answer is: almost none, and that is exactly the problem with the question. A 200 gram steak contains perhaps 140 grams of water, which is about as much as a small glass. By the standard method for counting hidden water, the same steak carries about 3,100 litres, and the gap between those two numbers is the whole subject of this article.</p>
-<p>Beef is the largest water footprint of any common food, per kilogram, and it is also the most argued over, because the number depends more than most on how the animal lived. Both of those things are worth understanding before forming a view.</p>
-<h3 id="three-thousand-litres">Three thousand litres</h3>
-<p>By the Water Footprint Network's method, which adds the rain a crop took up, the irrigation applied to it and the clean water it would take to dilute the pollution it caused, beef comes to about 15,400 litres per kilogram in the global average. A 200 gram steak is a fifth of a kilogram, so about 3,100 litres.</p>
-<div class="table-wrap"><table><thead><tr><th>Stage</th><th class="num">Litres</th><th class="num">Share</th></tr></thead><tbody><tr><td>Growing the feed</td><td class="num">3,000</td><td class="num">97%</td></tr><tr><td>The animal's drinking water</td><td class="num">50</td><td class="num">1.5%</td></tr><tr><td>Farm and processing</td><td class="num">50</td><td class="num">1.5%</td></tr></tbody></table></div>
-<p>The split is approximate, and the total is the figure to remember. But the shape of it is the point, and it is more lopsided than for any crop on this site. Ninety eight percent of the water in a steak never touched the animal. It grew grass, hay and grain, and the animal ate them.</p>
-<h3 id="three-years-of-eating">Three years of eating</h3>
-<p>A beef animal lives for somewhere between eighteen months and three years before slaughter, depending on the system, and for all of that time it eats. Grass in the field, hay and silage in winter, and, in the last months of an industrial system, grain in a feedlot. Every one of those feeds is a crop, every crop transpired water for a season, and the method charges all of it to the animal.</p>
-<p>At the end, one animal yields a few hundred kilograms of meat. Divide three years of feed water by that yield and the litres per kilogram climb very high, higher than any crop, because the animal is a second stage of concentration on top of the crop's own. A cow is, from the point of view of water accounting, a machine for turning a large volume of plants into a small volume of meat, and the water follows the plants.</p>
-<div class="table-wrap"><table><thead><tr><th>Water footprint per kilogram, global averages</th><th>Litres</th></tr></thead><tbody><tr><td>Beef</td><td>about 15,400</td></tr><tr><td>Sheep meat</td><td>about 10,400</td></tr><tr><td>Pork</td><td>about 6,000</td></tr><tr><td>Chicken</td><td>about 4,300</td></tr><tr><td>Pulses</td><td>about 4,000</td></tr><tr><td>Wheat</td><td>about 1,800</td></tr></tbody></table></div>
-<p>The same study that produced the beef figure produced the rest of the table, and the pattern is what one would expect: the longer an animal lives and the more it eats per kilogram of meat, the larger the number. Chicken, which grows fast on a small amount of feed, is a quarter of beef. Pulses, which are plants, are a quarter of beef too, and carry as much protein per kilogram.</p>
-<figure class="art-photo"><img src="https://thirstyplanet.media/assets/articles/thirsty-beef/beef-feedlot.jpg" alt="A cattle feedlot from the air. The grain fed here was often grown on irrigated land in a dry region." loading="lazy"><figcaption>A cattle feedlot from the air. The grain fed here was often grown on irrigated land in a dry region.</figcaption></figure>
-<h3 id="not-all-water-costs-the-same">Not all water costs the same</h3>
-<p>Here the footprint's colours matter more than for any other product, because they turn a frightening number into a manageable one.</p>
-<p>In the global average, about 94 percent of beef's water footprint is green: rain that fell on pasture and on feed crops and was taken up by the plants. Around 4 percent is blue, water pumped for irrigation. About 3 percent is grey, the dilution of fertiliser and manure that reached rivers.</p>
-<div class="table-wrap"><table><thead><tr><th>Kind of water</th><th>Share of beef's global average footprint</th></tr></thead><tbody><tr><td>Green, rain</td><td>about 94%</td></tr><tr><td>Blue, irrigation</td><td>about 4%</td></tr><tr><td>Grey, pollution</td><td>about 3%</td></tr></tbody></table></div>
-<p>Rain on a hillside of grass was never going to fill a tap. Cattle grazing that hillside are using water that would otherwise have grown something else on the same ground, or evaporated, and the method is right to count it, but it is not water that is missing from a river afterwards. The blue share is the part that competes with cities and with other farmers, and in the global average it is small.</p>
-<p>The average, though, hides a very wide range, and the range is the fine print.</p>
-<h3 id="the-system-matters">The system matters</h3>
-<p>Cattle are raised in three broad ways, and the water story of each is different.</p>
-<p><strong>Grazing systems</strong> keep animals on pasture for their whole lives. The footprint per kilogram is often the highest of the three, because animals grow slowly on grass, but almost all of it is green water, rain on grassland. In the wet uplands of Ireland or the pampas of Argentina, this is water with very little else to do.</p>
-<p><strong>Mixed systems</strong>, the norm across much of Europe, graze animals in summer and feed them hay, silage and some grain in winter. The footprint is lower per kilogram and still mostly green.</p>
-<p><strong>Industrial systems</strong> finish animals in feedlots on grain, much of it maize and soy grown specifically as feed. The animals grow fast, so the footprint per kilogram is the lowest of the three. But the grain was often grown on irrigated land, and in a dry region, the High Plains of the United States above the Ogallala aquifer for instance, the blue share of that footprint is drawn from a water table that is falling. Per kilogram, industrial beef uses less water. Per litre of river, it can use far more.</p>
-<figure class="art-photo"><img src="https://thirstyplanet.media/assets/articles/thirsty-beef/cow-sky.jpg" alt="The same steak can carry rain on a hillside or a river in a dry valley. The label does not say which." loading="lazy"><figcaption>The same steak can carry rain on a hillside or a river in a dry valley. The label does not say which.</figcaption></figure>
-<p>So the same steak on a plate can be three thousand litres of Irish rain or three thousand litres that include a meaningful draw on an aquifer in Kansas, and the number alone does not distinguish them. How the animal was raised changes the picture entirely, and it is the question worth asking of the number.</p>
-<h3 id="grey-water-and-the-manure">Grey water and the manure</h3>
-<p>The grey share of beef's footprint is small, at around 3 percent, but it points at a problem that the water footprint only partly captures.</p>
-<p>A beef animal produces a great deal of manure, and manure is rich in nitrogen and phosphorus. On pasture, at low density, it is fertiliser and the grass takes it up. In a feedlot, where thousands of animals stand on a few hectares, it is a waste stream, held in lagoons and spread on nearby fields in quantities the fields cannot always absorb. What the fields cannot absorb runs off into streams and down into groundwater, and the nitrogen in it does in a river what organic matter does: it feeds growth, the growth consumes oxygen, and the river suffers. The feed crops themselves were fertilised too, and their runoff is counted in the same way.</p>
-<p>The method turns all of this into a volume, the clean water that would be needed to dilute it to a standard, and adds it to the footprint. It is the least precise of the three colours, because it depends on which pollutant is counted and which standard is used, and it is the one most likely to be understated. Anyone who has stood downstream of a large feedlot after rain will suspect that 3 percent is a polite figure.</p>
-<h3 id="by-country">By country</h3>
-<p>The global average conceals differences between countries that are as large as the differences between systems, because a country's beef reflects its rainfall, its feed and its farming. Beef raised in the wet grasslands of northern Europe or Brazil's south is mostly green water; beef finished on irrigated grain in a dry country carries a blue share several times the global average. The same study that produced the 15,400 litre figure published values by country, and the spread between the wettest grazing countries and the driest feedlot systems is wide enough that a national average tells a reader more than the global one. Where the steak came from is, for water, the most useful thing a label could say, and it is the one thing most labels do not.</p>
-<h3 id="a-fairer-comparison">A fairer comparison</h3>
-<p>Per kilogram is the usual way to state these figures, and it flatters nothing and nobody. Per gram of protein is a fairer comparison for food, and by that measure beef still sits at the top, needing several times the water of pulses for the same protein, but the gap narrows, and chicken and eggs come close to plant sources. Per calorie, the picture is similar. The reason beef stays at the top by every measure is the same reason it is at the top by weight: a long life, a great deal of feed, and a small yield.</p>
-<h3 id="what-the-number-is-for">What the number is for</h3>
-<p>The footprint of beef is not a guilt score, and it is a poor guide to individual choices without the colours attached. Eating less beef from an irrigated feedlot in a dry region saves blue water that a river needed. Eating less beef from rain fed pasture in a wet country saves, in water terms, very little, whatever it does for other reasons.</p>
-<p>What the number is good for is seeing the shape of things. Almost nothing in a steak's water was spent on the animal. It was spent on three years of plants, and those plants are where the water question about beef actually lives: what they were, where they grew, and whether the rain was enough.</p>
-<h2>Sources</h2><ol><li>Mekonnen, M.M. and Hoekstra, A.Y. (2012). A global assessment of the water footprint of farm animal products. Ecosystems 15, 401 to 415. Beef, global average, about 15,400 L/kg; roughly 94 percent green, 4 percent blue, 3 percent grey; per gram of protein and per calorie comparisons across animal products and crops.</li><li>Mekonnen, M.M. and Hoekstra, A.Y. (2010). The green, blue and grey water footprint of farm animals and animal products. Value of Water Research Report 48, UNESCO IHE. Differences between grazing, mixed and industrial systems.</li><li>Stage split (feed, drinking water, farm and processing) is approximate and illustrative; the total is the citable figure.</li><li>Photographs: steaks by Kyle Mackie, cattle by Quaritsch Photography and Ryan Song, all Unsplash; inline: Cattle feedlot south of Portales, New Mexico by Quintin Soloviev (CC BY) via Wikimedia Commons.</li></ol>]]></content:encoded>
-      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-beef/thirsty-beef-hero.jpg" type="image/jpeg" length="610168"/>
-    </item>
-    <item>
       <title>The turn</title>
       <link>https://thirstyplanet.media/articles/the-turn/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/the-turn/</guid>
-      <pubDate>Sat, 26 Sep 2026 08:20:00 GMT</pubDate>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/the-turn/?r=2</guid>
+      <pubDate>Sat, 26 Sep 2026 08:31:00 GMT</pubDate>
       <category>FOUNDATIONS</category>
       <description>Every number posted in the first month of this series was spent before the product reached anyone. Coffee, 140 litres. A t-shirt, 2,700. A steak, 3,100. Jeans, 8,000. Read enough of those and it starts to feel like a personal accusation. It is not one.
 
@@ -125,8 +70,8 @@ The long version is on the site.
     <item>
       <title>Thirsty: T-shirt</title>
       <link>https://thirstyplanet.media/articles/thirsty-tshirt/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-tshirt/</guid>
-      <pubDate>Sat, 26 Sep 2026 08:19:00 GMT</pubDate>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-tshirt/?r=2</guid>
+      <pubDate>Sat, 26 Sep 2026 08:30:00 GMT</pubDate>
       <category>THIRSTY</category>
       <description>There is a sea missing in Central Asia, and part of the reason is hanging in your wardrobe.
 
@@ -178,8 +123,8 @@ The long version, with the breakdown and the sources, is on the site.
     <item>
       <title>Thirsty: Jeans</title>
       <link>https://thirstyplanet.media/articles/thirsty-jeans/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-jeans/</guid>
-      <pubDate>Sat, 26 Sep 2026 08:18:00 GMT</pubDate>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-jeans/?r=2</guid>
+      <pubDate>Sat, 26 Sep 2026 08:29:00 GMT</pubDate>
       <category>THIRSTY</category>
       <description>The CEO of Levi's once told an audience he had not washed his jeans in a year. It sounded like a stunt. It was actually water policy.
 
@@ -227,8 +172,8 @@ The long version, with the breakdown, the indigo chemistry and the sources, is o
     <item>
       <title>Thirsty Industries: Textile</title>
       <link>https://thirstyplanet.media/articles/thirsty-industries-textile/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-textile/</guid>
-      <pubDate>Sat, 26 Sep 2026 08:17:00 GMT</pubDate>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-textile/?r=2</guid>
+      <pubDate>Sat, 26 Sep 2026 08:28:00 GMT</pubDate>
       <category>THIRSTY INDUSTRIES</category>
       <description>Fashion withdraws 93 billion cubic metres of water a year. Almost all of it comes back, and that is the problem.
 
@@ -285,8 +230,8 @@ The long version, with the effluent table, the dye house mechanism and the sourc
     <item>
       <title>Thirsty: Coffee</title>
       <link>https://thirstyplanet.media/articles/thirsty-coffee/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-coffee/</guid>
-      <pubDate>Sat, 26 Sep 2026 08:16:00 GMT</pubDate>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-coffee/?r=2</guid>
+      <pubDate>Sat, 26 Sep 2026 08:27:00 GMT</pubDate>
       <category>THIRSTY</category>
       <description>By the time a cup of coffee reaches your kitchen, about 140 litres of water have already gone into it. The kettle adds a fraction of a litre. The rest was spent months earlier, on a hillside in Ethiopia, Brazil or Vietnam, while the beans were still on the tree.
 
@@ -342,8 +287,8 @@ The full article, with the breakdown, the mechanism and the sources, is on the s
     <item>
       <title>The 0.3%</title>
       <link>https://thirstyplanet.media/articles/the-0-3-percent/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/the-0-3-percent/</guid>
-      <pubDate>Sat, 26 Sep 2026 08:15:00 GMT</pubDate>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/the-0-3-percent/?r=2</guid>
+      <pubDate>Sat, 26 Sep 2026 08:26:00 GMT</pubDate>
       <category>FOUNDATIONS</category>
       <description>Somewhere in school, everyone saw the photo of Earth from space and heard that 70 percent of the planet is water. True, and it hides the real story.
 
@@ -392,8 +337,8 @@ That is the story this series tells, one everyday object at a time. The long ver
     <item>
       <title>Thirsty Places: Singapore</title>
       <link>https://thirstyplanet.media/articles/thirsty-places-singapore/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-places-singapore/</guid>
-      <pubDate>Sat, 26 Sep 2026 08:14:00 GMT</pubDate>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-places-singapore/?r=2</guid>
+      <pubDate>Sat, 26 Sep 2026 08:25:00 GMT</pubDate>
       <category>THIRSTY PLACES</category>
       <description>Singapore has almost no natural freshwater. So it built a national supply out of the water it had already used.
 
@@ -448,8 +393,8 @@ The long version, with the four taps, the process and the sources, is on the sit
     <item>
       <title>Thirsty: Beer</title>
       <link>https://thirstyplanet.media/articles/thirsty-beer/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-beer/</guid>
-      <pubDate>Sat, 26 Sep 2026 08:13:00 GMT</pubDate>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-beer/?r=2</guid>
+      <pubDate>Sat, 26 Sep 2026 08:24:00 GMT</pubDate>
       <category>THIRSTY</category>
       <description>How much water does it take to make a beer? Not the water in the glass. All of it: the barley in the field, the rain and irrigation months before the brewery, the brewing itself.
 
@@ -502,59 +447,10 @@ The long version, with the breakdown and the sources, is on the site.
       <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-beer/thirsty-beer-hero.jpg" type="image/jpeg" length="281950"/>
     </item>
     <item>
-      <title>The water you can't see</title>
-      <link>https://thirstyplanet.media/articles/the-water-you-cant-see/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/the-water-you-cant-see/</guid>
-      <pubDate>Sat, 26 Sep 2026 08:12:00 GMT</pubDate>
-      <category>FOUNDATIONS</category>
-      <description>You drank about two litres of water today. You used a great deal more, and almost none of it came out of a tap. It went into the coffee before the beans were roasted, into the cotton of the shirt on your back, into the steel and the silicon of the phone in your hand.
-
-We call this the blue planet, but 97.5 percent of its water is salt. Of the little that is fresh, two thirds sits frozen in glaciers and ice caps, and most of the rest lies too deep underground to reach. What is left for eight billion people, every farm and every factory, is a fraction of one percent, and it has to be in the right place, at the right time, clean enough to use.
-
-#WaterFootprint #WaterEducation #Sustainability #Water</description>
-      <content:encoded><![CDATA[<p><em>Most people drink about two litres of water a day and use several thousand, and almost none of it comes out of a tap. Where it goes, how anyone counts it, and why someone who has spent a career inside the water industry decided to write it all down.</em></p>
-<p>Most people drink about two litres of water in a day. A glass with breakfast, a coffee, a bottle at a desk, something with dinner. It is a figure everyone has heard, and it is the only water most people ever think of themselves as using, apart from the shower and the kettle.</p>
-<p>It is a small fraction of the truth. The rest of the water in a day was used long before the day began, by plants, animals and machines, in places its user will never see, making the things they ate, wore and picked up. This article is the first one on this site, and it explains what that water is, how it can be counted, and why the person writing it thought it needed a website.</p>
-<h3 id="one-day-s-receipt">One day's receipt</h3>
-<p>The launch of this series was a receipt: an ordinary day, added up in litres, with the water that each item carried before it reached the shop.</p>
-<div class="table-wrap"><table><thead><tr><th>An ordinary day</th><th class="num">Litres, spent before purchase</th></tr></thead><tbody><tr><td>A cup of coffee</td><td class="num">140</td></tr><tr><td>A cotton t-shirt</td><td class="num">2,700</td></tr><tr><td>A bar of chocolate</td><td class="num">1,700</td></tr><tr><td>A 200 g steak</td><td class="num">3,100</td></tr><tr><td>A pair of jeans</td><td class="num">8,000</td></tr><tr><td>A glass of drinking water</td><td class="num">0.25</td></tr></tbody></table></div>
-<p>A day that includes a new shirt and a new pair of jeans is a heavy day, and most days do not. But a day of ordinary eating, without a single purchase of clothing, runs to thousands of litres, and the global average, worked out by the researchers whose method this site uses, is about 3,800 litres per person per day. In wealthy countries it is higher, and a day with a steak in it is higher still. Two litres drunk; thousands used; almost none of it from a tap.</p>
-<h3 id="what-hidden-water-is">What hidden water is</h3>
-<p>The water in that table is real water. It fell as rain on a coffee farm and was drawn up through the roots of a tree. It was pumped from a river onto a cotton field in a dry country. It grew the grain that fed a cow for three years. It filled the dye baths that made a pair of jeans blue and left, coloured, through a pipe. All of it was used, in the plain sense that it passed through something on the way to making a product, and all of it is invisible to the person holding the product, because the using happened somewhere else.</p>
-<figure class="art-photo"><img src="https://thirstyplanet.media/assets/articles/the-water-you-cant-see/cotton-pivot.jpg" alt="A pivot irrigator over cotton. This is what the water in a t-shirt looks like while it is being spent." loading="lazy"><figcaption>A pivot irrigator over cotton. This is what the water in a t-shirt looks like while it is being spent.</figcaption></figure>
-<p>The method that makes it visible was developed by the Water Footprint Network, and it counts three kinds of water: the rain a crop took up, which it calls green; the irrigation applied to it, which it calls blue; and the clean water it would take to dilute the pollution the crop or the factory caused, which it calls grey. Every number on this site is one of those sums, and every article says which kind of water it was, because that turns out to be the question that matters.</p>
-<div class="table-wrap"><table><thead><tr><th>The three kinds of water</th><th></th></tr></thead><tbody><tr><td>Green</td><td>Rain, taken up by the crop and returned to the sky</td></tr><tr><td>Blue</td><td>Irrigation, pumped from rivers and groundwater</td></tr><tr><td>Grey</td><td>The clean water needed to dilute what was polluted</td></tr></tbody></table></div>
-<h3 id="the-blue-planet-and-its-film-of-usable-water">The blue planet, and its film of usable water</h3>
-<p>We call it the blue planet, and the name is accurate and misleading in equal measure. About 97.5 percent of Earth's water is salt. Of the small fraction that is fresh, most is frozen in Antarctica, Greenland and the world's glaciers, or lies deep underground. What is actually available to eight billion people, every farm and every factory, is a thin film of rivers, lakes and shallow groundwater, well under one percent of the whole, and its own article explains the arithmetic.</p>
-<p>Of what people draw from that film each year, agriculture takes about 70 percent. Industry takes about 20. Homes and cities, the taps, the showers and the kettles, take the last 10, which is why the two litres that people drink and the few hundred they use at home are such a small part of their real footprint. The water is in the food and the things, and the food and the things were made in fields and factories.</p>
-<h3 id="the-20-percent-i-know-from-the-inside">The 20 percent I know from the inside</h3>
-<p>That 20 percent, the industry's share, is where I have spent my working life. I have spent it helping factories and cities treat and reuse their water, in dyehouses in Bangladesh, tanneries in India, food plants and sewage works on several continents, and in every one of them the water is doing something that the people who buy the product have never been told about.</p>
-<figure class="art-photo portrait"><img src="https://thirstyplanet.media/assets/articles/the-water-you-cant-see/cesar-india.jpg" alt="Between plant visits in southern India. The water industry is a place most people never see from the inside." loading="lazy"><figcaption>Between plant visits in southern India. The water industry is a place most people never see from the inside.</figcaption></figure>
-<p>After all those years, the thing that still surprises me most is how little any of us know about where water goes, more than how scarce it is becoming, though it is, in many places. I include myself in that. The deeper I go into this industry, the more I find I still have to learn, and the more I notice that the language the industry uses, the terms and the measurements and the machines, keeps the knowledge inside it. A dye house's water, a sewage works, a membrane plant, a digester: none of it is secret, and none of it is ever explained to anyone outside.</p>
-<h3 id="what-the-numbers-will-not-do">What the numbers will not do</h3>
-<p>A word about what the numbers on this site are for, and what they are not, because the misuse of them is the commonest thing that happens to them.</p>
-<p>A water footprint describes how a product was made. It does not describe the person who bought it, and it is not a guilt score. The 140 litres in a cup of coffee were spent on a hillside in Ethiopia, by a tree, and the coffee drinker who gives up the cup returns nothing to the hillside. The 8,000 litres in a pair of jeans were spent in a cotton field and a dye house, and the buyer who does without the jeans has emptied no river and filled none. The water was used where the thing was made, by the people who made it, under the rules and prices of that place, and that is where anything that could be done about it would be done.</p>
-<p>What the numbers do is show where the water is. They make a map, and on that map the fields and the factories are where the water goes, and the checkout is a small dot. Once that is seen clearly, the useful questions become obvious: what kind of water it was, rain or river; whether the place could spare it; and what the factory did with it afterwards. Those are the questions this site is built to answer, and they are the ones that lead somewhere.</p>
-<h3 id="how-the-site-is-organised">How the site is organised</h3>
-<p>The articles fall into a few series, and the series each do a different job.</p>
-<p><strong>Thirsty</strong> takes one everyday thing at a time, a cup of coffee, a shirt, a steak, and works out the water behind it. These are the numbers, and they are where most readers start.</p>
-<p><strong>Thirsty Industries</strong> does the same for a whole sector, textiles, food, and follows the water into the factory and out of it.</p>
-<p><strong>Plain Water</strong> takes the terms the water industry uses every day, wastewater, COD, sludge, and explains them in ordinary language, one at a time. These are the words that make the machines make sense, and they are the part of this site that could only be written from inside.</p>
-<p><strong>Myth</strong> tests the things everyone says about water against what is actually known.</p>
-<p><strong>Thirsty Places</strong> goes to the cities and countries that have already solved a water problem, to show that the solutions exist and what it took to build them.</p>
-<p>Every article says where its numbers came from, at the end, and every figure uses the same method so that the articles can be read against each other. That consistency is the whole discipline of the site. A number that cannot be defended in an argument does not get published.</p>
-<h3 id="what-this-site-is-for">What this site is for</h3>
-<p>Thirsty Planet exists to explain water the way I wish someone had explained it to me: clearly, honestly, and with real numbers, sourced every time. It follows the hidden water inside everyday things, a cup of coffee, a shirt, a steak, a phone, and works out how much it really took to make them and where that water came from. It takes the words the water industry uses all day and turns them into plain language, one term at a time. It tests the things everyone says about water against what is actually known. And it goes to the places, cities and plants, where the water problem has already been solved, to show that the solutions exist.</p>
-<p>The promise is a simple one. The numbers will change how you look at almost everything you own. They are not there to make anyone feel guilty, because guilt about water changes nothing and understanding it can. They are there to make visible what was always there, and once the water behind things becomes visible, it is very hard to stop seeing it.</p>
-<p>That is the water you can't see. This is where it starts.</p>
-<h2>Sources</h2><ol><li>Hoekstra, A.Y. and Mekonnen, M.M. (2012). The water footprint of humanity. Proceedings of the National Academy of Sciences 109. Global average water footprint of consumption about 1,385 cubic metres per person per year, roughly 3,800 litres a day, with national averages from under 2,000 to above 6,000 litres a day.</li><li>Water Footprint Network; Mekonnen and Hoekstra (2011), for the products in the day's receipt.</li><li>USGS Water Science School and Shiklomanov (1993), for the partition of the world's water; FAO AQUASTAT for withdrawals by sector.</li><li>Photographs: opener: An irrigation canal near Kovvali, Eluru by iMahesh (CC BY-SA) via Wikimedia Commons; Cesar Chu Ortega; inline: Irrigation in Cotton Field - 51488231980 by Alabama Extension (CC0) via Wikimedia Commons.</li></ol>]]></content:encoded>
-      <enclosure url="https://thirstyplanet.media/assets/articles/the-water-you-cant-see/the-water-you-cant-see-hero.jpg" type="image/jpeg" length="815828"/>
-    </item>
-    <item>
       <title>Plain Water: Wastewater</title>
       <link>https://thirstyplanet.media/articles/plain-water-wastewater/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/plain-water-wastewater/?r=2</guid>
-      <pubDate>Sat, 26 Sep 2026 08:11:00 GMT</pubDate>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/plain-water-wastewater/?r=3</guid>
+      <pubDate>Sat, 26 Sep 2026 08:23:00 GMT</pubDate>
       <category>PLAIN WATER</category>
       <description>Wastewater is not a dirty word, and it is not another word for sewage.
 
@@ -606,8 +502,8 @@ The long version is on the site.
     <item>
       <title>Myth: Bottled water is cleaner than tap</title>
       <link>https://thirstyplanet.media/articles/myth-bottled-water/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/myth-bottled-water/?r=2</guid>
-      <pubDate>Sat, 26 Sep 2026 08:10:00 GMT</pubDate>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/myth-bottled-water/?r=3</guid>
+      <pubDate>Sat, 26 Sep 2026 08:22:00 GMT</pubDate>
       <category>MYTH</category>
       <description>&quot;Bottled water is cleaner than tap.&quot; It depends, but not for the reason most people assume.
 
@@ -659,6 +555,110 @@ The long version, with the two rulebooks and the sources, is on the site.
 <p>Got a water myth worth testing? <a href="mailto:cesar@aguato.com">Send it in</a>.</p>
 <h2>Sources</h2><ol><li>Directive (EU) 2020/2184 of the European Parliament and of the Council on the quality of water intended for human consumption (the Drinking Water Directive), recast of Directive 98/83/EC. Parameters, monitoring frequency by supply size, and the obligation to inform consumers.</li><li>Directive 2009/54/EC on the exploitation and marketing of natural mineral waters: definition, bottling at source, permitted treatments, prohibition of disinfection, labelling.</li><li>World Health Organization, Guidelines for Drinking water Quality, chlorine: recommended free chlorine residual of 0.2 to 0.5 mg/L at the point of delivery; disinfection byproducts.</li><li>Photographs: opener: Полка с питьевой водой в магазине by JustKronos (CC0) via Wikimedia Commons; laboratory samples by CDC, Unsplash.</li><li>The price comparison (tap water hundreds of times cheaper per litre than bottled) is arithmetic on typical European water tariffs of a few euros per cubic metre against retail bottled prices of tens of cents per litre.</li></ol>]]></content:encoded>
       <enclosure url="https://thirstyplanet.media/assets/articles/myth-bottled-water/myth-bottled-water-hero.jpg" type="image/jpeg" length="713190"/>
+    </item>
+    <item>
+      <title>Thirsty: Beef</title>
+      <link>https://thirstyplanet.media/articles/thirsty-beef/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-beef/</guid>
+      <pubDate>Sat, 26 Sep 2026 08:21:00 GMT</pubDate>
+      <category>THIRSTY</category>
+      <description>A 200 gram steak carries about 3,100 litres of water, and nearly all of it was spent before the animal ever drank.
+
+Cattle eat for roughly three years before slaughter: grass, hay, grain. Growing all that feed takes water every season, and when those years of feed water are divided by the meat one animal yields, beef lands around 15,400 litres per kilo, the highest of the common meats. The animal's own drinking water is about one percent of the total.
+
+The number changes a great deal with how the animal was raised. Cattle on rain fed pasture mostly use rain that fell on grassland anyway. Cattle fed irrigated grain in a dry region draw on rivers and aquifers. The same steak on the plate, a very different water story behind it.
+
+The long version, with the breakdown and the sources, is on the site.
+
+#WaterFootprint #HiddenWater #Sustainability #Water</description>
+      <content:encoded><![CDATA[<p><em>A 200 gram steak carries about 3,100 litres of water, and 98 percent of it never touched the animal. The water footprint of beef is the footprint of three years of feed, and how those years were fed decides whether the number is rain on a hillside or a river in a dry valley.</em></p>
+<p>Ask how much water is in a steak and the honest answer is: almost none, and that is exactly the problem with the question. A 200 gram steak contains perhaps 140 grams of water, which is about as much as a small glass. By the standard method for counting hidden water, the same steak carries about 3,100 litres, and the gap between those two numbers is the whole subject of this article.</p>
+<p>Beef is the largest water footprint of any common food, per kilogram, and it is also the most argued over, because the number depends more than most on how the animal lived. Both of those things are worth understanding before forming a view.</p>
+<h3 id="three-thousand-litres">Three thousand litres</h3>
+<p>By the Water Footprint Network's method, which adds the rain a crop took up, the irrigation applied to it and the clean water it would take to dilute the pollution it caused, beef comes to about 15,400 litres per kilogram in the global average. A 200 gram steak is a fifth of a kilogram, so about 3,100 litres.</p>
+<div class="table-wrap"><table><thead><tr><th>Stage</th><th class="num">Litres</th><th class="num">Share</th></tr></thead><tbody><tr><td>Growing the feed</td><td class="num">3,000</td><td class="num">97%</td></tr><tr><td>The animal's drinking water</td><td class="num">50</td><td class="num">1.5%</td></tr><tr><td>Farm and processing</td><td class="num">50</td><td class="num">1.5%</td></tr></tbody></table></div>
+<p>The split is approximate, and the total is the figure to remember. But the shape of it is the point, and it is more lopsided than for any crop on this site. Ninety eight percent of the water in a steak never touched the animal. It grew grass, hay and grain, and the animal ate them.</p>
+<h3 id="three-years-of-eating">Three years of eating</h3>
+<p>A beef animal lives for somewhere between eighteen months and three years before slaughter, depending on the system, and for all of that time it eats. Grass in the field, hay and silage in winter, and, in the last months of an industrial system, grain in a feedlot. Every one of those feeds is a crop, every crop transpired water for a season, and the method charges all of it to the animal.</p>
+<p>At the end, one animal yields a few hundred kilograms of meat. Divide three years of feed water by that yield and the litres per kilogram climb very high, higher than any crop, because the animal is a second stage of concentration on top of the crop's own. A cow is, from the point of view of water accounting, a machine for turning a large volume of plants into a small volume of meat, and the water follows the plants.</p>
+<div class="table-wrap"><table><thead><tr><th>Water footprint per kilogram, global averages</th><th>Litres</th></tr></thead><tbody><tr><td>Beef</td><td>about 15,400</td></tr><tr><td>Sheep meat</td><td>about 10,400</td></tr><tr><td>Pork</td><td>about 6,000</td></tr><tr><td>Chicken</td><td>about 4,300</td></tr><tr><td>Pulses</td><td>about 4,000</td></tr><tr><td>Wheat</td><td>about 1,800</td></tr></tbody></table></div>
+<p>The same study that produced the beef figure produced the rest of the table, and the pattern is what one would expect: the longer an animal lives and the more it eats per kilogram of meat, the larger the number. Chicken, which grows fast on a small amount of feed, is a quarter of beef. Pulses, which are plants, are a quarter of beef too, and carry as much protein per kilogram.</p>
+<figure class="art-photo"><img src="https://thirstyplanet.media/assets/articles/thirsty-beef/beef-feedlot.jpg" alt="A cattle feedlot from the air. The grain fed here was often grown on irrigated land in a dry region." loading="lazy"><figcaption>A cattle feedlot from the air. The grain fed here was often grown on irrigated land in a dry region.</figcaption></figure>
+<h3 id="not-all-water-costs-the-same">Not all water costs the same</h3>
+<p>Here the footprint's colours matter more than for any other product, because they turn a frightening number into a manageable one.</p>
+<p>In the global average, about 94 percent of beef's water footprint is green: rain that fell on pasture and on feed crops and was taken up by the plants. Around 4 percent is blue, water pumped for irrigation. About 3 percent is grey, the dilution of fertiliser and manure that reached rivers.</p>
+<div class="table-wrap"><table><thead><tr><th>Kind of water</th><th>Share of beef's global average footprint</th></tr></thead><tbody><tr><td>Green, rain</td><td>about 94%</td></tr><tr><td>Blue, irrigation</td><td>about 4%</td></tr><tr><td>Grey, pollution</td><td>about 3%</td></tr></tbody></table></div>
+<p>Rain on a hillside of grass was never going to fill a tap. Cattle grazing that hillside are using water that would otherwise have grown something else on the same ground, or evaporated, and the method is right to count it, but it is not water that is missing from a river afterwards. The blue share is the part that competes with cities and with other farmers, and in the global average it is small.</p>
+<p>The average, though, hides a very wide range, and the range is the fine print.</p>
+<h3 id="the-system-matters">The system matters</h3>
+<p>Cattle are raised in three broad ways, and the water story of each is different.</p>
+<p><strong>Grazing systems</strong> keep animals on pasture for their whole lives. The footprint per kilogram is often the highest of the three, because animals grow slowly on grass, but almost all of it is green water, rain on grassland. In the wet uplands of Ireland or the pampas of Argentina, this is water with very little else to do.</p>
+<p><strong>Mixed systems</strong>, the norm across much of Europe, graze animals in summer and feed them hay, silage and some grain in winter. The footprint is lower per kilogram and still mostly green.</p>
+<p><strong>Industrial systems</strong> finish animals in feedlots on grain, much of it maize and soy grown specifically as feed. The animals grow fast, so the footprint per kilogram is the lowest of the three. But the grain was often grown on irrigated land, and in a dry region, the High Plains of the United States above the Ogallala aquifer for instance, the blue share of that footprint is drawn from a water table that is falling. Per kilogram, industrial beef uses less water. Per litre of river, it can use far more.</p>
+<figure class="art-photo"><img src="https://thirstyplanet.media/assets/articles/thirsty-beef/cow-sky.jpg" alt="The same steak can carry rain on a hillside or a river in a dry valley. The label does not say which." loading="lazy"><figcaption>The same steak can carry rain on a hillside or a river in a dry valley. The label does not say which.</figcaption></figure>
+<p>So the same steak on a plate can be three thousand litres of Irish rain or three thousand litres that include a meaningful draw on an aquifer in Kansas, and the number alone does not distinguish them. How the animal was raised changes the picture entirely, and it is the question worth asking of the number.</p>
+<h3 id="grey-water-and-the-manure">Grey water and the manure</h3>
+<p>The grey share of beef's footprint is small, at around 3 percent, but it points at a problem that the water footprint only partly captures.</p>
+<p>A beef animal produces a great deal of manure, and manure is rich in nitrogen and phosphorus. On pasture, at low density, it is fertiliser and the grass takes it up. In a feedlot, where thousands of animals stand on a few hectares, it is a waste stream, held in lagoons and spread on nearby fields in quantities the fields cannot always absorb. What the fields cannot absorb runs off into streams and down into groundwater, and the nitrogen in it does in a river what organic matter does: it feeds growth, the growth consumes oxygen, and the river suffers. The feed crops themselves were fertilised too, and their runoff is counted in the same way.</p>
+<p>The method turns all of this into a volume, the clean water that would be needed to dilute it to a standard, and adds it to the footprint. It is the least precise of the three colours, because it depends on which pollutant is counted and which standard is used, and it is the one most likely to be understated. Anyone who has stood downstream of a large feedlot after rain will suspect that 3 percent is a polite figure.</p>
+<h3 id="by-country">By country</h3>
+<p>The global average conceals differences between countries that are as large as the differences between systems, because a country's beef reflects its rainfall, its feed and its farming. Beef raised in the wet grasslands of northern Europe or Brazil's south is mostly green water; beef finished on irrigated grain in a dry country carries a blue share several times the global average. The same study that produced the 15,400 litre figure published values by country, and the spread between the wettest grazing countries and the driest feedlot systems is wide enough that a national average tells a reader more than the global one. Where the steak came from is, for water, the most useful thing a label could say, and it is the one thing most labels do not.</p>
+<h3 id="a-fairer-comparison">A fairer comparison</h3>
+<p>Per kilogram is the usual way to state these figures, and it flatters nothing and nobody. Per gram of protein is a fairer comparison for food, and by that measure beef still sits at the top, needing several times the water of pulses for the same protein, but the gap narrows, and chicken and eggs come close to plant sources. Per calorie, the picture is similar. The reason beef stays at the top by every measure is the same reason it is at the top by weight: a long life, a great deal of feed, and a small yield.</p>
+<h3 id="what-the-number-is-for">What the number is for</h3>
+<p>The footprint of beef is not a guilt score, and it is a poor guide to individual choices without the colours attached. Eating less beef from an irrigated feedlot in a dry region saves blue water that a river needed. Eating less beef from rain fed pasture in a wet country saves, in water terms, very little, whatever it does for other reasons.</p>
+<p>What the number is good for is seeing the shape of things. Almost nothing in a steak's water was spent on the animal. It was spent on three years of plants, and those plants are where the water question about beef actually lives: what they were, where they grew, and whether the rain was enough.</p>
+<h2>Sources</h2><ol><li>Mekonnen, M.M. and Hoekstra, A.Y. (2012). A global assessment of the water footprint of farm animal products. Ecosystems 15, 401 to 415. Beef, global average, about 15,400 L/kg; roughly 94 percent green, 4 percent blue, 3 percent grey; per gram of protein and per calorie comparisons across animal products and crops.</li><li>Mekonnen, M.M. and Hoekstra, A.Y. (2010). The green, blue and grey water footprint of farm animals and animal products. Value of Water Research Report 48, UNESCO IHE. Differences between grazing, mixed and industrial systems.</li><li>Stage split (feed, drinking water, farm and processing) is approximate and illustrative; the total is the citable figure.</li><li>Photographs: steaks by Kyle Mackie, cattle by Quaritsch Photography and Ryan Song, all Unsplash; inline: Cattle feedlot south of Portales, New Mexico by Quintin Soloviev (CC BY) via Wikimedia Commons.</li></ol>]]></content:encoded>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-beef/thirsty-beef-hero.jpg" type="image/jpeg" length="610168"/>
+    </item>
+    <item>
+      <title>The water you can't see</title>
+      <link>https://thirstyplanet.media/articles/the-water-you-cant-see/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/the-water-you-cant-see/</guid>
+      <pubDate>Sat, 26 Sep 2026 08:12:00 GMT</pubDate>
+      <category>FOUNDATIONS</category>
+      <description>You drank about two litres of water today. You used a great deal more, and almost none of it came out of a tap. It went into the coffee before the beans were roasted, into the cotton of the shirt on your back, into the steel and the silicon of the phone in your hand.
+
+We call this the blue planet, but 97.5 percent of its water is salt. Of the little that is fresh, two thirds sits frozen in glaciers and ice caps, and most of the rest lies too deep underground to reach. What is left for eight billion people, every farm and every factory, is a fraction of one percent, and it has to be in the right place, at the right time, clean enough to use.
+
+#WaterFootprint #WaterEducation #Sustainability #Water</description>
+      <content:encoded><![CDATA[<p><em>Most people drink about two litres of water a day and use several thousand, and almost none of it comes out of a tap. Where it goes, how anyone counts it, and why someone who has spent a career inside the water industry decided to write it all down.</em></p>
+<p>Most people drink about two litres of water in a day. A glass with breakfast, a coffee, a bottle at a desk, something with dinner. It is a figure everyone has heard, and it is the only water most people ever think of themselves as using, apart from the shower and the kettle.</p>
+<p>It is a small fraction of the truth. The rest of the water in a day was used long before the day began, by plants, animals and machines, in places its user will never see, making the things they ate, wore and picked up. This article is the first one on this site, and it explains what that water is, how it can be counted, and why the person writing it thought it needed a website.</p>
+<h3 id="one-day-s-receipt">One day's receipt</h3>
+<p>The launch of this series was a receipt: an ordinary day, added up in litres, with the water that each item carried before it reached the shop.</p>
+<div class="table-wrap"><table><thead><tr><th>An ordinary day</th><th class="num">Litres, spent before purchase</th></tr></thead><tbody><tr><td>A cup of coffee</td><td class="num">140</td></tr><tr><td>A cotton t-shirt</td><td class="num">2,700</td></tr><tr><td>A bar of chocolate</td><td class="num">1,700</td></tr><tr><td>A 200 g steak</td><td class="num">3,100</td></tr><tr><td>A pair of jeans</td><td class="num">8,000</td></tr><tr><td>A glass of drinking water</td><td class="num">0.25</td></tr></tbody></table></div>
+<p>A day that includes a new shirt and a new pair of jeans is a heavy day, and most days do not. But a day of ordinary eating, without a single purchase of clothing, runs to thousands of litres, and the global average, worked out by the researchers whose method this site uses, is about 3,800 litres per person per day. In wealthy countries it is higher, and a day with a steak in it is higher still. Two litres drunk; thousands used; almost none of it from a tap.</p>
+<h3 id="what-hidden-water-is">What hidden water is</h3>
+<p>The water in that table is real water. It fell as rain on a coffee farm and was drawn up through the roots of a tree. It was pumped from a river onto a cotton field in a dry country. It grew the grain that fed a cow for three years. It filled the dye baths that made a pair of jeans blue and left, coloured, through a pipe. All of it was used, in the plain sense that it passed through something on the way to making a product, and all of it is invisible to the person holding the product, because the using happened somewhere else.</p>
+<figure class="art-photo"><img src="https://thirstyplanet.media/assets/articles/the-water-you-cant-see/cotton-pivot.jpg" alt="A pivot irrigator over cotton. This is what the water in a t-shirt looks like while it is being spent." loading="lazy"><figcaption>A pivot irrigator over cotton. This is what the water in a t-shirt looks like while it is being spent.</figcaption></figure>
+<p>The method that makes it visible was developed by the Water Footprint Network, and it counts three kinds of water: the rain a crop took up, which it calls green; the irrigation applied to it, which it calls blue; and the clean water it would take to dilute the pollution the crop or the factory caused, which it calls grey. Every number on this site is one of those sums, and every article says which kind of water it was, because that turns out to be the question that matters.</p>
+<div class="table-wrap"><table><thead><tr><th>The three kinds of water</th><th></th></tr></thead><tbody><tr><td>Green</td><td>Rain, taken up by the crop and returned to the sky</td></tr><tr><td>Blue</td><td>Irrigation, pumped from rivers and groundwater</td></tr><tr><td>Grey</td><td>The clean water needed to dilute what was polluted</td></tr></tbody></table></div>
+<h3 id="the-blue-planet-and-its-film-of-usable-water">The blue planet, and its film of usable water</h3>
+<p>We call it the blue planet, and the name is accurate and misleading in equal measure. About 97.5 percent of Earth's water is salt. Of the small fraction that is fresh, most is frozen in Antarctica, Greenland and the world's glaciers, or lies deep underground. What is actually available to eight billion people, every farm and every factory, is a thin film of rivers, lakes and shallow groundwater, well under one percent of the whole, and its own article explains the arithmetic.</p>
+<p>Of what people draw from that film each year, agriculture takes about 70 percent. Industry takes about 20. Homes and cities, the taps, the showers and the kettles, take the last 10, which is why the two litres that people drink and the few hundred they use at home are such a small part of their real footprint. The water is in the food and the things, and the food and the things were made in fields and factories.</p>
+<h3 id="the-20-percent-i-know-from-the-inside">The 20 percent I know from the inside</h3>
+<p>That 20 percent, the industry's share, is where I have spent my working life. I have spent it helping factories and cities treat and reuse their water, in dyehouses in Bangladesh, tanneries in India, food plants and sewage works on several continents, and in every one of them the water is doing something that the people who buy the product have never been told about.</p>
+<figure class="art-photo portrait"><img src="https://thirstyplanet.media/assets/articles/the-water-you-cant-see/cesar-india.jpg" alt="Between plant visits in southern India. The water industry is a place most people never see from the inside." loading="lazy"><figcaption>Between plant visits in southern India. The water industry is a place most people never see from the inside.</figcaption></figure>
+<p>After all those years, the thing that still surprises me most is how little any of us know about where water goes, more than how scarce it is becoming, though it is, in many places. I include myself in that. The deeper I go into this industry, the more I find I still have to learn, and the more I notice that the language the industry uses, the terms and the measurements and the machines, keeps the knowledge inside it. A dye house's water, a sewage works, a membrane plant, a digester: none of it is secret, and none of it is ever explained to anyone outside.</p>
+<h3 id="what-the-numbers-will-not-do">What the numbers will not do</h3>
+<p>A word about what the numbers on this site are for, and what they are not, because the misuse of them is the commonest thing that happens to them.</p>
+<p>A water footprint describes how a product was made. It does not describe the person who bought it, and it is not a guilt score. The 140 litres in a cup of coffee were spent on a hillside in Ethiopia, by a tree, and the coffee drinker who gives up the cup returns nothing to the hillside. The 8,000 litres in a pair of jeans were spent in a cotton field and a dye house, and the buyer who does without the jeans has emptied no river and filled none. The water was used where the thing was made, by the people who made it, under the rules and prices of that place, and that is where anything that could be done about it would be done.</p>
+<p>What the numbers do is show where the water is. They make a map, and on that map the fields and the factories are where the water goes, and the checkout is a small dot. Once that is seen clearly, the useful questions become obvious: what kind of water it was, rain or river; whether the place could spare it; and what the factory did with it afterwards. Those are the questions this site is built to answer, and they are the ones that lead somewhere.</p>
+<h3 id="how-the-site-is-organised">How the site is organised</h3>
+<p>The articles fall into a few series, and the series each do a different job.</p>
+<p><strong>Thirsty</strong> takes one everyday thing at a time, a cup of coffee, a shirt, a steak, and works out the water behind it. These are the numbers, and they are where most readers start.</p>
+<p><strong>Thirsty Industries</strong> does the same for a whole sector, textiles, food, and follows the water into the factory and out of it.</p>
+<p><strong>Plain Water</strong> takes the terms the water industry uses every day, wastewater, COD, sludge, and explains them in ordinary language, one at a time. These are the words that make the machines make sense, and they are the part of this site that could only be written from inside.</p>
+<p><strong>Myth</strong> tests the things everyone says about water against what is actually known.</p>
+<p><strong>Thirsty Places</strong> goes to the cities and countries that have already solved a water problem, to show that the solutions exist and what it took to build them.</p>
+<p>Every article says where its numbers came from, at the end, and every figure uses the same method so that the articles can be read against each other. That consistency is the whole discipline of the site. A number that cannot be defended in an argument does not get published.</p>
+<h3 id="what-this-site-is-for">What this site is for</h3>
+<p>Thirsty Planet exists to explain water the way I wish someone had explained it to me: clearly, honestly, and with real numbers, sourced every time. It follows the hidden water inside everyday things, a cup of coffee, a shirt, a steak, a phone, and works out how much it really took to make them and where that water came from. It takes the words the water industry uses all day and turns them into plain language, one term at a time. It tests the things everyone says about water against what is actually known. And it goes to the places, cities and plants, where the water problem has already been solved, to show that the solutions exist.</p>
+<p>The promise is a simple one. The numbers will change how you look at almost everything you own. They are not there to make anyone feel guilty, because guilt about water changes nothing and understanding it can. They are there to make visible what was always there, and once the water behind things becomes visible, it is very hard to stop seeing it.</p>
+<p>That is the water you can't see. This is where it starts.</p>
+<h2>Sources</h2><ol><li>Hoekstra, A.Y. and Mekonnen, M.M. (2012). The water footprint of humanity. Proceedings of the National Academy of Sciences 109. Global average water footprint of consumption about 1,385 cubic metres per person per year, roughly 3,800 litres a day, with national averages from under 2,000 to above 6,000 litres a day.</li><li>Water Footprint Network; Mekonnen and Hoekstra (2011), for the products in the day's receipt.</li><li>USGS Water Science School and Shiklomanov (1993), for the partition of the world's water; FAO AQUASTAT for withdrawals by sector.</li><li>Photographs: opener: An irrigation canal near Kovvali, Eluru by iMahesh (CC BY-SA) via Wikimedia Commons; Cesar Chu Ortega; inline: Irrigation in Cotton Field - 51488231980 by Alabama Extension (CC0) via Wikimedia Commons.</li></ol>]]></content:encoded>
+      <enclosure url="https://thirstyplanet.media/assets/articles/the-water-you-cant-see/the-water-you-cant-see-hero.jpg" type="image/jpeg" length="815828"/>
     </item>
     <item>
       <title>Thirsty: Roses</title>
