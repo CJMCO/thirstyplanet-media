@@ -1,5 +1,115 @@
 [
   {
+    "slug": "myth-chlorine-is-dangerous",
+    "title": "Myth: Chlorine in Tap Water Is Dangerous",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "Chlorine is a poison gas, it was a weapon in the First World War, and it is in the tap water of most of the world's cities on purpose. Whether the half a milligram in a glass does anything to the person drinking it, what chlorine did to the death rates of the cities that first added it, what the real argument about chlorine is and who has it, which people and animals do need chlorine free water and why, and what a glass left on the counter for an hour has lost.",
+    "date": "2026-10-02",
+    "minutes": 7,
+    "cover": "assets/articles/myth-chlorine-is-dangerous/myth-chlorine-is-dangerous-hero.jpg",
+    "url": "articles/myth-chlorine-is-dangerous/"
+  },
+  {
+    "slug": "plain-water-septic-tanks",
+    "title": "Plain Water: Septic Tanks",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "A quarter of the households in the United States and about a third of the people on Earth are not connected to a sewer. Their waste goes into a tank in the garden, and from there into the ground. What a septic tank is and what it does in the two days the water spends in it, why the soil under the garden is the real treatment plant, what goes wrong when the soil is clay or the water table is high, why a septic suburb puts nitrogen into its bay and its wells, what the truck that empties the tank does with the load, and why the tank is still the right answer for most of the world.",
+    "date": "2026-10-02",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-septic-tanks/plain-water-septic-tanks-hero.jpg",
+    "url": "articles/plain-water-septic-tanks/"
+  },
+  {
+    "slug": "plain-water-turbidity",
+    "title": "Plain Water: Turbidity",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The first thing anyone judges water by is whether they can see through it, and the water industry turned that glance into a number a century ago. What turbidity is and how a nephelometer measures it by the light the water scatters, why a cloudy water is a dangerous water even when the cloud itself is harmless, how a turbidity reading was the warning that a city of 400,000 sick people ignored in 1993, why the filters at a water works are judged on a tenth of a unit, and what a river in flood carries past the intake.",
+    "date": "2026-10-02",
+    "minutes": 8,
+    "cover": "assets/articles/plain-water-turbidity/plain-water-turbidity-hero.jpg",
+    "url": "articles/plain-water-turbidity/"
+  },
+  {
+    "slug": "thirsty-banana",
+    "title": "Thirsty: Banana",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "The most eaten fruit on Earth is a single cloned plant grown on the wet coasts of the tropics, and a banana carries about a hundred litres of water, most of it rain that fell on Ecuador. Where a banana's water goes, why the plant drinks so much and the number stays small, what a packing station does with its wash tanks, why the fungicide planes fly forty times a year, and why the disease that is crossing the world would take the Cavendish with it.",
+    "date": "2026-10-02",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-banana/thirsty-banana-hero.jpg",
+    "url": "articles/thirsty-banana/"
+  },
+  {
+    "slug": "thirsty-industries-hospitals",
+    "title": "Thirsty Industries: Hospitals",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "A hospital bed in a rich country uses as much water in a day as a small household uses in a week, and the water a hospital cannot do without is the water almost nobody sees. Where a hospital's water goes, why a dialysis machine is the most demanding tap in the building and what the chlorine in city water does to a patient's blood, what the steam sterilisers and the laundry use, what the drains carry out, and why a hospital that loses its water for a day is in more trouble than one that loses its power.",
+    "date": "2026-10-02",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-industries-hospitals/thirsty-industries-hospitals-hero.jpg",
+    "url": "articles/thirsty-industries-hospitals/"
+  },
+  {
+    "slug": "thirsty-industries-irrigation",
+    "title": "Thirsty Industries: Irrigation",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "Seven tenths of the fresh water that people take from rivers and the ground goes to one activity, watering crops, on a fifth of the world's farmland that grows two fifths of its food. How a field is watered and how much of the water reaches the plant, why most of the world still floods its fields, what a centre pivot is and why the circles are drying the aquifer under the American plains, why making irrigation more efficient has so often used more water rather than less, and what salt does to a field over fifty years.",
+    "date": "2026-10-02",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-industries-irrigation/thirsty-industries-irrigation-hero.jpg",
+    "url": "articles/thirsty-industries-irrigation/"
+  },
+  {
+    "slug": "thirsty-places-bogota",
+    "title": "Thirsty Places: Bogotá",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A capital of eight million at 2,600 metres in the Andes that drinks from a high moorland of sponge plants and fog, and that in April 2024 began turning its water off district by district for a year when the reservoirs in the moorland fell to a sixth. Where Bogotá's water comes from and what a páramo is, why one reservoir system carries seven tenths of the city, what El Niño did to it, how the rationing worked and what it changed, and why the river that leaves the city is one of the dirtiest in the Americas.",
+    "date": "2026-10-02",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-bogota/thirsty-places-bogota-hero.jpg",
+    "url": "articles/thirsty-places-bogota/"
+  },
+  {
+    "slug": "thirsty-places-dubai",
+    "title": "Thirsty Places: Dubai",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of nearly four million on a coast that gets about a hundred millimetres of rain a year, with no river, a brackish and failing aquifer, and some of the highest water use per person on Earth, drinks the sea. Where Dubai's water comes from and what it costs in gas and electricity, why the plants are moving from boiling seawater to pushing it through membranes, where the city's sewage goes and why its parks are green with it, what the storm of April 2024 revealed about a city built without drains, and what the lagoon full of flamingos at the end of the creek is made of.",
+    "date": "2026-10-02",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-dubai/thirsty-places-dubai-hero.jpg",
+    "url": "articles/thirsty-places-dubai/"
+  },
+  {
+    "slug": "thirsty-places-montevideo",
+    "title": "Thirsty Places: Montevideo",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "In the winter of 2023 the capital of one of the wettest and best watered countries in South America ran out of fresh water, and for two months the taps of nearly two million people ran salty, by decision of the state, because the alternative was that they ran dry. Where Montevideo's water comes from and why one reservoir on one river carries most of the country, what the drought of 2023 did to it, how the utility kept the taps running by mixing in the estuary and raising the salt limit, why the bottled water sold out and the protests said it was not a drought, and what the city is building so it does not happen again.",
+    "date": "2026-10-02",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-montevideo/thirsty-places-montevideo-hero.jpg",
+    "url": "articles/thirsty-places-montevideo/"
+  },
+  {
+    "slug": "thirsty-strawberries",
+    "title": "Thirsty: Strawberries",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "A punnet of winter strawberries in a northern supermarket was picked under plastic in the south of Spain, a few kilometres from the largest wetland in western Europe, on water pumped from the aquifer that the wetland lives on. Where a strawberry's water goes, why the fruit is light in water and heavy in consequence, what Huelva and Doñana are to each other, what the European court said in 2021, why California grows most of America's berries on drip under plastic, and why a strawberry in February is a water decision made somewhere else.",
+    "date": "2026-10-02",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-strawberries/thirsty-strawberries-hero.jpg",
+    "url": "articles/thirsty-strawberries/"
+  },
+  {
     "slug": "myth-pool-vs-lawn",
     "title": "Myth: A Swimming Pool Wastes More Water Than a Lawn",
     "series": "MYTH",
