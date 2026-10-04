@@ -220,5 +220,11 @@
     "summary": "The battery in an electric car holds about eight kilograms of lithium, and the lithium was concentrated, in most cases, by evaporating brine from under a desert. What a battery's water is, why the number is argued over more than almost any on this site, what the salt flats and the villages around them say, and what direct extraction and recycling would change.",
     "kicker": "THIRSTY",
     "accent": "#8FC3EC"
+  },
+  "17957021154252135": {
+    "title": "Plain Water: Lead",
+    "summary": "The water that leaves a treatment plant has no lead in it. The lead comes from the pipe between the street and the kitchen, laid a century ago because lead was soft and cheap, and it comes off in amounts that depend on the chemistry of the water running through it.",
+    "kicker": "PLAIN WATER",
+    "accent": "#7FD9C8"
   }
 }
