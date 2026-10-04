@@ -5,13 +5,185 @@
     <link>https://thirstyplanet.media/</link>
     <description>Understanding water, before it's gone. The hidden water inside everyday things, the water industry in plain words, and the places already solving it.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 15:05:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 15:23:46 GMT</lastBuildDate>
     <atom:link href="https://thirstyplanet.media/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://thirstyplanet.media/assets/globe-new.png</url>
       <title>Thirsty Planet</title>
       <link>https://thirstyplanet.media/</link>
     </image>
+    <item>
+      <title>Thirsty Industries: Steel</title>
+      <link>https://thirstyplanet.media/articles/thirsty-industries-steel/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-steel/?r=3</guid>
+      <pubDate>Sun, 04 Oct 2026 15:33:43 GMT</pubDate>
+      <category>THIRSTY INDUSTRIES</category>
+      <description>A tonne of steel takes about 28,000 litres of water through the works and keeps about 3,300 of them, by the industry's own survey. The rest goes back to the river, warmer and, at a well run plant, cleaner than it came. The world makes two billion tonnes a year, so the consumption comes to several cubic kilometres and the withdrawal to twenty times that.
+
+Almost all of it is cooling. A blast furnace, a basic oxygen converter, a continuous caster and a hot rolling mill are each machines for handling metal at over a thousand degrees, and every one of them is cooled by water running through its walls, rolls and hearths. The rest quenches red hot coke and slag, scrubs the dust out of furnace gas, and descales the slab under the rolls. The water that is consumed is what evaporates from the cooling towers and the quench.
+
+The industry is changing, and the water will change with it. Steel from scrap in an electric furnace uses a fraction of the water of steel from ore in a blast furnace, and steel from hydrogen and iron ore, which the industry is building to cut its carbon, will consume more water at the electrolysis than it saves at the coke ovens. It is a water story told in the shape of a furnace.
+
+The long version is on the site.
+
+#IndustrialWater #WaterTreatment #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-industries-steel/thirsty-industries-steel-hero.jpg" type="image/jpeg" length="646337"/>
+    </item>
+    <item>
+      <title>Thirsty Industries: Power Stations</title>
+      <link>https://thirstyplanet.media/articles/thirsty-industries-power-stations/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-power-stations/?r=3</guid>
+      <pubDate>Sun, 04 Oct 2026 15:32:43 GMT</pubDate>
+      <category>THIRSTY INDUSTRIES</category>
+      <description>The largest user of fresh water in the United States is power stations, ahead of farming. About 41 percent of all the fresh water withdrawn in the country goes to cooling them, according to the national survey, ahead of irrigation, and the same is true in much of Europe.
+
+The reason is steam. A coal, gas or nuclear plant boils water to spin a turbine, and the steam has to be condensed back to water to be boiled again. Condensing it takes a river of cooling water: a large plant on a once through system draws a hundred thousand litres for every megawatt hour it makes and returns nearly all of it, warmer. A plant with cooling towers draws far less and evaporates most of what it draws, about 2,500 litres a megawatt hour, which is gone.
+
+The number is moving. Wind and solar use almost no water, gas plants use less than coal, and in the summer of 2022 France turned down reactors because the Rhône was too warm to take their heat. The grid is becoming less thirsty by the year, and the reason has nothing to do with water policy: the thirsty plants are closing.
+
+The long version is on the site.
+
+#IndustrialWater #WaterTreatment #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-industries-power-stations/thirsty-industries-power-stations-hero.jpg" type="image/jpeg" length="484133"/>
+    </item>
+    <item>
+      <title>Thirsty Industries: Leather and tanning</title>
+      <link>https://thirstyplanet.media/articles/thirsty-industries-leather/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-leather/?r=3</guid>
+      <pubDate>Sun, 04 Oct 2026 15:31:43 GMT</pubDate>
+      <category>THIRSTY INDUSTRIES</category>
+      <description>Of all the industries in this series, tanning is the one whose water frightens treatment engineers most, and it is the oldest of them all.
+
+A tannery turns a raw hide, which would rot in days, into leather, which lasts decades, through a chain of baths: salt soaked out, hair and flesh removed with lime and sulphide, the hide pickled in acid and tanned with chromium. Every bath goes to the drain, and what leaves carries salt, lime, sulphide, chromium and an organic load of hair, flesh and blood many times that of sewage. It is the textile effluent with metals and poison gas added.
+
+The industry moved, over fifty years, from Europe to the countries with the hides and the labour, and the damage moved with it. Kanpur on the Ganges, Hazaribagh in Dhaka, Ranipet in Tamil Nadu, Fez in Morocco: rivers the colour of dye, chromium in the wells. In 2017 Bangladesh moved Dhaka's entire tanning district to a new estate with a common treatment plant. Whether the plant runs is the question I have gone to see.
+
+The long version is on the site.
+
+#IndustrialWater #WaterTreatment #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-industries-leather/tannery-hides.jpg" type="image/jpeg" length="718449"/>
+    </item>
+    <item>
+      <title>Thirsty Industries: Hydrogen</title>
+      <link>https://thirstyplanet.media/articles/thirsty-industries-hydrogen/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-hydrogen/?r=3</guid>
+      <pubDate>Sun, 04 Oct 2026 15:30:43 GMT</pubDate>
+      <category>THIRSTY INDUSTRIES</category>
+      <description>Green hydrogen is made by running electricity through water. The chemistry is fixed: nine litres of water become one kilogram of hydrogen and eight kilograms of oxygen. In practice a plant uses two to three times that, for cooling and for purifying the water first, so a kilogram of hydrogen leaves the plant with twenty to thirty litres behind it.
+
+That is a small number per kilogram and a large one per plant. The projects announced in Saudi Arabia, Oman, Namibia, Chile and Australia are sized in millions of tonnes a year, and a million tonnes of hydrogen means tens of millions of cubic metres of water, in places where the whole point is the desert sun. Nearly all of them will desalinate, which adds energy and a brine to the coast.
+
+The water is manageable, and the industry knows it, and the plants are designed for it. What it does is make green hydrogen a coastal industry as much as a solar one, and it puts a new, very large water user next to the fishing towns and the desalination plants that were there first.
+
+The long version is on the site.
+
+#IndustrialWater #WaterTreatment #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-industries-hydrogen/thirsty-industries-hydrogen-hero.jpg" type="image/jpeg" length="499938"/>
+    </item>
+    <item>
+      <title>Thirsty Industries: Data Centres</title>
+      <link>https://thirstyplanet.media/articles/thirsty-industries-data-centres/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-data-centres/?r=3</guid>
+      <pubDate>Sun, 04 Oct 2026 15:29:43 GMT</pubDate>
+      <category>THIRSTY INDUSTRIES</category>
+      <description>Google's data centres consumed about 23 billion litres of water in 2023, by the company's own environmental report, up from about 21 billion the year before. Microsoft's use grew by a third in a single year. The reason is heat.
+
+A rack of servers turns electricity into heat, all of it, and the heat has to go somewhere. The cheapest way to get rid of it is to evaporate water in a cooling tower, and the water that evaporates is gone from the river or the aquifer it came from. A large data centre can consume as much water as a town of tens of thousands of people, and the buildings are being put up in dry places, because dry places have cheap land and cheap power.
+
+Artificial intelligence has made the numbers move. Training and running the large models takes far more computing per task than a search did, and one widely cited study put a chatbot's water at about half a litre for every twenty to fifty questions, once the cooling and the power station are counted. The industry is responding, with closed loop cooling and pledges to replenish more than it uses. Whether those pledges add up is the water question of the decade.
+
+The long version is on the site.
+
+#IndustrialWater #WaterTreatment #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-industries-data-centres/thirsty-industries-data-centres-hero.jpg" type="image/jpeg" length="840586"/>
+    </item>
+    <item>
+      <title>Thirsty Industries: Copper</title>
+      <link>https://thirstyplanet.media/articles/thirsty-industries-copper/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-copper/?r=4</guid>
+      <pubDate>Sun, 04 Oct 2026 15:28:43 GMT</pubDate>
+      <category>THIRSTY INDUSTRIES</category>
+      <description>A tonne of copper takes about seventy thousand litres of water to get out of the ground, at the average of the mines that publish their figures. The world uses about 26 million tonnes a year, and the transition to electric cars, wind turbines and grids will need something like twice that by the 2040s. About a quarter of it comes from Chile, and most of Chile's comes from the Atacama, the driest desert on Earth.
+
+The water is in the mill. Copper ore is less than one percent metal, so a tonne of copper is a hundred tonnes of rock, crushed to powder and floated in tanks of water and chemicals where the copper minerals rise with the froth and the rock sinks. The wet waste goes to a tailings dam. For a century the mines of the Atacama drew that water from the aquifers under the salt flats, and the flats, the lagoons and the villages that shared them dried.
+
+The industry has done what it had to. The largest mines now pump seawater up three thousand metres from the coast, desalinated or raw, and Chile's rules have forced the rest to follow. It is the clearest case in mining of a thirsty industry moving its water to the sea, and it was pushed there by a desert that ran out.
+
+The long version is on the site.
+
+#IndustrialWater #WaterTreatment #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-industries-copper/thirsty-industries-copper-hero.jpg" type="image/jpeg" length="371858"/>
+    </item>
+    <item>
+      <title>Thirsty Industries: Concrete</title>
+      <link>https://thirstyplanet.media/articles/thirsty-industries-concrete/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-concrete/?r=4</guid>
+      <pubDate>Sun, 04 Oct 2026 15:27:43 GMT</pubDate>
+      <category>THIRSTY INDUSTRIES</category>
+      <description>Concrete is the second most used substance on Earth. Only water is used more, and concrete is made of it. The world pours around thirty billion tonnes a year, and a study in 2018 put the water consumed in making it at about nine percent of global industrial water withdrawals, more than any other manufactured product.
+
+The water is in three places. A cubic metre of concrete needs about 150 to 200 litres of water to mix, which reacts with the cement and stays in the slab. It needs several times that again to cure, sprayed or ponded on the surface for days so the cement hardens properly. And the aggregate, the sand and gravel that make up three quarters of the mix, is washed with water at the quarry, which is often the largest share of all.
+
+What makes it a water story is where it happens. Concrete is poured where cities are growing, and the cities growing fastest are in India, the Gulf, Africa and dry parts of China, on the same aquifers the farms and the people draw on. A tower in a desert is built with local water, at a rate of about a swimming pool per floor.
+
+The long version is on the site.
+
+#IndustrialWater #WaterTreatment #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-industries-concrete/thirsty-industries-concrete-hero.jpg" type="image/jpeg" length="740196"/>
+    </item>
+    <item>
+      <title>Thirsty: Gold</title>
+      <link>https://thirstyplanet.media/articles/thirsty-gold/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-gold/?r=4</guid>
+      <pubDate>Sun, 04 Oct 2026 15:26:43 GMT</pubDate>
+      <category>THIRSTY</category>
+      <description>A gold ring weighs about five grams, and the mine that produced its gold used about 3,500 litres of water to do it, by the best global average published. Per kilogram of metal, gold is one of the thirstiest things on Earth: around 700,000 litres, because a tonne of ore yields a gram or two of gold and every tonne has to be crushed to flour and washed.
+
+The washing is with cyanide. Gold dissolves in a weak cyanide solution, so the crushed rock is soaked in it, in tanks or in great heaps, the gold is pulled out of the liquid, and the wet, cyanide bearing rock, the tailings, is pumped to a dam. Tailings dams are among the largest structures humans build, and when one fails, as at Baia Mare in 2000 or Brumadinho in 2019, a river dies for a hundred kilometres.
+
+The large mines have learned to recycle most of their water and to destroy the cyanide before it leaves. The small ones, the artisanal miners who produce a fifth of the world's gold, use mercury instead, in rivers, with their hands, and that is the worst water story in mining.
+
+The long version is on the site.
+
+#WaterFootprint #HiddenWater #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-gold/thirsty-gold-hero.jpg" type="image/jpeg" length="209964"/>
+    </item>
+    <item>
+      <title>Thirsty: An egg</title>
+      <link>https://thirstyplanet.media/articles/thirsty-egg/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-egg/?r=4</guid>
+      <pubDate>Sun, 04 Oct 2026 15:25:43 GMT</pubDate>
+      <category>THIRSTY</category>
+      <description>One egg carries about 196 litres of water, and the hen drank almost none of it.
+
+A laying hen eats around 110 grams of feed a day, mostly maize and soybean meal, and lays an egg most days. Grow all that grain, divide its water by the eggs, and an egg comes to about 3,300 litres per kilo, or 196 litres for a 60 gram egg, by the Water Footprint Network's method. Her own drinking water is a few percent of that.
+
+The number that makes the egg interesting is the one per gram of protein. Eggs need about 29 litres for a gram of protein, close to milk, a third of pork and a quarter of beef. Among animal foods, the egg is one of the most efficient there is, and about four fifths of its water is rain on a field of grain.
+
+As always, the field decides the rest. Maize irrigated in a dry region and soy grown on rain in Brazil carry very different water, and the carton does not say which the hen ate.
+
+The long version, with the breakdown and the sources, is on the site.
+
+#WaterFootprint #HiddenWater #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-egg/thirsty-egg-hero.jpg" type="image/jpeg" length="489545"/>
+    </item>
+    <item>
+      <title>Thirsty: Chicken</title>
+      <link>https://thirstyplanet.media/articles/thirsty-chicken/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-chicken/?r=4</guid>
+      <pubDate>Sun, 04 Oct 2026 15:24:43 GMT</pubDate>
+      <category>THIRSTY</category>
+      <description>A kilogram of chicken carries about 4,325 litres of water in the global averages, against roughly 6,000 for pork and 15,400 for beef. It is the least thirsty meat by a wide margin, and the reason is arithmetic.
+
+A broiler chicken reaches its slaughter weight in about six weeks on around 1.6 kilograms of feed for every kilogram it gains. A pig needs closer to three, a cow six or more. The feed is where the water is, in the maize and soy that were grown, mostly on rain, to fill the bird's ration. Less feed per kilogram means less water per kilogram, and chicken wins that sum against every other animal.
+
+Two things people miss. The first is that 4,300 litres is still four times the water in a kilogram of wheat, because feeding grain to an animal always loses most of it. The second is the plant. A chicken processing plant uses twenty to thirty litres of water per bird for scalding, washing and chilling, and its effluent is one of the strongest in the food industry.
+
+The long version is on the site.
+
+#WaterFootprint #HiddenWater #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-chicken/thirsty-chicken-hero.jpg" type="image/jpeg" length="942274"/>
+    </item>
     <item>
       <title>Thirsty: Cheese</title>
       <link>https://thirstyplanet.media/articles/thirsty-cheese/</link>
@@ -537,176 +709,6 @@ The long version, with the scale, the measurement and the three ways out, is on 
 
 #WaterTreatment #Wastewater #WaterEducation #Water</description>
       <enclosure url="https://thirstyplanet.media/assets/articles/plain-water-tds/plain-water-tds-hero.jpg" type="image/jpeg" length="345860"/>
-    </item>
-    <item>
-      <title>Thirsty: Strawberries</title>
-      <link>https://thirstyplanet.media/articles/thirsty-strawberries/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-strawberries/</guid>
-      <pubDate>Fri, 02 Oct 2026 08:09:00 GMT</pubDate>
-      <category>THIRSTY</category>
-      <description>A punnet of strawberries carries about 140 litres of water, which is not much, and the strawberries in a northern supermarket in February carry a story that is. They were picked in Huelva, in the south west of Spain, which grows most of Spain's strawberries and sends Europe its winter berries, under thousands of hectares of plastic tunnels, on water pumped from an aquifer that also feeds Doñana, the largest wetland in western Europe.
-
-A strawberry plant has shallow roots and a fruit that is nine tenths water, and grown out of season under plastic it is watered by drip every day from a well. The wells in Huelva have multiplied for thirty years, a share of them without a permit, and the water table under the marshes has fallen. The lagoons that the flamingos and the migrating birds depend on have dried in summer, including ones that had never dried before.
-
-In 2021 the European court ruled that Spain had failed to protect the aquifer. In 2023 the regional government tried to legalise the irrigation anyway, and backed down. The berries are still picked in February.
-
-The long version is on the site.
-
-#WaterFootprint #HiddenWater #Sustainability #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-strawberries/thirsty-strawberries-hero.jpg" type="image/jpeg" length="837112"/>
-    </item>
-    <item>
-      <title>Thirsty Places: Montevideo</title>
-      <link>https://thirstyplanet.media/articles/thirsty-places-montevideo/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-places-montevideo/</guid>
-      <pubDate>Fri, 02 Oct 2026 08:08:00 GMT</pubDate>
-      <category>THIRSTY PLACES</category>
-      <description>Uruguay has more fresh water per person than almost any country on Earth, a river the width of a sea on its doorstep, and a capital that in June 2023 had about ten days of drinking water left. The Paso Severino reservoir on the Santa Lucía river, which supplies Montevideo and most of the country's people, fell below two percent after three years of drought, and the state did the only thing it could do quickly: it mixed what was left with water from the Río de la Plata, which is brackish, and raised the legal limit on salt in the tap water so the mix would be legal.
-
-For two months the water in nearly two million taps was salty enough to taste, with sodium at more than double the usual limit. The health ministry told pregnant women, people with kidney disease and heart patients to drink bottled water, the government took the tax off it, and the supermarkets ran out. The protests carried a slogan that translates as &quot;it is not drought, it is plunder&quot;, aimed at the farms and the pulp mills that take the rivers upstream.
-
-The rain came in August. The city is now building a second source on the estuary, which is the sea with a river in it.
-
-The long version is on the site.
-
-#WaterScarcity #WaterManagement #Cities #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-places-montevideo/thirsty-places-montevideo-hero.jpg" type="image/jpeg" length="455787"/>
-    </item>
-    <item>
-      <title>Thirsty Places: Dubai</title>
-      <link>https://thirstyplanet.media/articles/thirsty-places-dubai/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-places-dubai/</guid>
-      <pubDate>Fri, 02 Oct 2026 08:07:00 GMT</pubDate>
-      <category>THIRSTY PLACES</category>
-      <description>Dubai has no river, a hundred millimetres of rain in a good year, an aquifer that is brackish and nearly spent, and nearly four million people who use more water per head than almost anyone on Earth. Almost every drop they drink was the Gulf a day earlier. The plants at Jebel Ali, next to the power station, turn more than two million cubic metres of seawater a day into drinking water, and the city would have a few days of supply in its tanks if they stopped.
-
-For forty years the plants boiled the sea with the waste heat of the gas turbines that make the city's electricity, which is why Dubai's water and its power have always come from the same company and the same fuel. The new plants push the water through membranes instead, with a third of the energy, run on solar electricity from the desert, and the last boiling plant is being retired.
-
-The sewage goes to two works in the desert and comes back as the water on every verge, park and golf course in the city, and as the lagoon at the end of the creek where the flamingos stand. The storm of April 2024 showed what the city had never built: drains.
-
-The long version is on the site.
-
-#WaterScarcity #WaterManagement #Cities #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-places-dubai/thirsty-places-dubai-hero.jpg" type="image/jpeg" length="578869"/>
-    </item>
-    <item>
-      <title>Thirsty Places: Bogotá</title>
-      <link>https://thirstyplanet.media/articles/thirsty-places-bogota/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-places-bogota/</guid>
-      <pubDate>Fri, 02 Oct 2026 08:06:00 GMT</pubDate>
-      <category>THIRSTY PLACES</category>
-      <description>Bogotá drinks from a moorland. Above the city, at three and four thousand metres, lies the páramo of Chingaza, a cold wet plateau of fog, moss and a plant called the frailejón that looks like a palm crossed with a cabbage, and whose soils hold water like a sponge and let it go slowly into the rivers. Seven tenths of the capital's water is collected there, in two reservoirs, and carried down through a tunnel in the mountain.
-
-In early 2024 El Niño dried the páramo. The Chuza reservoir fell to about 16 percent, lower than it had ever been, and on 11 April the city began rationing: eight million people divided into nine zones, each cut off for 24 hours in turn. The rota ran, with changes, for a year. People filled bathtubs and buckets on the night before their day, the car washes closed, and the city's use fell by about a tenth and stayed down.
-
-The rains returned, the reservoirs filled, and the rationing ended in April 2025. What it taught was that a city of eight million was one dry year from the tanks on the roofs of Amman.
-
-The long version is on the site.
-
-#WaterScarcity #WaterManagement #Cities #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-places-bogota/thirsty-places-bogota-hero.jpg" type="image/jpeg" length="554186"/>
-    </item>
-    <item>
-      <title>Thirsty Industries: Irrigation</title>
-      <link>https://thirstyplanet.media/articles/thirsty-industries-irrigation/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-irrigation/</guid>
-      <pubDate>Fri, 02 Oct 2026 08:05:00 GMT</pubDate>
-      <category>THIRSTY INDUSTRIES</category>
-      <description>Of all the fresh water people take out of rivers, lakes and the ground, about seven tenths goes to one thing: watering crops. Industry takes about a fifth and every city, town and household on Earth takes the rest. Irrigation is the thirsty industry that the others on this site are footnotes to.
-
-It covers about a fifth of the world's cropland and grows about two fifths of its food, and most of it is done the way it was done in Mesopotamia: water let onto a field through a gate and left to soak in. Half of that water never reaches a plant. Sprinklers and drip lines do better, and the countries that have switched to them have mostly grown more crops on the same water rather than giving any back, which is the paradox the engineers and the economists have argued over for twenty years.
-
-A fifth of the world's irrigated land is damaged by the salt the water leaves behind. The aquifer under the American plains, which feeds the circles seen from every flight across the country, is going down by a metre a year in Kansas and Texas. The food on the table came from one of these fields.
-
-The long version is on the site.
-
-#IndustrialWater #WaterTreatment #Sustainability #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-industries-irrigation/thirsty-industries-irrigation-hero.jpg" type="image/jpeg" length="873982"/>
-    </item>
-    <item>
-      <title>Thirsty Industries: Hospitals</title>
-      <link>https://thirstyplanet.media/articles/thirsty-industries-hospitals/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-industries-hospitals/</guid>
-      <pubDate>Fri, 02 Oct 2026 08:04:00 GMT</pubDate>
-      <category>THIRSTY INDUSTRIES</category>
-      <description>A hospital bed uses several hundred litres of water a day in a rich country, up to a thousand in the busiest sites, which is a small household's week. Hardly any of it is drunk. It goes into the steam sterilisers, the laundry, the cooling towers, the kitchens, the hundreds of basins at which hands are washed, and the one machine that is more particular about water than any other in the building.
-
-A dialysis machine passes about 120 litres of water across a patient's blood in a session, three times a week, and that water has to be cleaner than drinking water by a wide margin. The chlorine and chloramine that keep city water safe to drink will destroy red blood cells if they reach the dialyser, so every dialysis unit runs its own small treatment plant: carbon to strip the chlorine, reverse osmosis to strip the rest, and a loop that is tested for bacteria and endotoxin because a fever in a dialysis ward is a water fault until proved otherwise.
-
-What goes out carries antibiotics, contrast agents and the drugs of the oncology ward, and the plant that cleans the city's sewage was not designed for them.
-
-The long version is on the site.
-
-#IndustrialWater #WaterTreatment #Sustainability #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-industries-hospitals/thirsty-industries-hospitals-hero.jpg" type="image/jpeg" length="783755"/>
-    </item>
-    <item>
-      <title>Thirsty: Banana</title>
-      <link>https://thirstyplanet.media/articles/thirsty-banana/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-banana/</guid>
-      <pubDate>Fri, 02 Oct 2026 08:03:00 GMT</pubDate>
-      <category>THIRSTY</category>
-      <description>A banana carries about a hundred litres of water. Most of it fell as rain on a plantation on the coast of Ecuador, which sends the world a third of the bananas it trades, or in the Philippines, Costa Rica, Colombia or Guatemala, and almost all of it went through the plant: a banana plant is a giant herb with no woody stem, and it moves water from the soil to the air faster than most trees.
-
-Per kilogram the banana is one of the lighter footprints on this site, about 790 litres against 1,800 for a mango and 2,500 for rice, because the fruit is heavy and the plant grows fast where the rain is two metres a year. The water that matters is the smaller part: the irrigation on the dry coasts, the wash tanks of the packing station, and the forty flights a year of fungicide over the plantations of the wet countries.
-
-Every export banana is the same plant, a clone called Cavendish, and a soil fungus that kills it has crossed from Asia to Latin America. The water will be the same for whatever replaces it.
-
-The long version is on the site.
-
-#WaterFootprint #HiddenWater #Sustainability #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-banana/thirsty-banana-hero.jpg" type="image/jpeg" length="656004"/>
-    </item>
-    <item>
-      <title>Plain Water: Turbidity</title>
-      <link>https://thirstyplanet.media/articles/plain-water-turbidity/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/plain-water-turbidity/</guid>
-      <pubDate>Fri, 02 Oct 2026 08:02:00 GMT</pubDate>
-      <category>PLAIN WATER</category>
-      <description>Hold a glass of water up to the light and the first thing you judge is whether you can see through it. The water industry turned that glance into a number: turbidity, measured by shining a light into the water and counting how much of it is scattered sideways by the particles it cannot pass through. The unit is the NTU, and a river in flood runs at hundreds; the water leaving a modern filter runs at a tenth.
-
-The particles themselves, clay, silt, algae, are mostly harmless. The reason the number matters is what hides in them. A parasite like Cryptosporidium, which chlorine cannot kill, travels on and inside the particles, and a filter that lets the particles through lets the parasite through. In Milwaukee in 1993 the turbidity of the finished water rose for days, within the rules of the time, and 400,000 people fell ill. The rule in the United States is now 0.3 NTU, in 95 percent of samples, which is a cloudiness no eye can see.
-
-The number on the plant's screen is the one the operator watches most. A rise of a few tenths is the first sign that a filter has broken through.
-
-The long version is on the site.
-
-#WaterTreatment #Wastewater #WaterEducation #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/plain-water-turbidity/plain-water-turbidity-hero.jpg" type="image/jpeg" length="1045661"/>
-    </item>
-    <item>
-      <title>Plain Water: Septic Tanks</title>
-      <link>https://thirstyplanet.media/articles/plain-water-septic-tanks/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/plain-water-septic-tanks/</guid>
-      <pubDate>Fri, 02 Oct 2026 08:01:00 GMT</pubDate>
-      <category>PLAIN WATER</category>
-      <description>About one American household in five is not on a sewer, and neither are a third of the people on Earth. The water that leaves the house goes into a buried tank in the garden, sits there for a day or two, and seeps out into the ground. Nothing on this site is older, cheaper, or more often ignored until it fails.
-
-The tank does less than people think. The solids settle to the bottom and the grease floats, and the water in between leaves about as dirty as it came, a third cleaner at best. The real treatment is the soil under the drain field: a metre of unsaturated earth, alive with bacteria, that finishes the job the tank started before the water reaches the groundwater. A tank on clay, or on sand with the water table a few feet down, or next to the well that supplies the house, is a different story, and it is the story of the nitrate in a lot of private wells.
-
-Multiply it by a suburb and the nitrogen reaches the bay. Cape Cod, Long Island and the Florida lagoons are learning what a hundred thousand tanks do to an estuary. The tank in the garden is a treatment plant, and almost nobody treats it as one.
-
-The long version is on the site.
-
-#WaterTreatment #Wastewater #WaterEducation #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/plain-water-septic-tanks/plain-water-septic-tanks-hero.jpg" type="image/jpeg" length="1382142"/>
-    </item>
-    <item>
-      <title>Myth: Chlorine in Tap Water Is Dangerous</title>
-      <link>https://thirstyplanet.media/articles/myth-chlorine-is-dangerous/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/myth-chlorine-is-dangerous/</guid>
-      <pubDate>Fri, 02 Oct 2026 08:00:00 GMT</pubDate>
-      <category>MYTH</category>
-      <description>Chlorine is a poison. It was used as a gas on the Western Front, a leak from a railway tanker empties a town, and a cylinder of it stands in a locked room at most of the water works in the world, from which a little is dosed into the water that comes out of your tap. The myth says that a chemical that dangerous cannot be safe to drink. The verdict is that at the dose in a glass of water it is among the safest things in the glass.
-
-A tap carries a few tenths of a milligram of chlorine a litre. The World Health Organization's limit for a lifetime of drinking is five, and a swimming pool runs at one to three. At those doses chlorine has been studied for a century in more people than any other substance in water, and what the studies found is the opposite of the myth: when the cities of Europe and America began adding chlorine, from 1908 onward, typhoid and cholera went from the leading killers of children to diseases a doctor might never see.
-
-The real argument is about the byproducts chlorine makes with the organic traces in water, which are regulated and which this site has covered. The chlorine itself is in the glass so that nothing else is.
-
-The long version is on the site.
-
-#WaterFacts #WaterEducation #Sustainability #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/myth-chlorine-is-dangerous/myth-chlorine-is-dangerous-hero.jpg" type="image/jpeg" length="346192"/>
     </item>
   </channel>
 </rss>
