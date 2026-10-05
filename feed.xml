@@ -5,13 +5,30 @@
     <link>https://thirstyplanet.media/</link>
     <description>Understanding water, before it's gone. The hidden water inside everyday things, the water industry in plain words, and the places already solving it.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 14:11:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 14:44:43 GMT</lastBuildDate>
     <atom:link href="https://thirstyplanet.media/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://thirstyplanet.media/assets/globe-new.png</url>
       <title>Thirsty Planet</title>
       <link>https://thirstyplanet.media/</link>
     </image>
+    <item>
+      <title>Thirsty: Strawberries</title>
+      <link>https://thirstyplanet.media/articles/thirsty-strawberries/</link>
+      <guid isPermaLink="true">https://thirstyplanet.media/articles/thirsty-strawberries/?r=2</guid>
+      <pubDate>Mon, 05 Oct 2026 14:45:39 GMT</pubDate>
+      <category>THIRSTY</category>
+      <description>A punnet of strawberries carries about 140 litres of water, which is not much, and the strawberries in a northern supermarket in February carry a story that is. They were picked in Huelva, in the south west of Spain, which grows most of Spain's strawberries and sends Europe its winter berries, under thousands of hectares of plastic tunnels, on water pumped from an aquifer that also feeds Doñana, the largest wetland in western Europe.
+
+A strawberry plant has shallow roots and a fruit that is nine tenths water, and grown out of season under plastic it is watered by drip every day from a well. The wells in Huelva have multiplied for thirty years, a share of them without a permit, and the water table under the marshes has fallen. The lagoons that the flamingos and the migrating birds depend on have dried in summer, including ones that had never dried before.
+
+In 2021 the European court ruled that Spain had failed to protect the aquifer. In 2023 the regional government tried to legalise the irrigation anyway, and backed down. The berries are still picked in February.
+
+The long version is on the site.
+
+#WaterFootprint #HiddenWater #Sustainability #Water</description>
+      <enclosure url="https://thirstyplanet.media/assets/articles/thirsty-strawberries/thirsty-strawberries-hero.jpg" type="image/jpeg" length="837112"/>
+    </item>
     <item>
       <title>Thirsty Places: Montevideo</title>
       <link>https://thirstyplanet.media/articles/thirsty-places-montevideo/</link>
@@ -674,23 +691,6 @@ The long version is on the site.
 
 #WaterTreatment #Wastewater #WaterEducation #Water</description>
       <enclosure url="https://thirstyplanet.media/assets/articles/plain-water-chlorine-byproducts/plain-water-chlorine-byproducts-hero.jpg" type="image/jpeg" length="628730"/>
-    </item>
-    <item>
-      <title>Myth: Water from the Hot Tap Is Fine to Drink</title>
-      <link>https://thirstyplanet.media/articles/myth-hot-tap/</link>
-      <guid isPermaLink="true">https://thirstyplanet.media/articles/myth-hot-tap/?r=5</guid>
-      <pubDate>Mon, 05 Oct 2026 12:41:34 GMT</pubDate>
-      <category>MYTH</category>
-      <description>The cold tap in a kitchen is connected to the mains, and the water in it is what the utility treated and tested. The hot tap is connected to a tank or a heater in the house, and the water in it has sat in a vessel at fifty or sixty degrees, in contact with the tank's lining, its sediment, its sacrificial anode and every metre of copper, brass and, in an old house, lead between the tank and the tap. Hot water dissolves metal faster than cold. The utilities say to drink and cook from the cold tap, and the reason is the pipe rather than the heat.
-
-The myth is that water is water and the hot tap is a shortcut to the boil. It is a shortcut to whatever the plumbing is shedding. The advice is a century old, from the era of lead pipes and cistern fed hot systems, and in a new house with plastic pipe and a combination boiler the difference is small. In an old one it is a real difference, and nobody can tell from the tap which house they are in.
-
-The second reason is the tank. Water held between twenty five and forty five degrees grows Legionella, and a tank kept too cool to save energy is a warm, still, nutrient rich vessel with a shower on the end of it.
-
-The long version is on the site.
-
-#WaterFacts #WaterEducation #Sustainability #Water</description>
-      <enclosure url="https://thirstyplanet.media/assets/articles/myth-hot-tap/myth-hot-tap-hero.jpg" type="image/jpeg" length="309242"/>
     </item>
   </channel>
 </rss>
