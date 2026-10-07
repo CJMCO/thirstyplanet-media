@@ -250,5 +250,11 @@
     "summary": "A car is about a tonne and a half of steel, aluminium, plastic, glass, rubber and copper, and every one of those was made with water. The estimates run from fifty to four hundred thousand litres, and the spread is the story: where the number comes from, which parts carry most of it, what a paint shop does with water, and why an electric car moves the water from the refinery to the mine.",
     "kicker": "THIRSTY",
     "accent": "#8FC3EC"
+  },
+  "18117462382991476": {
+    "title": "Plain Water: Nitrate",
+    "summary": "Nitrate is the fertiliser that grew the food and the contaminant that followed it into the well. It is in the groundwater of every farming region on Earth, it takes decades to arrive and decades to leave, and it is the reason a large share of Europe's and America's rural water fails its standard.",
+    "kicker": "PLAIN WATER",
+    "accent": "#7FD9C8"
   }
 }
