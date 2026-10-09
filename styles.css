@@ -564,7 +564,7 @@ footer .fine { font-size: 0.78rem; opacity: 0.7; margin-top: 0.4rem; }
 /* Photographs in the text, full column width. */
 .art-photo { margin: 2.2rem 0 2.4rem; }
 .art-photo img {
-  width: 100%; display: block; border-radius: 12px;
+  width: 100%; height: auto; display: block; border-radius: 12px;
   border: 1px solid rgba(13, 44, 82, 0.1); box-shadow: 0 16px 36px rgba(13, 44, 82, 0.16);
 }
 .art-photo.portrait img { width: auto; max-width: 100%; max-height: 640px; margin: 0 auto; }
