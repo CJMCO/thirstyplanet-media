@@ -888,3 +888,6 @@ a.matrix-card:hover { color: inherit; }
   .news-list { grid-template-columns: 1fr; }
   .news-item:nth-child(2) { border-top: 1px solid var(--line-light); padding-top: 0.95rem; }
 }
+
+/* Pictures carry width and height attributes (no layout shift); inside the cards the aspect ratio rule must win, so the height goes back to auto. */
+.mc-art img, .ps-card img, .art-grid-card .mc-art img { height: auto; }
