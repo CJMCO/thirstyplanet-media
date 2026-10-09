@@ -1,5 +1,115 @@
 [
   {
+    "slug": "myth-eight-glasses-a-day",
+    "title": "Myth: You Need Eight Glasses of Water a Day",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "The rule that everyone knows and nobody can source says eight glasses of water a day, two litres, drunk as water, on top of whatever else is eaten or drunk. Where the number came from and what the sentence after it said, what the food agencies actually recommend and how much of that arrives in food and coffee, what the study that measured water turnover in thousands of people found, when a person really does need more, when drinking too much has killed, and what thirst is for.",
+    "date": "2026-10-09",
+    "minutes": 7,
+    "cover": "assets/articles/myth-eight-glasses-a-day/myth-eight-glasses-a-day-hero.jpg",
+    "url": "articles/myth-eight-glasses-a-day/"
+  },
+  {
+    "slug": "plain-water-e-coli",
+    "title": "Plain Water: E. coli",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The bacterium that water is tested for is one that lives, harmless, in the gut of every person reading this. What E. coli is and why its presence in a water sample is the industry's alarm, how the test is done and why it takes a day, what the limit of zero in a hundred millilitres means, how one strain of it killed seven people in a Canadian town in 2000 and what the inquiry found, why a beach closes after rain, and why the bacterium the lab looks for is a messenger rather than the message.",
+    "date": "2026-10-09",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-e-coli/plain-water-e-coli-hero.jpg",
+    "url": "articles/plain-water-e-coli/"
+  },
+  {
+    "slug": "plain-water-mercury",
+    "title": "Plain Water: Mercury",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The only metal that is liquid at room temperature is also the one that a fishing town in Japan gave its name to a disease for, after a chemical factory put it into the bay for thirty years and the fish put it into the people. What mercury is and how water turns it into something far worse, what happened at Minamata and how long it took anyone to stop it, why the mercury in a tuna comes from a coal station and a gold pan on the other side of the world, what the drinking water limit covers and what it does not, and what the treaty signed in that town in 2013 is meant to end.",
+    "date": "2026-10-09",
+    "minutes": 7,
+    "cover": "assets/articles/plain-water-mercury/plain-water-mercury-hero.jpg",
+    "url": "articles/plain-water-mercury/"
+  },
+  {
+    "slug": "thirsty-dates",
+    "title": "Thirsty: Dates",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "The fruit that breaks the fast across the Muslim world grows on a palm that lives in the hottest, driest places on Earth and drinks like a tree in a rainforest, every drop of it from a well, a canal or a spring. Where a date's water goes, why more than half of it is irrigation, which is rare among crops, what a palm drinks on a summer day in the Gulf, how the oases worked for three thousand years and why the fossil water under them is going, what happened to the groves of Basra, and why the date is the crop that shows what a desert can and cannot afford.",
+    "date": "2026-10-09",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-dates/thirsty-dates-hero.jpg",
+    "url": "articles/thirsty-dates/"
+  },
+  {
+    "slug": "thirsty-industries-aluminium",
+    "title": "Thirsty Industries: Aluminium",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "The metal in a drinks can, a window frame and an aircraft wing starts as red earth dug in the tropics, is boiled in caustic soda to a white powder, and is turned into metal by more electricity than almost any other product, which is why the smelters sit beside dams in Iceland, Norway and Quebec or beside gas fields in the Gulf. Where aluminium's water goes, what the Bayer process leaves behind and how much of it there is, what happened when a red mud reservoir broke in Hungary in 2010, why a smelter's real water is the reservoir behind the hydro plant, and why recycling the can changes everything.",
+    "date": "2026-10-09",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-industries-aluminium/thirsty-industries-aluminium-hero.jpg",
+    "url": "articles/thirsty-industries-aluminium/"
+  },
+  {
+    "slug": "thirsty-industries-golf-courses",
+    "title": "Thirsty Industries: Golf Courses",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "A golf course is fifty hectares of lawn kept green in whatever climate it was built in, and in the deserts where the game moved in the twentieth century it is the thirstiest thing in town. What a course waters and how much, why a desert course drinks a small town's supply, where the water comes from in the Coachella Valley, Las Vegas and the Gulf, what a links course on the Scottish coast uses instead, how the industry has cut the number, and what the game is arguing about with the cities around it.",
+    "date": "2026-10-09",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-industries-golf-courses/thirsty-industries-golf-courses-hero.jpg",
+    "url": "articles/thirsty-industries-golf-courses/"
+  },
+  {
+    "slug": "thirsty-maize",
+    "title": "Thirsty: Maize",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "The most grown grain on Earth is mostly not eaten by people. It feeds the chicken, the pig and the cow on this site, it fills the fuel tank of an American car, and it sweetens the drinks. Where a kilogram of maize's water goes, why the rain of the Corn Belt makes the number small, what the sprinkler circles over the High Plains are doing to the aquifer, how a litre of ethanol drinks a river, and why the fertiliser on a cornfield in Iowa ends up as a dead zone in the Gulf of Mexico.",
+    "date": "2026-10-09",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-maize/thirsty-maize-hero.jpg",
+    "url": "articles/thirsty-maize/"
+  },
+  {
+    "slug": "thirsty-places-delhi",
+    "title": "Thirsty Places: Delhi",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A capital of more than thirty million that draws its water from a river which arrives from upstream already shared out, from canals that cross a neighbouring state which argues over every cubic metre, and from wells that have sunk a hundred metres in the south, and that delivers a quarter of its water by tanker. Where Delhi's water comes from and why the summer is a crisis every year, what the river looks like below the city and why, who runs the tankers and what they charge, what the groundwater did when the pumps outran the rain, and why the city that sends its sewage to the Yamuna is the city that drinks from it.",
+    "date": "2026-10-09",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-delhi/thirsty-places-delhi-hero.jpg",
+    "url": "articles/thirsty-places-delhi/"
+  },
+  {
+    "slug": "thirsty-places-monterrey",
+    "title": "Thirsty Places: Monterrey",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "Mexico's industrial capital, a city of five million at the foot of the Sierra Madre that brews the beer, rolls the steel and bottles the drinks of the country, spent the summer of 2022 with its taps open six hours a day because the three dams that supply it had run down to mud. Where Monterrey's water comes from and why one dry year emptied it, what the rationing looked like and who got water from where, why the breweries and the bottlers became the villains of the summer, what the hurricane that ended it left behind, and what the city is building so the next dry year is survivable.",
+    "date": "2026-10-09",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-places-monterrey/thirsty-places-monterrey-hero.jpg",
+    "url": "articles/thirsty-places-monterrey/"
+  },
+  {
+    "slug": "thirsty-places-tokyo",
+    "title": "Thirsty Places: Tokyo",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "The largest city on Earth loses about three percent of its water to leaks, against a fifth or a quarter in London, and it got there by replacing every pipe under thirty seven million people and listening to them at night. Where Tokyo's water comes from, what the drought of the Olympic summer of 1964 did to the city, how the leak rate was brought down from a fifth to a thirtieth, why the water works sells its tap water in bottles, what the largest storm drain in the world under the suburbs is for, and why Tokyo is the city on this site where the problem was solved by maintenance.",
+    "date": "2026-10-09",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-places-tokyo/thirsty-places-tokyo-hero.jpg",
+    "url": "articles/thirsty-places-tokyo/"
+  },
+  {
     "slug": "myth-chlorine-is-dangerous",
     "title": "Myth: Chlorine in Tap Water Is Dangerous",
     "series": "MYTH",
