@@ -29,7 +29,10 @@ async function get(url) {
 // Order matters: first match wins. featured.json can override any of this.
 const SERIES = [
   { re: /myth|bottled/i,       kicker: 'MYTH',               accent: '#E8C98A' },
-  { re: /thirsty places|singapore|cape town|\baral\b/i, kicker: 'THIRSTY PLACES', accent: '#5DAEFF' },
+  // City posts: the Places pillar hashtags (#watercrisis #watersecurity) are the
+  // reliable signal; the city list is a fallback for older captions without them.
+  // Dhaka and Lahore are left out on purpose, they also turn up in textile posts.
+  { re: /thirsty[ -]places|#watercrisis|#watersecurity|\b(singapore|cape town|aral|amman|athens|bangalore|barcelona|beijing|bogot[aá]|cairo|chennai|delhi|dubai|istanbul|jakarta|johannesburg|karachi|kathmandu|lagos|las vegas|lima|los angeles|manila|melbourne|mexico city|monterrey|montevideo|murray.darling|nairobi|orange county|phoenix|santiago|s[aã]o paulo|sydney|tehran|tokyo|windhoek)\b/i, kicker: 'THIRSTY PLACES', accent: '#5DAEFF' },
   { re: /industries|fashion withdraws|dyeing mill/i, kicker: 'THIRSTY INDUSTRIES', accent: '#8FC3EC' },
   { re: /plain ?water|wastewater|\bCOD\b|\bTDS\b|dissolved solids|\bETP\b|sludge|flush|treatment plant|#watertreatment/i, kicker: 'PLAIN WATER', accent: '#7FD9C8' },
   { re: /inside:/i,            kicker: 'INSIDE',             accent: '#AFC3D4' },
