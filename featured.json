@@ -334,5 +334,11 @@
     "summary": "The sea holds ninety seven percent of the water on Earth, the technology to make it fresh has existed for sixty years and its cost has fallen by two thirds, so the world's water problem is surely a matter of building enough plants. It is a comforting thought and a wrong one, for reasons of energy, brine, distance and, above all, arithmetic: desalination makes about one percent of the water people use, and the other ninety nine is mostly on farms it cannot reach.",
     "kicker": "MYTH",
     "accent": "#E8C98A"
+  },
+  "18171623437479128": {
+    "title": "Thirsty Industries: Copper",
+    "summary": "Every wire, motor, pipe and circuit in the modern world is copper, the energy transition needs twice as much of it, and most of it is dug from the driest desert on Earth. A tonne of copper takes about seventy thousand litres of water to win from its ore, and in northern Chile that water was, until recently, the aquifers of the Atacama.",
+    "kicker": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC"
   }
 }
