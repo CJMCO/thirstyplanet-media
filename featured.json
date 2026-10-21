@@ -364,5 +364,11 @@
     "summary": "The word on the packet is legal, and the sewer disagrees with it. What a wet wipe is made of, what happens to it after the flush, how a fatberg is built, and why the water industry has spent a decade asking for one word to be taken off the label.",
     "kicker": "MYTH",
     "accent": "#E8C98A"
+  },
+  "18193635433398309": {
+    "title": "Thirsty Industries: Data Centres",
+    "summary": "Every search, every stored photograph and every answer from a chatbot passes through a building full of hot computers, and most of those buildings are cooled with water that leaves as vapour. What a data centre's water is for, how much the largest companies now report using, why the number is rising with artificial intelligence, and what the industry is doing about it.",
+    "kicker": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC"
   }
 }
