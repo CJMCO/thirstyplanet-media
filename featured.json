@@ -460,5 +460,11 @@
     "summary": "It takes about ten litres of milk to make a kilogram of hard cheese, and a litre of milk carries a thousand litres of water. The footprint of cheese is about 3,200 litres a kilo, lower than that arithmetic suggests, because of what happens to the other nine litres, and because a cheese plant's own water has a story of its own.",
     "kicker": "THIRSTY",
     "accent": "#8FC3EC"
+  },
+  "18113694932519760": {
+    "title": "Plain Water: Coagulation",
+    "summary": "The oldest chemical trick in water treatment is to add metal to the water on purpose. What coagulation does to the particles a filter cannot catch, why aluminium and iron work, how a row of six beakers on a bench decides the dose for a whole city, and where the dirt goes afterwards.",
+    "kicker": "PLAIN WATER",
+    "accent": "#7FD9C8"
   }
 }
