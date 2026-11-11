@@ -556,5 +556,11 @@
     "summary": "A phone weighs less than a glass of water and took about twelve thousand litres to make. Almost none of that water is in the mine.",
     "kicker": "THIRSTY",
     "accent": "#8FC3EC"
+  },
+  "18121831688062417": {
+    "title": "Plain Water: Greywater",
+    "summary": "Half to two thirds of the water that leaves a home was only lightly used, in the shower, the basin and the washing machine. The industry calls it greywater, it could flush every toilet in the house, and the reasons it usually does not are worth understanding before anyone fits a tank.",
+    "kicker": "PLAIN WATER",
+    "accent": "#7FD9C8"
   }
 }
