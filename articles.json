@@ -1,5 +1,115 @@
 [
   {
+    "slug": "myth-alkaline-water",
+    "title": "Myth: Alkaline Water Is Healthier",
+    "series": "MYTH",
+    "accent": "#E8C98A",
+    "summary": "Water sold at a pH of eight or nine is said to neutralise acid in the body, slow ageing and keep disease away, and a machine that makes it at home can cost several thousand dollars. What alkaline water is, what happens to it in the first ten seconds after it is swallowed, why the body holds its blood at the same pH whatever is drunk, what the reviews of the evidence found, where the idea came from and what became of the man who made it famous, and the awkward fact that the water in most kitchen taps is already alkaline.",
+    "date": "2026-11-12",
+    "minutes": 8,
+    "cover": "assets/articles/myth-alkaline-water/myth-alkaline-water-hero.jpg",
+    "url": "articles/myth-alkaline-water/"
+  },
+  {
+    "slug": "plain-water-constructed-wetlands",
+    "title": "Plain Water: Constructed Wetlands",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "A bed of gravel planted with reeds can clean the sewage of a village as well as a concrete works does, with no machinery, no chemicals and almost no electricity, if it is given enough land. What a constructed wetland is and what actually does the cleaning in it, the three ways the water can be made to flow and what each is good at, why it needs about five square metres for every person it serves, how France came to build thousands of them, what the fish ponds on the edge of Kolkata have been doing with the city's sewage for a century, and where a reed bed is the wrong answer.",
+    "date": "2026-11-12",
+    "minutes": 8,
+    "cover": "assets/articles/plain-water-constructed-wetlands/plain-water-constructed-wetlands-hero.jpg",
+    "url": "articles/plain-water-constructed-wetlands/"
+  },
+  {
+    "slug": "plain-water-water-towers",
+    "title": "Plain Water: Water Towers",
+    "series": "PLAIN WATER",
+    "accent": "#7FD9C8",
+    "summary": "The tank on legs at the edge of a town is the reason water comes out of the tap when it is opened, at the same force on the top floor as on the ground, at seven in the morning when everyone showers at once and at three at night when the pumps are off. What a water tower is for, why its height matters and its size matters less, how it lets a small pump serve a town, why a hill does the same job for free, what the wooden tanks on the roofs of New York are doing there, how Kuwait turned its towers into a national monument, and why a tower that is too full for too long becomes a problem of its own.",
+    "date": "2026-11-12",
+    "minutes": 8,
+    "cover": "assets/articles/plain-water-water-towers/plain-water-water-towers-hero.jpg",
+    "url": "articles/plain-water-water-towers/"
+  },
+  {
+    "slug": "thirsty-apple",
+    "title": "Thirsty: Apple",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "One apple carries about 125 litres of water, most of it rain on an orchard, which makes it one of the gentler things in the fruit bowl. Where an apple's water goes, why the tree needs it at the wrong time of year in the places that grow the best fruit, how the largest orchard region in America lives on melting snow and what happened in the year the snow did not come, why growers in the Alps spray their blossom with water on freezing nights, what the orchards of China's loess hills are doing to the soil beneath them, and why a glass of juice carries the water of two apples and none of the fibre.",
+    "date": "2026-11-12",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-apple/thirsty-apple-hero.jpg",
+    "url": "articles/thirsty-apple/"
+  },
+  {
+    "slug": "thirsty-asparagus",
+    "title": "Thirsty: Asparagus",
+    "series": "THIRSTY",
+    "accent": "#8FC3EC",
+    "summary": "The asparagus on a European or American plate in December was cut two days earlier in a desert on the coast of Peru where it almost never rains, and every litre it drank came out of an aquifer that is falling faster than almost any other on Earth. Where a spear's water goes, why Peru grows it all year in a valley with no rain, what forty years of export farming have done to the water under the Ica valley and to the people who share it, why the same crop two hundred kilometres north drinks a river instead, and what a bunch bought in spring from a field nearby has in common with one flown in from Ica, which is very little.",
+    "date": "2026-11-12",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-asparagus/thirsty-asparagus-hero.jpg",
+    "url": "articles/thirsty-asparagus/"
+  },
+  {
+    "slug": "thirsty-industries-distilleries",
+    "title": "Thirsty Industries: Distilleries",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "A distillery boils a weak beer to collect the alcohol, and for every litre of alcohol it keeps it is left with ten litres or more of what would not boil, a hot, acid, dark liquid a hundred times stronger than sewage. What a distillery uses water for, why a Scotch whisky still needs a cold river more than it needs the water in the bottle, what the dry summers have done on Speyside, what spent wash is and why India ordered its molasses distilleries to discharge none of it, what the tequila towns of Jalisco do with theirs, and why the oldest answer, feeding it to cows, is still one of the best.",
+    "date": "2026-11-12",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-industries-distilleries/thirsty-industries-distilleries-hero.jpg",
+    "url": "articles/thirsty-industries-distilleries/"
+  },
+  {
+    "slug": "thirsty-industries-soft-drinks",
+    "title": "Thirsty Industries: Soft Drinks",
+    "series": "THIRSTY INDUSTRIES",
+    "accent": "#8FC3EC",
+    "summary": "A bottling plant takes less than two litres of water to make a litre of soft drink, and that small, well managed number has started some of the fiercest fights over water anywhere, because the plant takes its water from one place, every day, beside people who drink from the same ground. Where a soft drink's water goes inside the plant and far outside it, what happened at Plachimada in Kerala, where a village closed a Coca Cola factory, why a town in the highlands of Mexico drinks more cola than water, what the companies mean when they say they give back every litre, and why the sugar in the bottle carries fifty times the water of the plant.",
+    "date": "2026-11-12",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-industries-soft-drinks/thirsty-industries-soft-drinks-hero.jpg",
+    "url": "articles/thirsty-industries-soft-drinks/"
+  },
+  {
+    "slug": "thirsty-places-london",
+    "title": "Thirsty Places: London",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "The city with the rainy reputation gets less rain than Rome, Istanbul or Sydney, stores about a hundred days of water, and loses about a quarter of what it treats through pipes laid when Victoria was queen. Where London's water comes from, why the ground under it stopped falling and started rising, what the Great Stink of 1858 built and what the new tunnel under the Thames has just replaced, why the desalination plant on the estuary has hardly run, what the hosepipe bans of 2012 and 2022 showed, and why a company deep in debt is being asked to find a billion more litres a day by the middle of the century.",
+    "date": "2026-11-12",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-places-london/thirsty-places-london-hero.jpg",
+    "url": "articles/thirsty-places-london/"
+  },
+  {
+    "slug": "thirsty-places-new-york",
+    "title": "Thirsty Places: New York",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "Nine million people drink water that falls on mountains two hundred kilometres away, runs to the city downhill through tunnels drilled in rock, and for nine tenths of it never passes through a filter. Where New York's water comes from, why a private water company founded by Aaron Burr became a bank, how the city reached into the Catskills and what it flooded there, why it chose to pay farmers and buy forest rather than build a ten billion dollar filtration plant, what is leaking from the longest tunnel in the world, how the city came to use a third less water than it did in 1980, and what a deal between a city and the countryside it drinks from looks like after thirty years.",
+    "date": "2026-11-12",
+    "minutes": 8,
+    "cover": "assets/articles/thirsty-places-new-york/thirsty-places-new-york-hero.jpg",
+    "url": "articles/thirsty-places-new-york/"
+  },
+  {
+    "slug": "thirsty-places-riyadh",
+    "title": "Thirsty Places: Riyadh",
+    "series": "THIRSTY PLACES",
+    "accent": "#5DAEFF",
+    "summary": "A city of more than seven million people stands six hundred metres up on a desert plateau, four hundred kilometres from the sea, and drinks the Gulf. Where Riyadh's water comes from, how seawater is made fresh on the coast and pumped uphill for the length of a small country, what lies in the deep hot aquifers under the city and how much of it was spent growing wheat for export in the 1980s, why the kingdom stopped, why the people of the driest large country on Earth use more water each than almost anyone, and what a capital planning to double in size intends to drink.",
+    "date": "2026-11-12",
+    "minutes": 7,
+    "cover": "assets/articles/thirsty-places-riyadh/thirsty-places-riyadh-hero.jpg",
+    "url": "articles/thirsty-places-riyadh/"
+  },
+  {
     "slug": "myth-eight-glasses-a-day",
     "title": "Myth: You Need Eight Glasses of Water a Day",
     "series": "MYTH",
