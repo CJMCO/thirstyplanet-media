@@ -694,5 +694,11 @@
     "summary": "There is a kind of water so clean that it would leach the minerals from a person who drank it and dissolve the pipe it was carried in. Chip fabs, pharmaceutical plants and power stations make it by the tonne.",
     "kicker": "PLAIN WATER",
     "accent": "#7FD9C8"
+  },
+  "18122452810978508": {
+    "title": "Plain Water: ZLD",
+    "summary": "Zero liquid discharge is the factory that sends nothing out of its pipe at all, because it has no pipe. Every drop is recovered and every gram of salt comes out as a solid.",
+    "kicker": "PLAIN WATER",
+    "accent": "#7FD9C8"
   }
 }
